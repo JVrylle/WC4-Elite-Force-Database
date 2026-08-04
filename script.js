@@ -44,10 +44,22 @@ function setStatus(state, text) {
   statusLight.innerHTML = `<span class="status-dot"></span><span class="status-text">${text}</span>`;
 }
 
-async function loadUnits() {
+async function loadUnitsFromManifest() {
+  try {
+    const res = await fetch("data/units.json");
+    if (!res.ok) return null;
+    const units = await res.json();
+    if (!Array.isArray(units) || units.length === 0) return null;
+    return units.filter((u) => u && u.id);
+  } catch {
+    return null;
+  }
+}
+
+async function loadUnitsFromListing() {
   const res = await fetch("data/");
   if (!res.ok) {
-    throw new Error(`Directory listing failed for /data (${res.status})`);
+    throw new Error(`No data/units.json and /data listing unavailable (${res.status})`);
   }
 
   const html = await res.text();
@@ -56,7 +68,7 @@ async function loadUnits() {
       [...html.matchAll(/href=["']([^"'?]+\.json)["']/gi)]
         .map((m) => decodeURIComponent(m[1].replace(/^.*\//, "")))
     ),
-  ].filter((f) => /\.json$/i.test(f));
+  ].filter((f) => /\.json$/i.test(f) && f.toLowerCase() !== "units.json");
 
   if (files.length === 0) {
     throw new Error("No .json files found in /data");
@@ -77,6 +89,12 @@ async function loadUnits() {
 
   units.sort((a, b) => a.name.localeCompare(b.name));
   return units;
+}
+
+async function loadUnits() {
+  const manifest = await loadUnitsFromManifest();
+  if (manifest && manifest.length > 0) return manifest;
+  return loadUnitsFromListing();
 }
 
 function populateSelects(units) {
@@ -245,7 +263,7 @@ loadUnits()
   .then((units) => populateSelects(units))
   .catch((err) => {
     renderMessage(
-      `Could not auto-discover units: ${err.message}. Serve the folder with a static server that lists directories (e.g. python -m http.server) and try again.`,
+      `Could not load units: ${err.message}. Make sure data/units.json exists (run node generate-manifest.js) and that unit files are committed.`,
       true
     );
     setStatus("error", "NO UNITS");
