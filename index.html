@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>World Conqueror 4 Elite Force Database</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar__brand">
+      <div class="topbar__title">
+        <h1>World Conqueror 4</h1>
+        <p>Elite Force Database</p>
+      </div>
+    </div>
+    <div id="statusLight" class="topbar__status status--idle">
+      <span class="status-dot"></span><span class="status-text">STANDBY</span>
+    </div>
+  </header>
+
+  <main class="console">
+
+    <section class="query-panel" aria-label="Unit query">
+      <div class="field">
+        <label for="efSelect">Unit</label>
+        <select id="efSelect"></select>
+      </div>
+
+      <div class="field field--slider">
+        <label for="levelSlider">Level</label>
+        <div class="slider-wrapper">
+          <input
+            id="levelSlider"
+            type="range"
+            min="1"
+            max="12"
+            step="1"
+            value="1"
+            aria-label="Select unit level"
+          />
+          <output id="levelValue" class="level-display">Level 1</output>
+        </div>
+      </div>
+
+      <button id="searchBtn" class="btn-search" type="button">
+        <span>Search</span>
+      </button>
+    </section>
+
+    <section id="resultPanel" class="result-panel" aria-live="polite">
+      <div class="result-empty">
+        <p>Select a unit and level, then run a search to pull its dossier.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>JVrylle</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
