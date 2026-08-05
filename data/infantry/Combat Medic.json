@@ -1,5 +1,5 @@
 {
-  "name": "Medic",
+  "name": "Combat Medic",
   "unit_type": "infantry",
   "levels": [
     {
@@ -16,11 +16,16 @@
       "skills": [
         {
           "title": "Emergency Rescue",
-          "tier": "Gold",
+          "tier": "Bronze",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
-      "note": "As free Emergency Rescue"
+      "note": ""
     },
     {
       "level": 2,
@@ -38,8 +43,13 @@
       "skills": [
         {
           "title": "Emergency Rescue",
-          "tier": "Gold",
+          "tier": "Bronze",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": null
@@ -60,8 +70,13 @@
       "skills": [
         {
           "title": "Emergency Rescue",
-          "tier": "Gold",
+          "tier": "Bronze",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": null
@@ -82,8 +97,13 @@
       "skills": [
         {
           "title": "Emergency Rescue",
-          "tier": "Gold",
+          "tier": "Bronze",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": null
@@ -106,6 +126,11 @@
           "title": "Emergency Rescue",
           "tier": "Silver",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": "Upgrade Gold Emergency Rescue to Silver Emergency Rescue"
@@ -128,6 +153,11 @@
           "title": "Emergency Rescue",
           "tier": "Silver",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": null
@@ -155,6 +185,11 @@
           "title": "Militia",
           "tier": "Gold",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": "Unlock Militia"
@@ -182,6 +217,11 @@
           "title": "Militia",
           "tier": "Gold",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": null
@@ -209,6 +249,11 @@
           "title": "Militia",
           "tier": "Gold",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": "Upgrade Silver Emergency Rescue to Gold Emergency Rescue"
@@ -235,6 +280,11 @@
           "title": "Militia",
           "tier": "Gold",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": "Upgrade Gold Emergency Rescue to Platinum Emergency Rescue"
@@ -261,6 +311,11 @@
           "title": "Militia",
           "tier": "Gold",
           "description": ""
+        },
+        {
+          "title": "Marching",
+          "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
         }
       ],
       "note": null
@@ -281,7 +336,7 @@
         {
           "title": "Emergency Rescue",
           "tier": "Platinum",
-          "description": ""
+          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown"
         },
         {
           "title": "Militia",
@@ -289,13 +344,18 @@
           "description": ""
         },
         {
-          "title": "Critic Protection",
+          "title": "Marching",
           "tier": "Gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Critical Protection",
+          "tier": "Platinum",
           "description": ""
         },
         {
-          "title": "Logistics Support",
-          "tier": "Gold",
+          "title": "Logistic Support",
+          "tier": "Platinum",
           "description": ""
         }
       ],
