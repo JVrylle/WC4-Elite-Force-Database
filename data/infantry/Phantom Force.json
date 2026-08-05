@@ -1,0 +1,465 @@
+{
+  "name": "Phantom Force",
+  "unit_type": "infantry",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 16,
+        "movement": 13,
+        "hp": 345
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": "Free Bronze Ghost, Bronze Assassination, Bronze Venaje"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3000,
+        "industry": 750
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 26,
+        "movement": 14,
+        "hp": 345
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 6000,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 70,
+        "defense": 26,
+        "movement": 14,
+        "hp": 345
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 12000,
+        "industry": 4750
+      },
+      "stats": {
+        "attack": 70,
+        "defense": 26,
+        "movement": 14,
+        "hp": 435
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 24000,
+        "industry": 9500
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 26,
+        "movement": 14,
+        "hp": 435
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Bronze Ghost to Silver Ghost\nUpgrade Bronze Assassination to Silver Assassination\nUpgrade Bronze Venaje to Silver Venaje\nUnlock Silver Helicopter\nUnlock Critic Damage"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 28800,
+        "industry": 11400
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 34,
+        "movement": 15,
+        "hp": 435
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 34560,
+        "industry": 13680
+      },
+      "stats": {
+        "attack": 89,
+        "defense": 34,
+        "movement": 15,
+        "hp": 435
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 41450,
+        "industry": 16400
+      },
+      "stats": {
+        "attack": 89,
+        "defense": 34,
+        "movement": 15,
+        "hp": 525
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 49750,
+        "industry": 19700
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 34,
+        "movement": 15,
+        "hp": 525
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Phantom perks\nUpgrade Gold Critic Damage to Silver Critic Damage"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 41,
+        "movement": 16,
+        "hp": 525
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Silver Critic Damage to Gold Critic Damage"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 41,
+        "movement": 16,
+        "hp": 615
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Phantom perks to Platinum Phantom perks"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 41,
+        "movement": 16,
+        "hp": 615
+      },
+      "skills": [
+        {
+          "title": "Ghost",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Assassination",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Venaje",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Helicopter",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Critic Damage",
+          "tier": "Platinum",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Phantom perks 2 to Platinum Phantom perks 2"
+    }
+  ]
+}

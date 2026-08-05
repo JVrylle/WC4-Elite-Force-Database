@@ -1,0 +1,380 @@
+{
+  "name": "RPG Rocketeer",
+  "unit_type": "infantry",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 15,
+        "movement": 12,
+        "hp": 315
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": "Free Bronze Rocket Attack, Bronze Armor RPG"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750,
+        "industry": 750
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 24,
+        "movement": 13,
+        "hp": 315
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200,
+        "industry": 2650
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 24,
+        "movement": 13,
+        "hp": 315
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700,
+        "industry": 7150
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 24,
+        "movement": 13,
+        "hp": 405
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Bronze",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Bronze",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250,
+        "industry": 15750
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 24,
+        "movement": 13,
+        "hp": 405
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Bronze Rocket Attack to Silver Rocket Attack\nUpgrade Bronze Armor RPG to Silver Armor RPG\nUnlock Gold Infrared Aim"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500,
+        "industry": 18900
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 35,
+        "movement": 14,
+        "hp": 405
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400,
+        "industry": 22680
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 35,
+        "movement": 14,
+        "hp": 405
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280,
+        "industry": 27200
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 35,
+        "movement": 14,
+        "hp": 485
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550,
+        "industry": 32650
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 35,
+        "movement": 14,
+        "hp": 485
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Silver Rocket Attack to Gold Rocket Attack\nUpgrade Silver Armor RPG to Gold Armor RPG"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 38,
+        "movement": 14,
+        "hp": 485
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Attack Critic",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Infrared Aim to Platinum Infrared Aim\nUnlock Silver Attack Critic"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 42,
+        "movement": 15,
+        "hp": 565
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Attack Critic",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Silver Attack Critic to Gold Attack Critic\nUpgrade Gold Rocket Attack to Platinum Rocket Attack"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 105,
+        "defense": 42,
+        "movement": 15,
+        "hp": 565
+      },
+      "skills": [
+        {
+          "title": "Rocket Attack",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Armor RPG",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Infrared Aim",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Attack Critic",
+          "tier": "Platinum",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Attack Critic to Platinum Attack Critic"
+    }
+  ]
+}

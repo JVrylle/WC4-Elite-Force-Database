@@ -65,10 +65,13 @@ async function loadUnitsFromListing() {
   const html = await res.text();
   const files = [
     ...new Set(
-      [...html.matchAll(/href=["']([^"'?]+\.json)["']/gi)]
-        .map((m) => decodeURIComponent(m[1].replace(/^.*\//, "")))
+      [...html.matchAll(/href=["']([^"'?]*\.json)["']/gi)].map((m) =>
+        decodeURIComponent(m[1])
+      )
     ),
-  ].filter((f) => /\.json$/i.test(f) && f.toLowerCase() !== "units.json");
+  ].filter(
+    (f) => /\.json$/i.test(f) && !f.toLowerCase().includes("units.json")
+  );
 
   if (files.length === 0) {
     throw new Error("No .json files found in /data");
@@ -76,13 +79,18 @@ async function loadUnitsFromListing() {
 
   const units = await Promise.all(
     files.map(async (file) => {
-      const id = file.replace(/\.json$/i, "");
+      const clean = file.replace(/^.*?\/data\//i, "").replace(/^\/+/, "");
+      const parts = clean.split("/");
+      const id = parts[parts.length - 1].replace(/\.json$/i, "");
+      const type = parts.length > 1 ? parts[parts.length - 2] : "infantry";
       try {
-        const r = await fetch(`data/${encodeURIComponent(file)}`);
+        const r = await fetch(
+          `data/${clean.split("/").map(encodeURIComponent).join("/")}`
+        );
         const data = await r.json();
-        return { id, name: data.name || id };
+        return { id, name: data.name || id, type };
       } catch {
-        return { id, name: id };
+        return { id, name: id, type };
       }
     })
   );
@@ -159,10 +167,9 @@ function renderRequisition(cost) {
 
 const KNOWN_TIERS = ["silver", "gold", "platinum", "bronze"];
 
-function getSkillTier(title) {
-  const m = String(title || "").match(/\(([a-z]+)\)$/i);
-  const tier = m ? m[1].toLowerCase() : null;
-  return KNOWN_TIERS.includes(tier) ? tier : "platinum";
+function getSkillTier(skill) {
+  const tier = String(skill?.tier || "").toLowerCase();
+  return KNOWN_TIERS.includes(tier) ? tier : "gold";
 }
 
 function renderSkills(skills) {
@@ -172,7 +179,7 @@ function renderSkills(skills) {
     .map((skill) => {
       const title = skill?.title ? escapeHtml(skill.title) : "";
       const desc = skill?.description ? escapeHtml(skill.description) : "";
-      const tier = getSkillTier(skill?.title);
+      const tier = getSkillTier(skill);
       return `<span class="skill-chip skill-chip--${tier}"${desc ? ` data-desc="${desc}"` : ""}>${title}</span>`;
     })
     .join("");
@@ -235,9 +242,10 @@ async function runSearch() {
   searchBtn.disabled = true;
 
   try {
-    const res = await fetch(`data/${unitId}.json`);
+    const unitType = unitMeta.type || "infantry";
+    const res = await fetch(`data/${unitType}/${encodeURIComponent(unitId)}.json`);
     if (!res.ok) {
-      throw new Error(`Could not load data/${unitId}.json (${res.status})`);
+      throw new Error(`Could not load data/${unitType}/${unitId}.json (${res.status})`);
     }
 
     const data = await res.json();

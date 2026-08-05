@@ -1,0 +1,281 @@
+{
+  "name": "Alpini",
+  "unit_type": "infantry",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 10,
+        "movement": 7,
+        "hp": 235
+      },
+      "skills": [],
+      "note": null
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750,
+        "industry": 750
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 19,
+        "movement": 8,
+        "hp": 235
+      },
+      "skills": [],
+      "note": null
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200,
+        "industry": 2650
+      },
+      "stats": {
+        "attack": 52,
+        "defense": 19,
+        "movement": 8,
+        "hp": 235
+      },
+      "skills": [],
+      "note": null
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700,
+        "industry": 7150
+      },
+      "stats": {
+        "attack": 52,
+        "defense": 19,
+        "movement": 8,
+        "hp": 325
+      },
+      "skills": [],
+      "note": null
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250,
+        "industry": 15750
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 19,
+        "movement": 8,
+        "hp": 325
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": "Unlock Silver Prevent"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500,
+        "industry": 18900
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 24,
+        "movement": 9,
+        "hp": 325
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Unlock Sapper Skill"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400,
+        "industry": 22680
+      },
+      "stats": {
+        "attack": 69,
+        "defense": 24,
+        "movement": 9,
+        "hp": 325
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280,
+        "industry": 27200
+      },
+      "stats": {
+        "attack": 69,
+        "defense": 24,
+        "movement": 9,
+        "hp": 425
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550,
+        "industry": 32650
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 24,
+        "movement": 9,
+        "hp": 425
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Silver Prevent to Gold Prevent"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 31,
+        "movement": 10,
+        "hp": 525
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 31,
+        "movement": 10,
+        "hp": 525
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Prevent to Platinum Prevent"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 31,
+        "movement": 10,
+        "hp": 525
+      },
+      "skills": [
+        {
+          "title": "Prevent",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Sapper Skill",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Hijack",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Unlock Hijack"
+    }
+  ]
+}

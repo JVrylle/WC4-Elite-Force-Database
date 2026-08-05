@@ -1,0 +1,340 @@
+{
+  "name": "Hawkeye Force",
+  "unit_type": "infantry",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 12,
+        "movement": 12,
+        "hp": 265
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "As free Critical Damage"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750,
+        "industry": 750
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 20,
+        "movement": 13,
+        "hp": 265
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200,
+        "industry": 2650
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 20,
+        "movement": 13,
+        "hp": 265
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700,
+        "industry": 7150
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 20,
+        "movement": 13,
+        "hp": 355
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250,
+        "industry": 15750
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 20,
+        "movement": 13,
+        "hp": 355
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Critical Damage to Silver Critical Damage\nUnlock Silver Precision Snipe"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500,
+        "industry": 18900
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 27,
+        "movement": 14,
+        "hp": 355
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": "Unlock Silver Attack On The Unready Enemy"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400,
+        "industry": 22680
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 27,
+        "movement": 14,
+        "hp": 355
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280,
+        "industry": 27200
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 27,
+        "movement": 14,
+        "hp": 445
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Silver",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Silver",
+          "description": ""
+        }
+      ],
+      "note": null
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550,
+        "industry": 32650
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 27,
+        "movement": 14,
+        "hp": 445
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Silver Critical Damage to Gold Critical Damage\nUpgrade Silver Precision Snipe to Gold Precision Snipe\nUpgrade Silver Attack On The Unready Enemy to Gold Attack On The Unready Enemy"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 32,
+        "movement": 15,
+        "hp": 445
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Gold",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Critical Damage to Platinum Critical Damage"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 32,
+        "movement": 15,
+        "hp": 535
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Gold",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Precision Snipe to Platinum Precision Snipe"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 32,
+        "movement": 15,
+        "hp": 535
+      },
+      "skills": [
+        {
+          "title": "Critical Damage",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Precision Snipe",
+          "tier": "Platinum",
+          "description": ""
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "Platinum",
+          "description": ""
+        }
+      ],
+      "note": "Upgrade Gold Attack On The Unready Enemy to Platinum Attack On The Unready Enemy"
+    }
+  ]
+}

@@ -1,34 +1,42 @@
 [
   {
     "id": "Alphini",
-    "name": "Alpini"
+    "name": "Alpini",
+    "type": "infantry"
   },
   {
     "id": "Brandenburgers",
-    "name": "Brandenburgers"
+    "name": "Brandenburgers",
+    "type": "infantry"
   },
   {
     "id": "Delta Force",
-    "name": "Delta Force"
+    "name": "Delta Force",
+    "type": "infantry"
   },
   {
     "id": "Engineering Unit",
-    "name": "Engineering Unit"
+    "name": "Engineering Unit",
+    "type": "infantry"
   },
   {
     "id": "Hawkeye",
-    "name": "Hawkeye Force"
+    "name": "Hawkeye Force",
+    "type": "infantry"
   },
   {
     "id": "Medic",
-    "name": "Medic"
+    "name": "Medic",
+    "type": "infantry"
   },
   {
     "id": "Phantom Force",
-    "name": "Phantom Force"
+    "name": "Phantom Force",
+    "type": "infantry"
   },
   {
     "id": "RPG Rocketeer",
-    "name": "RPG Rocketeer"
+    "name": "RPG Rocketeer",
+    "type": "infantry"
   }
 ]
