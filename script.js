@@ -1,7 +1,19 @@
 // Units are auto-discovered: any *.json dropped into a /data subfolder appears
 // in the dropdown automatically (no registration needed here).
 
+const UNIT_TYPES = ["infantry", "artillery", "navy", "armored", "airforce"];
+
+const TYPE_LABELS = {
+  infantry: "Infantry",
+  artillery: "Artillery",
+  navy: "Navy",
+  armored: "Armored",
+  airforce: "Air Force",
+};
+
+let ALL_UNITS = [];
 let EF_UNITS = [];
+let selectedType = "infantry";
 
 const MIN_LEVEL = 1;
 const MAX_LEVEL = 12;
@@ -27,6 +39,7 @@ const levelSlider = document.getElementById("levelSlider");
 const levelInput = document.getElementById("levelInput");
 const levelDown = document.getElementById("levelDown");
 const levelUp = document.getElementById("levelUp");
+const typeFilter = document.getElementById("typeFilter");
 const resultPanel = document.getElementById("resultPanel");
 const statusLight = document.getElementById("statusLight");
 
@@ -114,8 +127,27 @@ async function loadUnits() {
   return loadUnitsFromListing();
 }
 
+function buildTypeButtons() {
+  typeFilter.innerHTML = UNIT_TYPES.map(
+    (type) =>
+      `<button type="button" class="type-btn" data-type="${type}">${TYPE_LABELS[type]}</button>`
+  ).join("");
+  typeFilter.querySelectorAll(".type-btn").forEach((btn) => {
+    btn.addEventListener("click", () => applyTypeFilter(btn.dataset.type));
+  });
+}
+
+function applyTypeFilter(type) {
+  selectedType = type;
+  typeFilter.querySelectorAll(".type-btn").forEach((btn) => {
+    btn.classList.toggle("type-btn--active", btn.dataset.type === type);
+  });
+  populateSelects(ALL_UNITS.filter((u) => (u.type || "infantry") === type));
+}
+
 function populateSelects(units) {
   EF_UNITS = units;
+  efSelect.innerHTML = "";
   units.forEach((unit) => {
     const opt = document.createElement("option");
     opt.value = unit.id;
@@ -128,9 +160,24 @@ function populateSelects(units) {
   levelSlider.value = MIN_LEVEL;
   levelInput.value = MIN_LEVEL;
 
-  if (units.length > 0) {
-    efSelect.selectedIndex = 0;
+  if (units.length === 0) {
+    efSelect.disabled = true;
+    levelSlider.disabled = true;
+    levelInput.disabled = true;
+    levelDown.disabled = true;
+    levelUp.disabled = true;
+    renderMessage(
+      `No ${TYPE_LABELS[selectedType] || selectedType} units available yet.`,
+      true
+    );
+    setStatus("error", "NO UNITS");
+    return;
   }
+
+  efSelect.disabled = false;
+  levelSlider.disabled = false;
+  levelInput.disabled = false;
+  efSelect.selectedIndex = 0;
   updateArrowState();
   runSearch();
 }
@@ -390,7 +437,11 @@ levelInput.addEventListener("input", () => {
 levelInput.addEventListener("change", () => setLevel(levelInput.value));
 
 loadUnits()
-  .then((units) => populateSelects(units))
+  .then((units) => {
+    ALL_UNITS = units;
+    buildTypeButtons();
+    applyTypeFilter("infantry");
+  })
   .catch((err) => {
     renderMessage(
       `Could not load units: ${err.message}. Make sure data/units.json exists (run node generate-manifest.js) and that unit files are committed.`,
