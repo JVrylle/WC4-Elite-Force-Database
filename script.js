@@ -91,7 +91,7 @@ function debounce(fn, ms) {
 
 async function loadUnitsFromManifest() {
   try {
-    const res = await fetch("data/units.json");
+    const res = await fetch(`data/units.json?v=${Date.now()}`);
     if (!res.ok) return null;
     const units = await res.json();
     if (!Array.isArray(units) || units.length === 0) return null;
@@ -130,7 +130,7 @@ async function loadUnitsFromListing() {
       const type = parts.length > 1 ? parts[parts.length - 2] : "infantry";
       try {
         const r = await fetch(
-          `data/${clean.split("/").map(encodeURIComponent).join("/")}`
+          `data/${clean.split("/").map(encodeURIComponent).join("/")}?v=${Date.now()}`
         );
         const data = await r.json();
         return { id, name: data.name || id, type };
@@ -419,7 +419,7 @@ async function ensureTypeMaxes(unitType) {
       try {
         let data = unitCache.get(unit.id);
         if (!data) {
-          const res = await fetch(`data/${unitType}/${encodeURIComponent(unit.id)}.json`);
+          const res = await fetch(`data/${unitType}/${encodeURIComponent(unit.id)}.json?v=${Date.now()}`);
           if (!res.ok) return;
           data = await res.json();
           unitCache.set(unit.id, data);
@@ -457,7 +457,7 @@ async function runSearch() {
     let data = unitCache.get(unitId);
     if (!data) {
       const unitType = unitMeta.type || "infantry";
-      const res = await fetch(`data/${unitType}/${encodeURIComponent(unitId)}.json`);
+      const res = await fetch(`data/${unitType}/${encodeURIComponent(unitId)}.json?v=${Date.now()}`);
       if (!res.ok) {
         throw new Error(`Could not load data/${unitType}/${unitId}.json (${res.status})`);
       }
