@@ -1,36 +1,45 @@
 {
   "name": "Phantom Force",
-  "unit_type": "infantry",
+  "unit_type": "Infantry",
   "levels": [
     {
       "level": 1,
       "cost": {
         "pieces": 30
+
       },
       "stats": {
         "attack": 62,
         "defense": 16,
         "movement": 13,
-        "hp": 345
+        "hp": 345,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "bronze",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Bronze",
-          "description": ""
+          "tier": "bronze",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "bronze",
+          "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
+
+
       ],
-      "note": "Free Bronze Ghost, Bronze Assassination, Bronze Venaje"
+      "note": null
     },
     {
       "level": 2,
@@ -38,29 +47,39 @@
         "pieces": 5,
         "money": 3000,
         "industry": 750
+
       },
       "stats": {
         "attack": 62,
         "defense": 26,
         "movement": 14,
-        "hp": 345
+        "hp": 345,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "bronze",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Bronze",
-          "description": ""
+          "tier": "bronze",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "bronze",
+          "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
+
+
+
       ],
       "note": null
     },
@@ -70,29 +89,39 @@
         "pieces": 15,
         "money": 6000,
         "industry": 1800
+
       },
       "stats": {
         "attack": 70,
         "defense": 26,
         "movement": 14,
-        "hp": 345
+        "hp": 345,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "bronze",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Bronze",
-          "description": ""
+          "tier": "bronze",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "bronze",
+          "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
+
+
+
       ],
       "note": null
     },
@@ -102,29 +131,38 @@
         "pieces": 30,
         "money": 12000,
         "industry": 4750
+
       },
       "stats": {
         "attack": 70,
         "defense": 26,
         "movement": 14,
-        "hp": 435
+        "hp": 435,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "bronze",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Bronze",
-          "description": ""
+          "tier": "bronze",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "bronze",
+          "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
+
+
       ],
       "note": null
     },
@@ -134,41 +172,48 @@
         "pieces": 60,
         "money": 24000,
         "industry": 9500
+
       },
       "stats": {
         "attack": 82,
         "defense": 26,
         "movement": 14,
-        "hp": 435
+        "hp": 435,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Silver",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "silver",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Silver",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "silver",
+          "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Silver",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "silver",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 5 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
       ],
-      "note": "Upgrade Bronze Ghost to Silver Ghost\nUpgrade Bronze Assassination to Silver Assassination\nUpgrade Bronze Venaje to Silver Venaje\nUnlock Silver Helicopter\nUnlock Critic Damage"
+      "note": "Upgrade Phantoms To silver\nUpgrade Assassination To silver\nUpgrade Emergency Bandage To silver\nUnlock Call for Airborne LandingUnlock Critical Damage"
     },
     {
       "level": 6,
@@ -176,38 +221,45 @@
         "pieces": 70,
         "money": 28800,
         "industry": 11400
+
       },
       "stats": {
         "attack": 82,
         "defense": 34,
         "movement": 15,
-        "hp": 435
+        "hp": 435,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Silver",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "silver",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Silver",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "silver",
+          "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Silver",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "silver",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 5 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
       ],
       "note": null
@@ -218,38 +270,45 @@
         "pieces": 80,
         "money": 34560,
         "industry": 13680
+
       },
       "stats": {
         "attack": 89,
         "defense": 34,
         "movement": 15,
-        "hp": 435
+        "hp": 435,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Silver",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "silver",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Silver",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "silver",
+          "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Silver",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "silver",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 5 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
       ],
       "note": null
@@ -260,38 +319,45 @@
         "pieces": 90,
         "money": 41450,
         "industry": 16400
+
       },
       "stats": {
         "attack": 89,
         "defense": 34,
         "movement": 15,
-        "hp": 525
+        "hp": 525,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Silver",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "silver",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Silver",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "silver",
+          "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Silver",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "silver",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 5 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
       ],
       "note": null
@@ -302,164 +368,146 @@
         "pieces": 100,
         "money": 49750,
         "industry": 19700
+
       },
       "stats": {
         "attack": 99,
         "defense": 34,
         "movement": 15,
-        "hp": 525
+        "hp": 525,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Gold",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "gold",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). "
         },
         {
           "title": "Assassination",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +60% (damage dealt +120% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Gold",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "gold",
+          "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Gold",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "gold",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 9 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Silver",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30%"
         }
       ],
-      "note": "Upgrade Gold Phantom perks\nUpgrade Gold Critic Damage to Silver Critic Damage"
+      "note": "Upgrade Phantoms To gold\nUpgrade Assassination To gold\nUpgrade Emergency Bandage To gold\nUpgrade Call for Airborne Landing To gold\nUpgrade Critical Damage To silver\n"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
+
+
         "honorInfantryBadges": 10
       },
       "stats": {
         "attack": 99,
         "defense": 41,
         "movement": 16,
-        "hp": 525
+        "hp": 525,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Gold",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "gold",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). "
         },
         {
           "title": "Assassination",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +60% (damage dealt +120% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Gold",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "gold",
+          "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Gold",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "gold",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 9 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40%"
         }
       ],
-      "note": "Upgrade Silver Critic Damage to Gold Critic Damage"
+      "note": "Upgrade Critical Damage To gold\n"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
+
+
         "honorInfantryBadges": 20
       },
       "stats": {
         "attack": 99,
         "defense": 41,
         "movement": 16,
-        "hp": 615
+        "hp": 615,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Ghost",
-          "tier": "Platinum",
-          "description": ""
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "platinum",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Will not be removed from Phantom state after attacking.Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +80% (damage dealt +150% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
         },
         {
-          "title": "Venaje",
-          "tier": "Platinum",
-          "description": ""
+          "title": "Emergency Bandage",
+          "tier": "gold",
+          "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
-          "title": "Helicopter",
-          "tier": "Platinum",
-          "description": ""
+          "title": "Call for Airborne Landing",
+          "tier": "gold",
+          "description": "Call for helicopters to assist and transport yourself to the targeted location within 9 grids, with a cooldown of 2 turns."
         },
         {
-          "title": "Critic Damage",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40%"
         }
       ],
-      "note": "Upgrade Gold Phantom perks to Platinum Phantom perks"
-    },
-    {
-      "level": 12,
-      "cost": {
-        "pieces": 100,
-        "honorInfantryBadges": 30
-      },
-      "stats": {
-        "attack": 109,
-        "defense": 41,
-        "movement": 16,
-        "hp": 615
-      },
-      "skills": [
-        {
-          "title": "Ghost",
-          "tier": "Platinum",
-          "description": ""
-        },
-        {
-          "title": "Assassination",
-          "tier": "Platinum",
-          "description": ""
-        },
-        {
-          "title": "Venaje",
-          "tier": "Platinum",
-          "description": ""
-        },
-        {
-          "title": "Helicopter",
-          "tier": "Platinum",
-          "description": ""
-        },
-        {
-          "title": "Critic Damage",
-          "tier": "Platinum",
-          "description": ""
-        }
-      ],
-      "note": "Upgrade Gold Phantom perks 2 to Platinum Phantom perks 2"
+      "note": "Upgrade Phantoms To platinum\nUpgrade Assassination To platinum\n"
     }
   ]
 }
