@@ -10,6 +10,11 @@
     "type": "infantry"
   },
   {
+    "id": "Combat Medic",
+    "name": "Combat Medic",
+    "type": "infantry"
+  },
+  {
     "id": "Delta Force",
     "name": "Delta Force",
     "type": "infantry"
@@ -22,11 +27,6 @@
   {
     "id": "Hawkeye",
     "name": "Hawkeye Force",
-    "type": "infantry"
-  },
-  {
-    "id": "Combat Medic",
-    "name": "Combat Medic",
     "type": "infantry"
   },
   {
