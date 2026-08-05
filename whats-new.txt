@@ -1,0 +1,5 @@
+August 6, 2026
+
+Added search unit functionality
+
+Added footer section and donation button

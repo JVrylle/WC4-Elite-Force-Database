@@ -28,6 +28,34 @@
 
   <main class="console">
 
+    <aside class="log-panel" aria-label="What&rsquo;s new">
+      <div class="log-panel__header">
+        <h2>What&rsquo;s New?</h2>
+      </div>
+      <ul id="whatsNewList" class="log-list"></ul>
+    </aside>
+
+    <div class="console__main">
+
+      <section class="search-bar" aria-label="Unit name search">
+      <div class="field">
+        <label for="efSearch">Search Unit</label>
+        <div class="combo__wrap">
+          <input
+            id="efSearch"
+            type="text"
+            placeholder="Type a unit name&hellip;"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded="false"
+            aria-controls="efSearchList"
+          />
+          <ul id="efSearchList" class="combo__list" role="listbox" hidden></ul>
+        </div>
+      </div>
+    </section>
+
     <section class="type-filter" id="typeFilter" aria-label="Unit type filter"></section>
 
     <section class="query-panel" aria-label="Unit query">
@@ -70,10 +98,29 @@
       </div>
     </section>
 
+    </div>
+
   </main>
 
+  <a
+    class="donate-btn"
+    href="https://ko-fi.com/jvrylle"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Support on Ko-fi"
+  >
+    <span class="donate-btn__icon">&#10084;&#65039;</span>
+    <span class="donate-btn__text">Donate to Support</span>
+  </a>
+
   <footer class="footer">
-    <p>JVrylle</p>
+    <p class="footer__dev">Developed by <strong>JVrylle</strong></p>
+    <div class="footer__thanks">
+      <p class="footer__thanks-title">Special Thanks</p>
+      <ul class="footer__thanks-list">
+        <li>Nuclearman</li>
+      </ul>
+    </div>
   </footer>
 
 <script src="script.js"></script>

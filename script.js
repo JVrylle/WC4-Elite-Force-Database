@@ -14,6 +14,8 @@ const TYPE_LABELS = {
 let ALL_UNITS = [];
 let EF_UNITS = [];
 let selectedType = "infantry";
+let searchMatches = [];
+let activeSearchIndex = -1;
 
 const MIN_LEVEL = 1;
 const MAX_LEVEL = 12;
@@ -34,6 +36,8 @@ const COST_META = {
 
 const unitCache = new Map();
 
+const efSearch = document.getElementById("efSearch");
+const efSearchList = document.getElementById("efSearchList");
 const efSelect = document.getElementById("efSelect");
 const levelSlider = document.getElementById("levelSlider");
 const levelInput = document.getElementById("levelInput");
@@ -42,6 +46,25 @@ const levelUp = document.getElementById("levelUp");
 const typeFilter = document.getElementById("typeFilter");
 const resultPanel = document.getElementById("resultPanel");
 const statusLight = document.getElementById("statusLight");
+const whatsNewList = document.getElementById("whatsNewList");
+
+async function loadWhatsNew() {
+  try {
+    const res = await fetch("whats-new.txt");
+    if (!res.ok) throw new Error("not found");
+    const text = await res.text();
+    const entries = text
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    if (entries.length === 0) throw new Error("empty");
+    whatsNewList.innerHTML = entries
+      .map((entry) => `<li class="log-item">${escapeHtml(entry)}</li>`)
+      .join("");
+  } catch {
+    whatsNewList.innerHTML = `<li class="log-item log-item--muted">Nothing new yet.</li>`;
+  }
+}
 
 function escapeHtml(value) {
   const div = document.createElement("div");
@@ -143,6 +166,52 @@ function applyTypeFilter(type) {
     btn.classList.toggle("type-btn--active", btn.dataset.type === type);
   });
   populateSelects(ALL_UNITS.filter((u) => (u.type || "infantry") === type));
+}
+
+function renderSearchList() {
+  const query = efSearch.value.trim().toLowerCase();
+  searchMatches = ALL_UNITS.filter(
+    (u) => !query || (u.name || "").toLowerCase().includes(query)
+  );
+
+  if (activeSearchIndex > searchMatches.length - 1) activeSearchIndex = -1;
+
+  efSearchList.innerHTML = searchMatches
+    .map(
+      (unit, i) =>
+        `<li role="option" class="combo__item${i === activeSearchIndex ? " combo__item--active" : ""}" data-id="${escapeHtml(unit.id)}">${escapeHtml(unit.name)}</li>`
+    )
+    .join("");
+}
+
+function openSearchList() {
+  efSearchList.hidden = false;
+  efSearch.setAttribute("aria-expanded", "true");
+}
+
+function closeSearchList() {
+  efSearchList.hidden = true;
+  efSearch.setAttribute("aria-expanded", "false");
+  activeSearchIndex = -1;
+}
+
+function highlightSearchItem(index) {
+  activeSearchIndex = index;
+  efSearchList.querySelectorAll(".combo__item").forEach((item, i) => {
+    item.classList.toggle("combo__item--active", i === index);
+  });
+  const active = efSearchList.querySelector(".combo__item--active");
+  if (active) active.scrollIntoView({ block: "nearest" });
+}
+
+function selectSearchUnit(id) {
+  const unit = ALL_UNITS.find((u) => u.id === id);
+  if (!unit) return;
+  efSearch.value = unit.name;
+  closeSearchList();
+  applyTypeFilter(unit.type || "infantry");
+  efSelect.value = id;
+  runSearch();
 }
 
 function populateSelects(units) {
@@ -343,7 +412,7 @@ async function ensureTypeMaxes(unitType) {
   if (cached) return cached;
 
   const maxes = { attack: 0, defense: 0, movement: 0, hp: 0 };
-  const siblings = EF_UNITS.filter((u) => (u.type || "infantry") === unitType);
+  const siblings = ALL_UNITS.filter((u) => (u.type || "infantry") === unitType);
 
   await Promise.all(
     siblings.map(async (unit) => {
@@ -406,7 +475,8 @@ async function runSearch() {
 
     const unitType = unitMeta.type || "infantry";
     const maxes = await ensureTypeMaxes(unitType);
-    renderResult(data.name || unitMeta.name, levelData, data.levels || [], unitType, maxes);
+    const displayName = data.name || unitMeta.name;
+    renderResult(displayName, levelData, data.levels || [], unitType, maxes);
     setStatus("ready", "RECORD FOUND");
   } catch (err) {
     renderMessage(err.message, true);
@@ -417,6 +487,50 @@ async function runSearch() {
 const debouncedRun = debounce(runSearch, 120);
 
 efSelect.addEventListener("change", runSearch);
+
+efSearch.addEventListener("input", () => {
+  activeSearchIndex = -1;
+  renderSearchList();
+  if (searchMatches.length === 0) {
+    closeSearchList();
+  } else {
+    openSearchList();
+  }
+});
+
+efSearch.addEventListener("focus", () => {
+  renderSearchList();
+  if (searchMatches.length > 0) openSearchList();
+});
+
+efSearch.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    if (searchMatches.length === 0) return;
+    const next =
+      activeSearchIndex +
+      (e.key === "ArrowDown" ? 1 : -1);
+    highlightSearchItem(
+      next < 0 ? searchMatches.length - 1 : next % searchMatches.length
+    );
+  } else if (e.key === "Enter") {
+    if (activeSearchIndex >= 0) {
+      e.preventDefault();
+      selectSearchUnit(searchMatches[activeSearchIndex].id);
+    }
+  } else if (e.key === "Escape") {
+    closeSearchList();
+  }
+});
+
+efSearch.addEventListener("blur", () => closeSearchList());
+
+efSearchList.addEventListener("mousedown", (e) => {
+  const item = e.target.closest(".combo__item");
+  if (!item) return;
+  e.preventDefault();
+  selectSearchUnit(item.dataset.id);
+});
 
 levelSlider.addEventListener("input", () => {
   levelInput.value = levelSlider.value;
@@ -449,3 +563,5 @@ loadUnits()
     );
     setStatus("error", "NO UNITS");
   });
+
+loadWhatsNew();
