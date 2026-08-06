@@ -508,6 +508,55 @@
         }
       ],
       "note": "Upgrade Phantoms To platinum\nUpgrade Assassination To platinum\n"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+
+
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 41,
+        "movement": 16,
+        "hp": 615,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Grenade",
+          "tier": "gold",
+          "description": "Damage to armored units +50%"
+        },
+        {
+          "title": "Phantoms",
+          "tier": "platinum",
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Will not be removed from Phantom state after attacking.Phantom status will be unavailable after attacking."
+        },
+        {
+          "title": "Assassination",
+          "tier": "platinum",
+          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +80% (damage dealt +150% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+        },
+        {
+          "title": "Emergency Bandage",
+          "tier": "gold",
+          "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
+        },
+        {
+          "title": "Call for Airborne Landing",
+          "tier": "platinum",
+          "description": "Call a helicopter to transport yourself to a designated location within 9 grids, with a cooldown of 2 turns, does not consume transport aircraft use while being transported by a transport aircraft (limited to once per turn)."
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50%"
+        }
+      ],
+      "note": "Upgrade Call for Airborne Landing To platinum\nUpgrade Critical Damage To platinum\n"
     }
   ]
 }

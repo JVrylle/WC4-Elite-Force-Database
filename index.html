@@ -15,12 +15,18 @@
 <body>
 
   <header class="topbar">
-    <div class="topbar__brand">
-      <div class="topbar__title">
-        <h1>World Conqueror 4</h1>
-        <p>Elite Force Database</p>
+    <div class="topbar__left">
+      <div class="topbar__brand">
+        <div class="topbar__title">
+          <h1>World Conqueror 4</h1>
+          <p>Elite Force Database</p>
+        </div>
       </div>
     </div>
+    <nav class="topbar__nav" aria-label="Site navigation">
+      <a class="topbar__nav-link topbar__nav-link--active" href="index.html">EF Database</a>
+      <a class="topbar__nav-link" href="docs.html">Docs</a>
+    </nav>
     <div id="statusLight" class="topbar__status status--idle">
       <span class="status-dot"></span><span class="status-text">STANDBY</span>
     </div>
@@ -28,12 +34,40 @@
 
   <main class="console">
 
-    <aside class="log-panel" aria-label="What&rsquo;s new">
-      <div class="log-panel__header">
-        <h2>What&rsquo;s New?</h2>
+    <div class="side-panel">
+      <aside class="log-panel" aria-label="What&rsquo;s new">
+        <div class="log-panel__header">
+          <h2>What&rsquo;s New?</h2>
+        </div>
+        <ul id="whatsNewList" class="log-list"></ul>
+      </aside>
+
+      <div class="log-panel links-panel" aria-label="Related WC4 tools">
+        <div class="log-panel__header">
+          <h2>Other Systems:</h2>
+        </div>
+        <div class="links-panel__body">
+          <a
+            class="sister-link"
+            href="https://jvrylle.github.io/WC4-General-Database/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="sister-link__name">WC4 Generals Database</span>
+            <span class="sister-link__url">jvrylle.github.io/WC4-General-Database/</span>
+          </a>
+          <a
+            class="sister-link"
+            href="https://jvrylle.github.io/WC4-Damage-Calculator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="sister-link__name">WC4 Damage Calculator</span>
+            <span class="sister-link__url">jvrylle.github.io/WC4-Damage-Calculator/</span>
+          </a>
+        </div>
       </div>
-      <ul id="whatsNewList" class="log-list"></ul>
-    </aside>
+    </div>
 
     <div class="console__main">
 
