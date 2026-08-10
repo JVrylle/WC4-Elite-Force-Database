@@ -1,5 +1,3 @@
-August 6, 2026
+August 10, 2026
 
-Added search unit functionality
-
-Added footer section and donation button
+Updated notes for infantry units: Brandenburgers, Combat Medic, Engineering Unit, Hawkeye, RPG Rocketeer

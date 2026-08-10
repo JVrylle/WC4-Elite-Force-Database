@@ -371,7 +371,7 @@ function renderSkills(allLevels, currentLevel) {
 }
 
 function renderNote(note) {
-  if (!note) return "";
+  if (!note || note === "null") return "";
   return `
     <div class="briefing">
       <span class="briefing__tag">Note</span>

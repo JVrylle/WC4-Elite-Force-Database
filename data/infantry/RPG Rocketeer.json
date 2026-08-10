@@ -1,6 +1,6 @@
 {
   "name": "RPG Rocketeer",
-  "unit_type": "infantry",
+  "unit_type": "Infantry",
   "levels": [
     {
       "level": 1,
@@ -11,21 +11,27 @@
         "attack": 58,
         "defense": 15,
         "movement": 12,
-        "hp": 315
+        "hp": 315,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "bronze",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 60% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "bronze",
+          "description": "Reduce damage from armored units by 15%."
         }
       ],
-      "note": "Free Bronze Rocket Attack, Bronze Armor RPG"
+      "note": "null"
     },
     {
       "level": 2,
@@ -33,26 +39,33 @@
         "pieces": 5,
         "money": 3750,
         "industry": 750
+
       },
       "stats": {
         "attack": 58,
         "defense": 24,
         "movement": 13,
-        "hp": 315
+        "hp": 315,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "bronze",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 60% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "bronze",
+          "description": "Reduce damage from armored units by 15%."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 3,
@@ -65,21 +78,27 @@
         "attack": 66,
         "defense": 24,
         "movement": 13,
-        "hp": 315
+        "hp": 315,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "bronze",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 60% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "bronze",
+          "description": "Reduce damage from armored units by 15%."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 4,
@@ -87,26 +106,33 @@
         "pieces": 30,
         "money": 20700,
         "industry": 7150
+
       },
       "stats": {
         "attack": 66,
         "defense": 24,
         "movement": 13,
-        "hp": 405
+        "hp": 405,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Bronze",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "bronze",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 60% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "bronze",
+          "description": "Reduce damage from armored units by 15%."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 5,
@@ -114,31 +140,38 @@
         "pieces": 60,
         "money": 41250,
         "industry": 15750
+
       },
       "stats": {
         "attack": 78,
         "defense": 24,
         "movement": 13,
-        "hp": 405
+        "hp": 405,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Silver",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Silver",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "silver",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 80% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "silver",
+          "description": "Reduce damage from armored units by 30%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Gold",
-          "description": ""
+          "tier": "silver",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 35%."
         }
       ],
-      "note": "Upgrade Bronze Rocket Attack to Silver Rocket Attack\nUpgrade Bronze Armor RPG to Silver Armor RPG\nUnlock Gold Infrared Aim"
+      "note": "Upgrade Rocket Attack To silver\nUpgrade Explosion-Proof Vest To silver\nUnlock Infrared Aim"
     },
     {
       "level": 6,
@@ -146,31 +179,38 @@
         "pieces": 70,
         "money": 49500,
         "industry": 18900
+
       },
       "stats": {
         "attack": 78,
         "defense": 35,
         "movement": 14,
-        "hp": 405
+        "hp": 405,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Silver",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Silver",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "silver",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 80% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "silver",
+          "description": "Reduce damage from armored units by 30%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Gold",
-          "description": ""
+          "tier": "silver",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 35%."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 7,
@@ -178,31 +218,38 @@
         "pieces": 80,
         "money": 59400,
         "industry": 22680
+
       },
       "stats": {
         "attack": 85,
         "defense": 35,
         "movement": 14,
-        "hp": 405
+        "hp": 405,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Silver",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Silver",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "silver",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 80% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "silver",
+          "description": "Reduce damage from armored units by 30%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Gold",
-          "description": ""
+          "tier": "silver",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 35%."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 8,
@@ -210,31 +257,39 @@
         "pieces": 90,
         "money": 71280,
         "industry": 27200
+
       },
       "stats": {
         "attack": 85,
         "defense": 35,
         "movement": 14,
-        "hp": 485
+        "hp": 485,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Silver",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Silver",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "silver",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, 80% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "silver",
+          "description": "Reduce damage from armored units by 30%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Gold",
-          "description": ""
+          "tier": "silver",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 35%."
         }
+
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 9,
@@ -242,103 +297,128 @@
         "pieces": 100,
         "money": 85550,
         "industry": 32650
+
       },
       "stats": {
         "attack": 95,
         "defense": 35,
         "movement": 14,
-        "hp": 485
+        "hp": 485,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Gold",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Gold",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "gold",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, damage to other targets is not reduced, 100% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "gold",
+          "description": "Reduce damage from armored units by 50%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 70%."
         }
+
       ],
-      "note": "Upgrade Silver Rocket Attack to Gold Rocket Attack\nUpgrade Silver Armor RPG to Gold Armor RPG"
+      "note": "Upgrade Rocket Attack To gold\nUpgrade Explosion-Proof Vest To gold\nUpgrade Infrared Aim To gold\n"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 10
+
+
+        "honorInfantryBadges": 5
       },
       "stats": {
         "attack": 95,
-        "defense": 38,
-        "movement": 14,
-        "hp": 485
+        "defense": 42,
+        "movement": 15,
+        "hp": 485,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Gold",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Gold",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "gold",
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, damage to other targets is not reduced, 100% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "gold",
+          "description": "Reduce damage from armored units by 50%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 100%."
         },
         {
-          "title": "Attack Critic",
-          "tier": "Silver",
-          "description": ""
+          "title": "Critical Attack",
+          "tier": "silver",
+          "description": "Chance of dealing critical attack is increased by 15%."
         }
+
       ],
-      "note": "Upgrade Gold Infrared Aim to Platinum Infrared Aim\nUnlock Silver Attack Critic"
+      "note": "Upgrade Infrared Aim To platinum\nUnlock Critical Attack"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
+
+
         "honorInfantryBadges": 15
       },
       "stats": {
         "attack": 95,
         "defense": 42,
         "movement": 15,
-        "hp": 565
+        "hp": 565,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Platinum",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Gold",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "platinum",
+          "description": "Attack range changed to 3, able to attack multiple enemy troops, 100% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns, 100% probability of target tile catching fire."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "gold",
+          "description": "Reduce damage from armored units by 50%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 100%."
         },
         {
-          "title": "Attack Critic",
-          "tier": "Gold",
-          "description": ""
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing critical attack is increased by 20%."
         }
       ],
-      "note": "Upgrade Silver Attack Critic to Gold Attack Critic\nUpgrade Gold Rocket Attack to Platinum Rocket Attack"
+      "note": "Upgrade Rocket Attack To platinum\nUpgrade Critical Attack To gold\n"
     },
     {
       "level": 12,
@@ -350,31 +430,37 @@
         "attack": 105,
         "defense": 42,
         "movement": 15,
-        "hp": 565
+        "hp": 565,
+        "range": 1
       },
       "skills": [
         {
-          "title": "Rocket Attack",
-          "tier": "Platinum",
-          "description": ""
+          "title": "Anti-Tank",
+          "tier": "gold",
+          "description": "Damage to armored units +65%"
         },
         {
-          "title": "Armor RPG",
-          "tier": "Gold",
-          "description": ""
+          "title": "Rocket Attack",
+          "tier": "platinum",
+          "description": "Attack range changed to 3, able to attack multiple enemy troops, 100% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns, 100% probability of target tile catching fire."
+        },
+        {
+          "title": "Explosion-Proof Vest",
+          "tier": "gold",
+          "description": "Reduce damage from armored units by 50%."
         },
         {
           "title": "Infrared Aim",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 100%."
         },
         {
-          "title": "Attack Critic",
-          "tier": "Platinum",
-          "description": ""
+          "title": "Critical Attack",
+          "tier": "platinum",
+          "description": "Chance of dealing critical attack is increased by 30%."
         }
       ],
-      "note": "Upgrade Gold Attack Critic to Platinum Attack Critic"
+      "note": "Upgrade Critical Attack To platinum\n"
     }
   ]
 }

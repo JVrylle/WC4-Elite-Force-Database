@@ -6,21 +6,35 @@
       "level": 1,
       "cost": {
         "pieces": 30
+
+
       },
       "stats": {
         "attack": 58,
         "defense": 12,
         "movement": 12,
-        "hp": 265
+        "hp": 265,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Gold",
-          "description": ""
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
+
       ],
-      "note": "As free Critical Damage"
+      "note": "null"
     },
     {
       "level": 2,
@@ -28,21 +42,34 @@
         "pieces": 5,
         "money": 3750,
         "industry": 750
+
       },
       "stats": {
         "attack": 58,
         "defense": 20,
         "movement": 13,
-        "hp": 265
+        "hp": 265,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Gold",
-          "description": ""
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
+
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 3,
@@ -50,21 +77,34 @@
         "pieces": 15,
         "money": 13200,
         "industry": 2650
+
       },
       "stats": {
         "attack": 66,
         "defense": 20,
         "movement": 13,
-        "hp": 265
+        "hp": 265,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Gold",
-          "description": ""
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
+
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 4,
@@ -72,21 +112,34 @@
         "pieces": 30,
         "money": 20700,
         "industry": 7150
+
       },
       "stats": {
         "attack": 66,
         "defense": 20,
         "movement": 13,
-        "hp": 355
+        "hp": 355,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Gold",
-          "description": ""
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
         }
+
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 5,
@@ -94,26 +147,39 @@
         "pieces": 60,
         "money": 41250,
         "industry": 15750
+
       },
       "stats": {
         "attack": 78,
         "defense": 20,
         "movement": 13,
-        "hp": 355
+        "hp": 355,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 40%"
         }
+
       ],
-      "note": "Upgrade Gold Critical Damage to Silver Critical Damage\nUnlock Silver Precision Snipe"
+      "note": "Upgrade Critical Damage To silver\nUnlock Precision Snipe"
     },
     {
       "level": 6,
@@ -121,31 +187,44 @@
         "pieces": 70,
         "money": 49500,
         "industry": 18900
+
       },
       "stats": {
         "attack": 78,
         "defense": 27,
         "movement": 14,
-        "hp": 355
+        "hp": 355,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 40%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 2% overflowed critical attack, it will deal an extra 1% damage."
         }
+
       ],
-      "note": "Unlock Silver Attack On The Unready Enemy"
+      "note": "Unlock Attack On The Unready Enemy"
     },
     {
       "level": 7,
@@ -153,31 +232,44 @@
         "pieces": 80,
         "money": 59400,
         "industry": 22680
+
       },
       "stats": {
         "attack": 85,
         "defense": 27,
         "movement": 14,
-        "hp": 355
+        "hp": 355,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 40%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 2% overflowed critical attack, it will deal an extra 1% damage."
         }
+
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 8,
@@ -185,31 +277,44 @@
         "pieces": 90,
         "money": 71280,
         "industry": 27200
+
       },
       "stats": {
         "attack": 85,
         "defense": 27,
         "movement": 14,
-        "hp": 445
+        "hp": 445,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 40%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 2% overflowed critical attack, it will deal an extra 1% damage."
         }
+
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 9,
@@ -217,31 +322,43 @@
         "pieces": 100,
         "money": 85550,
         "industry": 32650
+
       },
       "stats": {
         "attack": 95,
         "defense": 27,
         "movement": 14,
-        "hp": 445
+        "hp": 445,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 70%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 1% overflowed critical attack, it will deal an extra 1% damage."
         }
       ],
-      "note": "Upgrade Silver Critical Damage to Gold Critical Damage\nUpgrade Silver Precision Snipe to Gold Precision Snipe\nUpgrade Silver Attack On The Unready Enemy to Gold Attack On The Unready Enemy"
+      "note": "Upgrade Critical Damage To gold\nUpgrade Precision Snipe To gold\nUpgrade Attack On The Unready Enemy To gold\n"
     },
     {
       "level": 10,
@@ -253,88 +370,124 @@
         "attack": 95,
         "defense": 32,
         "movement": 15,
-        "hp": 445
+        "hp": 445,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 70%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 1% overflowed critical attack, it will deal an extra 1% damage."
         }
       ],
-      "note": "Upgrade Gold Critical Damage to Platinum Critical Damage"
+      "note": "Upgrade Critical Damage To platinum\n"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
+
         "honorInfantryBadges": 10
       },
       "stats": {
         "attack": 95,
         "defense": 32,
         "movement": 15,
-        "hp": 535
+        "hp": 535,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 90%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 1% overflowed critical attack, it will deal an extra 1% damage."
         }
+
       ],
-      "note": "Upgrade Gold Precision Snipe to Platinum Precision Snipe"
+      "note": "Upgrade Precision Snipe To platinum\n"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
+
         "honorInfantryBadges": 25
       },
       "stats": {
         "attack": 102,
         "defense": 32,
         "movement": 15,
-        "hp": 535
+        "hp": 535,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Forest Commando",
+          "tier": "gold",
+          "description": "Damage to the enemy +75% when fighting in the jungle"
+        },
+        {
+          "title": "Sniper",
+          "tier": "gold",
+          "description": "Damage to infantry units +75%"
+        },
+        {
           "title": "Critical Damage",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50%"
         },
         {
           "title": "Precision Snipe",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 90%"
         },
         {
           "title": "Attack On The Unready Enemy",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 1% overflowed critical attack, it will deal an extra 1% damage.Ignore 20% of the target's defense when attacking."
         }
       ],
-      "note": "Upgrade Gold Attack On The Unready Enemy to Platinum Attack On The Unready Enemy"
+      "note": "Upgrade Attack On The Unready Enemy To platinum\n"
     }
   ]
 }

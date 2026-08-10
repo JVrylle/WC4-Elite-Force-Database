@@ -1,6 +1,6 @@
 {
   "name": "Brandenburgers",
-  "unit_type": "infantry",
+  "unit_type": "Infantry",
   "levels": [
     {
       "level": 1,
@@ -8,13 +8,25 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 39,
-        "defense": 11,
-        "movement": 7,
-        "hp": 255
+        "attack": 48,
+        "defense": 15,
+        "movement": 13,
+        "hp": 325,
+        "range": 1
       },
-      "skills": [],
-      "note": null
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        }
+      ],
+      "note": "null"
     },
     {
       "level": 2,
@@ -22,15 +34,28 @@
         "pieces": 5,
         "money": 3750,
         "industry": 750
+
       },
       "stats": {
-        "attack": 39,
-        "defense": 21,
-        "movement": 8,
-        "hp": 255
+        "attack": 48,
+        "defense": 25,
+        "movement": 14,
+        "hp": 325,
+        "range": 1
       },
-      "skills": [],
-      "note": null
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        }
+      ],
+      "note": "null"
     },
     {
       "level": 3,
@@ -38,15 +63,28 @@
         "pieces": 15,
         "money": 13200,
         "industry": 2650
+
       },
       "stats": {
-        "attack": 47,
-        "defense": 21,
-        "movement": 8,
-        "hp": 255
+        "attack": 56,
+        "defense": 25,
+        "movement": 14,
+        "hp": 325,
+        "range": 1
       },
-      "skills": [],
-      "note": null
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        }
+      ],
+      "note": "null"
     },
     {
       "level": 4,
@@ -54,15 +92,28 @@
         "pieces": 30,
         "money": 20700,
         "industry": 7150
+
       },
       "stats": {
-        "attack": 47,
-        "defense": 21,
-        "movement": 8,
-        "hp": 345
+        "attack": 56,
+        "defense": 25,
+        "movement": 14,
+        "hp": 415,
+        "range": 1
       },
-      "skills": [],
-      "note": null
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        }
+      ],
+      "note": "null"
     },
     {
       "level": 5,
@@ -70,21 +121,33 @@
         "pieces": 60,
         "money": 41250,
         "industry": 15750
+
       },
       "stats": {
-        "attack": 58,
-        "defense": 21,
-        "movement": 8,
-        "hp": 345
+        "attack": 67,
+        "defense": 25,
+        "movement": 14,
+        "hp": 415,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Operate again after action, 1 turn cooldown."
         }
       ],
-      "note": "Unlock Silver Rapid March"
+      "note": "Unlock Rapid March"
     },
     {
       "level": 6,
@@ -92,21 +155,33 @@
         "pieces": 70,
         "money": 49500,
         "industry": 18900
+
       },
       "stats": {
-        "attack": 58,
-        "defense": 28,
-        "movement": 9,
-        "hp": 345
+        "attack": 67,
+        "defense": 32,
+        "movement": 15,
+        "hp": 415,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Operate again after action, 1 turn cooldown."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 7,
@@ -114,21 +189,33 @@
         "pieces": 80,
         "money": 59400,
         "industry": 22680
+
       },
       "stats": {
-        "attack": 66,
-        "defense": 28,
-        "movement": 9,
-        "hp": 345
+        "attack": 75,
+        "defense": 32,
+        "movement": 15,
+        "hp": 415,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Operate again after action, 1 turn cooldown."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 8,
@@ -136,21 +223,33 @@
         "pieces": 90,
         "money": 71280,
         "industry": 27200
+
       },
       "stats": {
-        "attack": 66,
-        "defense": 28,
-        "movement": 9,
-        "hp": 435
+        "attack": 75,
+        "defense": 32,
+        "movement": 15,
+        "hp": 505,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Silver",
-          "description": ""
+          "tier": "silver",
+          "description": "Operate again after action, 1 turn cooldown."
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 9,
@@ -158,86 +257,137 @@
         "pieces": 100,
         "money": 85550,
         "industry": 32650
+
       },
       "stats": {
-        "attack": 75,
-        "defense": 28,
-        "movement": 9,
-        "hp": 435
+        "attack": 84,
+        "defense": 32,
+        "movement": 15,
+        "hp": 505,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Gold",
-          "description": ""
+          "tier": "gold",
+          "description": "Operate again after action, 1 turn cooldown. 100% rate to attack again after the second action destroys the enemy army (one time only)"
         }
       ],
-      "note": "Upgrade Silver Rapid March to Gold Rapid March"
+      "note": "Upgrade Rapid March To gold\n"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
+
+
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 75,
-        "defense": 35,
-        "movement": 10,
-        "hp": 435
+        "attack": 84,
+        "defense": 39,
+        "movement": 16,
+        "hp": 505,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Operate again after action, +5 mobility, 1 turn cooldown100% rate to attack again after the second action destroys the enemy army (one time only)"
         }
       ],
-      "note": "Upgrade Gold Rapid March to Platinum Rapid March"
+      "note": "Upgrade Rapid March To platinum\n"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
+
+
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 75,
-        "defense": 35,
-        "movement": 10,
-        "hp": 525
+        "attack": 84,
+        "defense": 39,
+        "movement": 16,
+        "hp": 595,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Operate again after action, +5 mobility, 1 turn cooldown100% rate to attack again after the second action destroys the enemy army (one time only)"
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
+
+
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 84,
-        "defense": 35,
-        "movement": 10,
-        "hp": 525
+        "attack": 93,
+        "defense": 39,
+        "movement": 16,
+        "hp": 595,
+        "range": 1
       },
       "skills": [
         {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Samurai",
+          "tier": "gold",
+          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+        },
+        {
           "title": "Rapid March",
-          "tier": "Platinum",
-          "description": ""
+          "tier": "platinum",
+          "description": "Operate again after action, +5 mobility, 1 turn cooldown100% rate to attack again after the second action destroys the enemy army (one time only)"
         },
         {
           "title": "Valor Incentive",
-          "tier": "Gold",
-          "description": ""
+          "tier": "platinum",
+          "description": "When capturing an enemy city, the morale of your own troops and friendly troops within 3 grids rises for 2 turns."
         }
       ],
       "note": "Unlock Valor Incentive"
