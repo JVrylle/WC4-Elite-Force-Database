@@ -33,9 +33,354 @@
   </header>
 
   <main class="docs-page">
-    <section class="docs-empty">
-      <p>Documentation coming soon.</p>
-    </section>
+
+    <aside class="docs-nav" aria-label="Documentation navigation">
+      <div class="docs-nav__inner">
+        <p class="docs-nav__label">Contents</p>
+        <nav class="docs-nav__list">
+          <a class="docs-nav__link" href="#about"><span class="docs-nav__num">1</span>About</a>
+          <a class="docs-nav__link" href="#usage"><span class="docs-nav__num">2</span>Using the Database</a>
+          <a class="docs-nav__link" href="#format"><span class="docs-nav__num">3</span>Unit Data Format</a>
+          <a class="docs-nav__link" href="#adding"><span class="docs-nav__num">4</span>Adding &amp; Editing Units</a>
+          <a class="docs-nav__link" href="#maintenance"><span class="docs-nav__num">5</span>Maintenance</a>
+          <a class="docs-nav__link" href="#troubleshooting"><span class="docs-nav__num">6</span>Troubleshooting</a>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="docs-content">
+
+      <section class="docs-section" id="about">
+        <h2 class="docs-section__title"><span class="docs-section__num">1</span>About</h2>
+        <div class="docs-section__body">
+          <p class="docs-section__lead">
+            The <strong>Elite Force Database</strong> is a community-built reference for
+            Elite Force units in <em>World Conqueror 4</em> (Easytech). Every unit in the
+            game is documented by level, from stats and unlock costs to skills and
+            unlock notes.
+          </p>
+          <p>
+            Units are organized into five types, matching the game's unit classes:
+          </p>
+          <ul class="docs-list docs-list--chips">
+            <li class="docs-chip">Infantry</li>
+            <li class="docs-chip">Artillery</li>
+            <li class="docs-chip">Navy</li>
+            <li class="docs-chip">Armored</li>
+            <li class="docs-chip">Air Force</li>
+          </ul>
+          <p>
+            The site is fully static &mdash; data lives as plain JSON files under
+            <code class="docs-inline">data/</code>, so anyone can contribute a unit by
+            adding or editing a file and opening a pull request.
+          </p>
+        </div>
+      </section>
+
+      <section class="docs-section" id="usage">
+        <h2 class="docs-section__title"><span class="docs-section__num">2</span>Using the Database</h2>
+        <div class="docs-section__body">
+          <ol class="docs-list docs-list--steps">
+            <li>
+              <strong>Search</strong> &mdash; type into the search field on the main page,
+              or pick a unit from the dropdown. Search matches unit names while you type;
+              use <kbd>&uarr;</kbd>/<kbd>&darr;</kbd> and <kbd>Enter</kbd> to select.
+            </li>
+            <li>
+              <strong>Filter by type</strong> &mdash; the buttons above the panel
+              (Infantry / Artillery / Navy / Armored / Air Force) restrict the dropdown
+              to one unit class.
+            </li>
+            <li>
+              <strong>Pick a level</strong> &mdash; slide or type a level between 1 and 12.
+              The dossier updates instantly.
+            </li>
+          </ol>
+
+          <h3 class="docs-section__sub">Reading a unit dossier</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>What it tells you</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Stat bars</td>
+                <td>Attack, Defense, Movement and HP at the selected level, compared
+                    against the highest value any unit of that type reaches.</td>
+              </tr>
+              <tr>
+                <td>Skill chips</td>
+                <td>Skills owned at the current level. Color = tier:
+                    Bronze / Silver / Gold / Platinum. Hover a chip to read its
+                    description.</td>
+              </tr>
+              <tr>
+                <td>Locked skills</td>
+                <td>Skills the unit will unlock at higher levels, each marked with its
+                    unlock level.</td>
+              </tr>
+              <tr>
+                <td>Upgrade / Unlock Cost</td>
+                <td>The cost to unlock or upgrade this level, in Frags, Money, Industry
+                    and/or Honor Badges.</td>
+              </tr>
+              <tr>
+                <td>Note</td>
+                <td>Extra context for the level, e.g. which skills upgrade or unlock
+                    here.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="docs-section" id="format">
+        <h2 class="docs-section__title"><span class="docs-section__num">3</span>Unit Data Format</h2>
+        <div class="docs-section__body">
+          <p>
+            Each unit is a single JSON file at
+            <code class="docs-inline">data/&lt;type&gt;/&lt;Unit Name&gt;.json</code>.
+            The <code class="docs-inline">id</code> used by the app is the filename without
+            the <code class="docs-inline">.json</code> extension.
+          </p>
+
+          <pre class="docs-code"><code>{
+  "name": "Delta Force",
+  "unit_type": "Infantry",
+  "levels": [
+    {
+      "level": 1,
+      "stats": { "attack": 72, "defense": 20, "movement": 15, "hp": 385, "range": 1 },
+      "cost": { "pieces": 30, "money": 0 },
+      "skills": [
+        { "title": "Grenade", "tier": "gold",
+          "description": "Damage to armored units +50%" }
+      ],
+      "note": "null"
+    }
+  ]
+}</code></pre>
+
+          <h3 class="docs-section__sub">Fields</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="docs-inline">name</code></td>
+                <td>string</td>
+                <td>Display name of the unit.</td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">unit_type</code></td>
+                <td>string</td>
+                <td>Human-readable type label (e.g. <code class="docs-inline">"Infantry"</code>).
+                    The folder determines the type, this is informational.</td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">levels</code></td>
+                <td>array</td>
+                <td>Up to 12 level entries, in order (level 1 to level 12).</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="docs-section__sub">Level entry</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="docs-inline">level</code></td>
+                <td>number</td>
+                <td>The level number (1&ndash;12).</td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">stats</code></td>
+                <td>object</td>
+                <td>
+                  <code class="docs-inline">attack</code>,
+                  <code class="docs-inline">defense</code>,
+                  <code class="docs-inline">movement</code>,
+                  <code class="docs-inline">hp</code>,
+                  <code class="docs-inline">range</code>.
+                  Use 0 for "not applicable" (e.g. units with no ranged attack have
+                  <code class="docs-inline">range: 1</code>; placeholder levels with no new
+                  stats use all zeroes).
+                </td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">cost</code></td>
+                <td>object&nbsp;|&nbsp;omitted</td>
+                <td>
+                  <code class="docs-inline">pieces</code> (Frags),
+                  <code class="docs-inline">money</code>,
+                  <code class="docs-inline">industry</code>,
+                  <code class="docs-inline">honorInfantryBadges</code> (Honor Badges).
+                  Omit keys that cost nothing.
+                </td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">skills</code></td>
+                <td>array&nbsp;|&nbsp;omitted</td>
+                <td>
+                  Each skill: <code class="docs-inline">title</code> (string),
+                  <code class="docs-inline">tier</code>
+                  (<code class="docs-inline">bronze</code> |
+                  <code class="docs-inline">silver</code> |
+                  <code class="docs-inline">gold</code> |
+                  <code class="docs-inline">platinum</code>),
+                  <code class="docs-inline">description</code> (string).
+                </td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">note</code></td>
+                <td>string&nbsp;|&nbsp;omitted</td>
+                <td>Unlock/upgrade notes. Use the literal string
+                    <code class="docs-inline">"null"</code> (or omit) when there is no note.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="docs-callout">
+            <strong>Conventions</strong> &mdash; levels with no changes at all keep the
+            previous stats; use all-zero stats only when the game shows nothing yet.
+            Skill here means an ability <em>owned</em> at that level &mdash; a skill only
+            listed once a level where it appears or upgrades.
+          </div>
+        </div>
+      </section>
+
+      <section class="docs-section" id="adding">
+        <h2 class="docs-section__title"><span class="docs-section__num">4</span>Adding or Editing Units</h2>
+        <div class="docs-section__body">
+          <h3 class="docs-section__sub">1. Manual JSON + manifest</h3>
+          <pre class="docs-code"><code># 1. create (or edit) data/&lt;type&gt;/&lt;Unit Name&gt;.json
+# 2. regenerate the unit index:
+node generate-manifest.js</code></pre>
+          <p>
+            The manifest scan reads every <code class="docs-inline">*.json</code> under
+            <code class="docs-inline">data/</code>, sorts units by name, and rewrites
+            <code class="docs-inline">data/units.json</code>. Running it is required after
+            adding, renaming or deleting a unit file.
+          </p>
+
+          <h3 class="docs-section__sub">2. Commit and let CI do it</h3>
+          <p>
+            On every push to <code class="docs-inline">main</code>, the
+            <code class="docs-inline">update-units</code> GitHub Action re-runs
+            <code class="docs-inline">generate-manifest.js</code> and commits
+            <code class="docs-inline">data/units.json</code> if it changed. So a simple
+            pull request adding a JSON file is fully sufficient &mdash; no tooling needed.
+          </p>
+        </div>
+      </section>
+
+      <section class="docs-section" id="maintenance">
+        <h2 class="docs-section__title"><span class="docs-section__num">5</span>Maintenance</h2>
+        <div class="docs-section__body">
+          <h3 class="docs-section__sub">What's New panel</h3>
+          <p>
+            The <em>What's New?</em> panel is fed by
+            <code class="docs-inline">whats-new.txt</code> in the repo root. Put the date
+            on its own line, then the entry lines below it:
+          </p>
+          <pre class="docs-code"><code>August 10, 2026
+
+Updated notes for infantry units: Brandenburgers, Combat Medic, Engineering Unit</code></pre>
+
+          <h3 class="docs-section__sub">Status light</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>State</th>
+                <th>Meaning</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="docs-inline">STANDBY</code> / <code class="docs-inline">IDLE</code></td>
+                <td>Page loaded, idle.</td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">LOADING</code></td>
+                <td>Fetching a unit file or stats.</td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">RECORD FOUND</code></td>
+                <td>Unit + level data displayed.</td>
+              </tr>
+              <tr>
+                <td><code class="docs-inline">NO UNITS</code> / <code class="docs-inline">NO RECORD</code> / <code class="docs-inline">FETCH FAILED</code></td>
+                <td>A data or fetch problem &mdash; see troubleshooting.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="docs-section__sub">Caching</h3>
+          <p>
+            Data fetches are cache-busted with a query string
+            (<code class="docs-inline">?v=</code>), so new unit files appear without a
+            hard refresh in most setups.
+          </p>
+        </div>
+      </section>
+
+      <section class="docs-section" id="troubleshooting">
+        <h2 class="docs-section__title"><span class="docs-section__num">6</span>Troubleshooting</h2>
+        <div class="docs-section__body">
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Problem</th>
+                <th>Cause &amp; fix</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>"No units available yet."</td>
+                <td><code class="docs-inline">data/units.json</code> is missing or empty.
+                    Run <code class="docs-inline">node generate-manifest.js</code> (or push
+                    to main so CI regenerates it).</td>
+              </tr>
+              <tr>
+                <td>"No record for &hellip; at level N."</td>
+                <td>The unit file has no entry for that level. Add a
+                    <code class="docs-inline">levels</code> entry (or all-zero placeholder).</td>
+              </tr>
+              <tr>
+                <td>"Could not load units&hellip;" on the live site</td>
+                <td>Unit JSONs were added but never committed, or
+                    <code class="docs-inline">data/units.json</code> is stale. Commit both
+                    the new file and the regenerated manifest.</td>
+              </tr>
+              <tr>
+                <td>Unit missing from search / dropdown</td>
+                <td>Filename or <code class="docs-inline">name</code> mismatch &mdash; the
+                    manifest id comes from the filename, and search matches the
+                    <code class="docs-inline">name</code> field. Regenerate the manifest
+                    and check the type folder matches the correct class.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+
   </main>
 
   <footer class="footer footer--plain">
@@ -45,9 +390,39 @@
       <ul class="footer__thanks-list">
         <li>Nuclearman</li>
         <li>Radtaiga</li>
+        <li>Styx</li>
       </ul>
     </div>
   </footer>
 
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll(".docs-nav__link"));
+  var sections = links
+    .map(function (link) { return document.querySelector(link.getAttribute("href")); })
+    .filter(Boolean);
+
+  function setActive(id) {
+    links.forEach(function (link) {
+      link.classList.toggle(
+        "docs-nav__link--active",
+        link.getAttribute("href") === "#" + id
+      );
+    });
+  }
+
+  if ("IntersectionObserver" in window) {
+    var spy = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        });
+      },
+      { rootMargin: "-30% 0px -60% 0px" }
+    );
+    sections.forEach(function (section) { spy.observe(section); });
+  }
+})();
+</script>
 </body>
 </html>
