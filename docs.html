@@ -148,18 +148,20 @@
           </p>
 
           <pre class="docs-code"><code>{
-  "name": "Delta Force",
+  "name": "Combat Medic",
   "unit_type": "Infantry",
   "levels": [
     {
-      "level": 1,
-      "stats": { "attack": 72, "defense": 20, "movement": 15, "hp": 385, "range": 1 },
-      "cost": { "pieces": 30, "money": 0 },
+      "level": 5,
+      "stats": { "attack": 33, "defense": 18, "movement": 15, "hp": 390, "range": 1 },
+      "cost": { "pieces": 60, "money": 24000, "industry": 15750 },
       "skills": [
-        { "title": "Grenade", "tier": "gold",
-          "description": "Damage to armored units +50%" }
+        { "title": "Marching", "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%." },
+        { "title": "Emergency Rescue", "tier": "silver",
+          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown." }
       ],
-      "note": "null"
+      "note": "Upgrade Emergency Rescue To silver"
     }
   ]
 }</code></pre>
