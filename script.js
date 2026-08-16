@@ -20,11 +20,35 @@ let activeSearchIndex = -1;
 const MIN_LEVEL = 1;
 const MAX_LEVEL = 12;
 
+const SVG_ICON_ATTRS =
+  'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"';
+
 const STAT_META = {
-  attack: { label: "Attack", className: "stat--attack", icon: "⚔" },
-  defense: { label: "Defense", className: "stat--defense", icon: "🛡" },
-  movement: { label: "Movement", className: "stat--movement", icon: "🥾" },
-  hp: { label: "HP", className: "stat--hp", icon: "❤" },
+  attack: {
+    label: "Attack",
+    className: "stat--attack",
+    icon: `<svg ${SVG_ICON_ATTRS}><path d="M5.5 19 16 8.5"/><path d="M18.5 19 8 8.5"/><path d="M7.4 13.9 10.6 17.1"/><path d="M16.6 13.9 13.4 17.1"/></svg>`,
+  },
+  defense: {
+    label: "Defense",
+    className: "stat--defense",
+    icon: `<svg ${SVG_ICON_ATTRS}><path d="M12 3l7 2v6c0 4.3-3 7.7-7 9.4-4-1.7-7-5.1-7-9.4V5l7-2Z"/></svg>`,
+  },
+  movement: {
+    label: "Movement",
+    className: "stat--movement",
+    icon: `<svg ${SVG_ICON_ATTRS}><path d="M12 3v18"/><path d="M3 12h18"/><path d="M12 3l-2 2"/><path d="M12 3l2 2"/><path d="M12 21l-2-2"/><path d="M12 21l2-2"/><path d="M3 12l2-2"/><path d="M3 12l2 2"/><path d="M21 12l-2-2"/><path d="M21 12l-2 2"/></svg>`,
+  },
+  hp: {
+    label: "HP",
+    className: "stat--hp",
+    icon: `<svg ${SVG_ICON_ATTRS}><path d="M12 20.3C7.1 15.9 3.8 13 3.8 9.4 3.8 6.9 5.7 5 8.2 5c1.6 0 3.1.8 3.8 2.1C12.7 5.8 14.2 5 15.8 5c2.5 0 4.4 1.9 4.4 4.4 0 3.6-3.3 6.5-8.2 10.9Z"/></svg>`,
+  },
+  range: {
+    label: "Range",
+    className: "stat--range",
+    icon: `<svg ${SVG_ICON_ATTRS}><circle cx="12" cy="12" r="6.5"/><path d="M12 2.5v3.5"/><path d="M12 18v3.5"/><path d="M2.5 12H6"/><path d="M18 12h3.5"/></svg>`,
+  },
 };
 
 const COST_META = {
@@ -411,7 +435,7 @@ async function ensureTypeMaxes(unitType) {
   const cached = typeMaxCache.get(unitType);
   if (cached) return cached;
 
-  const maxes = { attack: 0, defense: 0, movement: 0, hp: 0 };
+  const maxes = { attack: 0, defense: 0, movement: 0, hp: 0, range: 0 };
   const siblings = ALL_UNITS.filter((u) => (u.type || "infantry") === unitType);
 
   await Promise.all(

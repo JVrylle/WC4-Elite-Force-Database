@@ -13,7 +13,7 @@
   /* Black (10%) — text & brand accents */
   --text: #0d1117;
   --text-dim: #3a4252;
-  --text-faint: #6e7c93;
+  --text-faint: #5c6b82;
   --ink: #26313d;
   --brand: #1b2a41;
   --brand-bright: #091225;
@@ -23,6 +23,7 @@
   --defense: #4c7ea3;
   --movement: #c9a15a;
   --hp: #8a9a4e;
+  --range: #9a6fb0;
 
   --font-display: "Oswald", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -571,7 +572,9 @@ select {
 }
 
 select:focus-visible,
-button:focus-visible {
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
@@ -668,7 +671,7 @@ button:focus-visible {
 /* ---------- Stat gauges ---------- */
 
 .stat-grid {
-  padding: 20px 22px 6px;
+  padding: 18px 22px 6px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -682,10 +685,15 @@ button:focus-visible {
 }
 
 .stat-row__icon {
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "JetBrains Mono", monospace;
-  font-size: 18px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--text-dim);
+}
+
+.stat-row__icon svg {
+  width: 22px;
+  height: 22px;
 }
 
 .stat-row__label {
@@ -714,6 +722,7 @@ button:focus-visible {
 .stat--defense .stat-row__fill { background: var(--defense); }
 .stat--movement .stat-row__fill { background: var(--movement); }
 .stat--hp .stat-row__fill { background: var(--hp); }
+.stat--range .stat-row__fill { background: var(--range); }
 
 .stat-row__value {
   font-size: 14px;
@@ -791,35 +800,38 @@ button:focus-visible {
 
 .skill-chip {
   position: relative;
-  display: inline-block;
-  padding: 8px 12px;
-  background: var(--chip-bg, #b7e9f9);
-  border: 1px solid var(--chip-tone, #5fb9dd);
-  border-left: 3px solid var(--chip-tone, #5fb9dd);
-  border-radius: var(--radius);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 26px;
+  padding: 4px 12px 4px 10px;
+  background: var(--chip-bg, #dceef6);
+  border: 1px solid var(--chip-tone, #3f8fc0);
+  border-left: 3px solid var(--chip-tone, #3f8fc0);
+  border-radius: 6px;
   font-size: 12px;
   color: var(--text);
   cursor: default;
 }
 
 .skill-chip--silver {
-  --chip-bg: #d3d8dc;
-  --chip-tone: #a7b0b6;
+  --chip-bg: #eceff1;
+  --chip-tone: #7d8b96;
 }
 
 .skill-chip--gold {
-  --chip-bg: #f5d63f;
-  --chip-tone: #d0a020;
+  --chip-bg: #fbefc8;
+  --chip-tone: #c29a2f;
 }
 
 .skill-chip--platinum {
-  --chip-bg: #b7e9f9;
-  --chip-tone: #5fb9dd;
+  --chip-bg: #dceef6;
+  --chip-tone: #3f8fc0;
 }
 
 .skill-chip--bronze {
-  --chip-bg: #d8955c;
-  --chip-tone: #a96f33;
+  --chip-bg: #f3e0cd;
+  --chip-tone: #a97a45;
 }
 
 .skill-chip--upcoming {
@@ -1422,6 +1434,14 @@ kbd {
 /* ---------- Reduced motion ---------- */
 
 @media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
   .status--busy .status-dot {
     animation: none;
   }
