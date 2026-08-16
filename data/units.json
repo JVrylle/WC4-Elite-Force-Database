@@ -1,5 +1,10 @@
 [
   {
+    "id": "A41 Centurion",
+    "name": "A41 Centurion",
+    "type": "armored"
+  },
+  {
     "id": "Alphini",
     "name": "Alpini",
     "type": "infantry"
@@ -28,6 +33,11 @@
     "id": "Hawkeye",
     "name": "Hawkeye Force",
     "type": "infantry"
+  },
+  {
+    "id": "King Tiger",
+    "name": "King Tiger",
+    "type": "armored"
   },
   {
     "id": "Phantom Force",

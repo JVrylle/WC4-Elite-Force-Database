@@ -1,0 +1,522 @@
+{
+  "name": "A41 Centurion",
+  "unit_type": "armor",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 21,
+        "movement": 8,
+        "hp": 445,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "Unlock Smoke Bomb (Bronze)\nUnlock HEAT Ammunition (Bronze)\n(A41 Perks removed)"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800,
+        "technology": 90
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 31,
+        "movement": 9,
+        "hp": 445,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200,
+        "technology": 270
+      },
+      "stats": {
+        "attack": 89,
+        "defense": 31,
+        "movement": 9,
+        "hp": 445,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500,
+        "technology": 500
+      },
+      "stats": {
+        "attack": 89,
+        "defense": 31,
+        "movement": 9,
+        "hp": 545,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "bronze",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000,
+        "technology": 950
+      },
+      "stats": {
+        "attack": 101,
+        "defense": 31,
+        "movement": 9,
+        "hp": 545,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "Upgrade Smoke Bomb To silver\nUpgrade HEAT Ammunition To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600,
+        "technology": 1140
+      },
+      "stats": {
+        "attack": 101,
+        "defense": 39,
+        "movement": 10,
+        "hp": 545,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47250,
+        "technology": 1370
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 39,
+        "movement": 10,
+        "hp": 545,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000,
+        "technology": 1642
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 39,
+        "movement": 10,
+        "hp": 635,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "silver",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400,
+        "technology": 1970
+      },
+      "stats": {
+        "attack": 119,
+        "defense": 39,
+        "movement": 10,
+        "hp": 635,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "Upgrade Smoke Bomb To gold\nUpgrade HEAT Ammunition To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorArmoredBadges": 5
+      },
+      "stats": {
+        "attack": 119,
+        "defense": 47,
+        "movement": 11,
+        "hp": 635,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "platinum",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "Upgrade Smoke Bomb To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorArmoredBadges": 15
+      },
+      "stats": {
+        "attack": 119,
+        "defense": 47,
+        "movement": 11,
+        "hp": 725,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "platinum",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "platinum",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        }
+      ],
+      "note": "Upgrade HEAT Ammunition To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorArmoredBadges": 25
+      },
+      "stats": {
+        "attack": 129,
+        "defense": 47,
+        "movement": 11,
+        "hp": 725,
+        "range": null
+      },
+      "skills": [
+        {
+          "title": "Smoke Bomb",
+          "tier": "platinum",
+          "description": null
+        },
+        {
+          "title": "HEAT Ammunition",
+          "tier": "platinum",
+          "description": null
+        },
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Air-Defence",
+          "tier": "gold",
+          "description": null
+        },
+        {
+          "title": "Visual Interference",
+          "tier": "platinum",
+          "description": null
+        }
+      ],
+      "note": "Unlock Visual Interference"
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "name": "King Tiger",
+  "unit_type": "armor",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 83,
+        "defense": 33,
+        "movement": 11,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800,
+        "technology": 90
+      },
+      "stats": {
+        "attack": 83,
+        "defense": 48,
+        "movement": 12,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200,
+        "technology": 270
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 48,
+        "movement": 12,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500,
+        "technology": 500
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 48,
+        "movement": 12,
+        "hp": 655,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000,
+        "technology": 950
+      },
+      "stats": {
+        "attack": 108,
+        "defense": 48,
+        "movement": 12,
+        "hp": 655,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by 25%, effective for 1 turn, 2 turns cooldown"
+        }
+      ],
+      "note": "Unlock Tank Destroyer (Silver)"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600,
+        "technology": 1140
+      },
+      "stats": {
+        "attack": 108,
+        "defense": 56,
+        "movement": 13,
+        "hp": 655,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by 25%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
+        }
+      ],
+      "note": "Unlock Critical Damage (Bronze)"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520,
+        "technology": 1370
+      },
+      "stats": {
+        "attack": 117,
+        "defense": 56,
+        "movement": 13,
+        "hp": 655,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by 25%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000,
+        "technology": 1640
+      },
+      "stats": {
+        "attack": 117,
+        "defense": 56,
+        "movement": 13,
+        "hp": 740,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by 25%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400,
+        "technology": 1970
+      },
+      "stats": {
+        "attack": 127,
+        "defense": 56,
+        "movement": 13,
+        "hp": 740,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "gold",
+          "description": "Damage dealt to armored and artillery units is increased by 40%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30%"
+        }
+      ],
+      "note": "Upgrade Critical Damage To silver\nUpgrade Tank Destroyer To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorArmoredBadges": 10
+      },
+      "stats": {
+        "attack": 127,
+        "defense": 63,
+        "movement": 14,
+        "hp": 740,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "gold",
+          "description": "Damage dealt to armored and artillery units is increased by 40%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40%"
+        }
+      ],
+      "note": "Upgrade Critical Damage To gold"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorArmoredBadges": 20
+      },
+      "stats": {
+        "attack": 127,
+        "defense": 63,
+        "movement": 14,
+        "hp": 830,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "platinum",
+          "description": "Damage dealt to armored and artillery units is increased by 55%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40%"
+        }
+      ],
+      "note": "Upgrade Tank Destroyer To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorArmoredBadges": 30
+      },
+      "stats": {
+        "attack": 136,
+        "defense": 63,
+        "movement": 14,
+        "hp": 830,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to Infantry Units +35%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "50% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Tank Destroyer",
+          "tier": "platinum",
+          "description": "Damage dealt to armored and artillery units is increased by 55%, effective for 1 turn, 2 turns cooldown"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50%"
+        },
+        {
+          "title": "Iron Breaker",
+          "tier": null,
+          "description": "For every 5 enemy defense, convert 1% extra damage"
+        }
+      ],
+      "note": "Upgrade Critical Damage To platinum\nUnlock Iron Breaker"
+    }
+  ]
+}
