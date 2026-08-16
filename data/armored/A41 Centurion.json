@@ -12,7 +12,7 @@
         "defense": 21,
         "movement": 8,
         "hp": 445,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -55,7 +55,7 @@
         "defense": 31,
         "movement": 9,
         "hp": 445,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -98,7 +98,7 @@
         "defense": 31,
         "movement": 9,
         "hp": 445,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -141,7 +141,7 @@
         "defense": 31,
         "movement": 9,
         "hp": 545,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -184,7 +184,7 @@
         "defense": 31,
         "movement": 9,
         "hp": 545,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -227,7 +227,7 @@
         "defense": 39,
         "movement": 10,
         "hp": 545,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -270,7 +270,7 @@
         "defense": 39,
         "movement": 10,
         "hp": 545,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -313,7 +313,7 @@
         "defense": 39,
         "movement": 10,
         "hp": 635,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -356,7 +356,7 @@
         "defense": 39,
         "movement": 10,
         "hp": 635,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
@@ -398,12 +398,12 @@
         "defense": 47,
         "movement": 11,
         "hp": 635,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
           "title": "Smoke Bomb",
-          "tier": "platinum",
+          "tier": "diamond",
           "description": null
         },
         {
@@ -427,7 +427,7 @@
           "description": null
         }
       ],
-      "note": "Upgrade Smoke Bomb To platinum"
+      "note": "Upgrade Smoke Bomb To diamond"
     },
     {
       "level": 11,
@@ -440,17 +440,17 @@
         "defense": 47,
         "movement": 11,
         "hp": 725,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
           "title": "Smoke Bomb",
-          "tier": "platinum",
+          "tier": "diamond",
           "description": null
         },
         {
           "title": "HEAT Ammunition",
-          "tier": "platinum",
+          "tier": "diamond",
           "description": null
         },
         {
@@ -469,7 +469,7 @@
           "description": null
         }
       ],
-      "note": "Upgrade HEAT Ammunition To platinum"
+      "note": "Upgrade HEAT Ammunition To diamond"
     },
     {
       "level": 12,
@@ -482,17 +482,17 @@
         "defense": 47,
         "movement": 11,
         "hp": 725,
-        "range": null
+        "range": 2
       },
       "skills": [
         {
           "title": "Smoke Bomb",
-          "tier": "platinum",
+          "tier": "diamond",
           "description": null
         },
         {
           "title": "HEAT Ammunition",
-          "tier": "platinum",
+          "tier": "diamond",
           "description": null
         },
         {
@@ -512,11 +512,11 @@
         },
         {
           "title": "Visual Interference",
-          "tier": "platinum",
+          "tier": "diamond",
           "description": null
         }
       ],
-      "note": "Unlock Visual Interference"
+      "note": "Unlock Visual Interference (Diamond)"
     }
   ]
 }

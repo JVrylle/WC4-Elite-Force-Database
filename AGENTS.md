@@ -45,7 +45,7 @@ Formatting: 2-space indent, trailing newline, JSON only (no comments).
 1. Add or edit the JSON at `data/<type>/<Name>.json`
 2. Regenerate the manifest: `node generate-manifest.js` (also runs automatically on push via the GitHub workflow, and after every save in the local admin server)
 3. Do **not** hand-edit `data/units.json` — it is derived
-4. Optionally add a dated entry at the top of `whats-new.txt`
+4. **Always** update `whats-new.txt`: add a dated entry at the top (current date line, blank line, summary of what changed) for every unit add/edit or site change — never leave it stale
 
 ## Local admin tooling (not in the repo)
 
