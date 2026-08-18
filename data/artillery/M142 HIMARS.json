@@ -1,0 +1,514 @@
+{
+  "name": "M142 HIMARS",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 12,
+        "movement": 11,
+        "hp": 305,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "silver",
+          "description": "Within a range of 3 hexes, choose 2 target to launch rocket missiles, dealing damage and reducing the target's defense by 15% for 2 turns. With a cooldown 3 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "bronze",
+          "description": "If the target's HP is not lower than 100%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "Unlock Rocket Artillery\nUnlock Air-Defense\nUnlock Critical Damage\nUnlock Sky Dome Guidance\nUnlock Destructive Strike"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 21,
+        "movement": 12,
+        "hp": 305,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "silver",
+          "description": "Within a range of 3 hexes, choose 2 target to launch rocket missiles, dealing damage and reducing the target's defense by 15% for 2 turns. With a cooldown 3 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "bronze",
+          "description": "If the target's HP is not lower than 100%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 76,
+        "defense": 21,
+        "movement": 12,
+        "hp": 305,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "silver",
+          "description": "Within a range of 3 hexes, choose 2 target to launch rocket missiles, dealing damage and reducing the target's defense by 15% for 2 turns. With a cooldown 3 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "bronze",
+          "description": "If the target's HP is not lower than 100%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 76,
+        "defense": 21,
+        "movement": 12,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "silver",
+          "description": "Within a range of 3 hexes, choose 2 target to launch rocket missiles, dealing damage and reducing the target's defense by 15% for 2 turns. With a cooldown 3 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "bronze",
+          "description": "If the target's HP is not lower than 100%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 86,
+        "defense": 21,
+        "movement": 12,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "gold",
+          "description": "Within a range of 3 hexes, choose 4 target to launch rocket missiles, dealing damage and reducing the target's defense by 30% for 2 turns. With a cooldown 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "silver",
+          "description": "If the target's HP is not lower than 80%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "Upgrade Critical Damage To silver\nUpgrade Sky Dome Guidance To gold\nUpgrade Destructive Strike To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 86,
+        "defense": 29,
+        "movement": 13,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "gold",
+          "description": "Within a range of 3 hexes, choose 4 target to launch rocket missiles, dealing damage and reducing the target's defense by 30% for 2 turns. With a cooldown 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "silver",
+          "description": "If the target's HP is not lower than 80%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 29,
+        "movement": 13,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "gold",
+          "description": "Within a range of 3 hexes, choose 4 target to launch rocket missiles, dealing damage and reducing the target's defense by 30% for 2 turns. With a cooldown 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "silver",
+          "description": "If the target's HP is not lower than 80%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 29,
+        "movement": 13,
+        "hp": 505,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "gold",
+          "description": "Within a range of 3 hexes, choose 4 target to launch rocket missiles, dealing damage and reducing the target's defense by 30% for 2 turns. With a cooldown 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "silver",
+          "description": "If the target's HP is not lower than 80%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 29,
+        "movement": 13,
+        "hp": 505,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "platinum",
+          "description": "Within a range of 4 tiles, choose 6 target to launch rocket missiles, dealing damage and reducing the target's defense by 50% for 2 turns. This attack ignores 50% of the target's defense. With a cooldown of 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "gold",
+          "description": "If the target's HP is not lower than 50%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "Upgrade Critical Damage To gold\nUpgrade Sky Dome Guidance To platinum\nUpgrade Destructive Strike To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 38,
+        "movement": 14,
+        "hp": 505,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "platinum",
+          "description": "Within a range of 4 tiles, choose 6 target to launch rocket missiles, dealing damage and reducing the target's defense by 50% for 2 turns. This attack ignores 50% of the target's defense. With a cooldown of 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "gold",
+          "description": "If the target's HP is not lower than 50%, this attack will be a guaranteed critical attack."
+        }
+      ],
+      "note": "Upgrade Critical Damage To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 38,
+        "movement": 14,
+        "hp": 605,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "platinum",
+          "description": "Within a range of 4 tiles, choose 6 target to launch rocket missiles, dealing damage and reducing the target's defense by 50% for 2 turns. This attack ignores 50% of the target's defense. With a cooldown of 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "platinum",
+          "description": "Attacks always crit."
+        }
+      ],
+      "note": "Upgrade Destructive Strike To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 112,
+        "defense": 38,
+        "movement": 14,
+        "hp": 605,
+        "range": 4
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50% "
+        },
+        {
+          "title": "Sky Dome Guidance",
+          "tier": "platinum",
+          "description": "Within a range of 4 tiles, choose 6 target to launch rocket missiles, dealing damage and reducing the target's defense by 50% for 2 turns. This attack ignores 50% of the target's defense. With a cooldown of 2 turns."
+        },
+        {
+          "title": "Destructive Strike",
+          "tier": "platinum",
+          "description": "Attacks always crit."
+        },
+        {
+          "title": "Light Chassis",
+          "tier": "gold",
+          "description": "Can be airlifted by transport aircraft."
+        }
+      ],
+      "note": "Unlock Light Chassis"
+    }
+  ]
+}

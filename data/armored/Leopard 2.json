@@ -1,5 +1,5 @@
 {
-  "name": "A41 Centurion",
+  "name": "Leopard 2",
   "unit_type": "Armor",
   "levels": [
     {
@@ -8,10 +8,10 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 65,
-        "defense": 21,
-        "movement": 8,
-        "hp": 445,
+        "attack": 76,
+        "defense": 23,
+        "movement": 10,
+        "hp": 515,
         "range": 2
       },
       "skills": [
@@ -31,17 +31,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 15% damage to that target."
         }
       ],
-      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Smoke Bomb\nUnlock HEAT Ammunition "
+      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Armor-Piercing Discarding Sabot"
     },
     {
       "level": 2,
@@ -50,10 +45,10 @@
         "industry": 1800
       },
       "stats": {
-        "attack": 65,
-        "defense": 31,
-        "movement": 9,
-        "hp": 445,
+        "attack": 76,
+        "defense": 37,
+        "movement": 11,
+        "hp": 515,
         "range": 2
       },
       "skills": [
@@ -73,14 +68,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 15% damage to that target."
         }
       ],
       "note": "null"
@@ -92,10 +82,10 @@
         "industry": 7200
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
-        "movement": 9,
-        "hp": 445,
+        "attack": 87,
+        "defense": 37,
+        "movement": 11,
+        "hp": 515,
         "range": 2
       },
       "skills": [
@@ -115,14 +105,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 15% damage to that target."
         }
       ],
       "note": "null"
@@ -134,10 +119,10 @@
         "industry": 13500
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
-        "movement": 9,
-        "hp": 545,
+        "attack": 87,
+        "defense": 37,
+        "movement": 11,
+        "hp": 615,
         "range": 2
       },
       "skills": [
@@ -157,14 +142,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 15% damage to that target."
         }
       ],
       "note": "null"
@@ -176,10 +156,10 @@
         "industry": 33000
       },
       "stats": {
-        "attack": 86,
-        "defense": 31,
-        "movement": 9,
-        "hp": 545,
+        "attack": 101,
+        "defense": 37,
+        "movement": 11,
+        "hp": 615,
         "range": 2
       },
       "skills": [
@@ -199,17 +179,22 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 30% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "During this turn, after eliminating 3 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
+          "tier": "silver",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 10% and ignoring terrain effects on mobility. This effect lasts for 1 turn and then has a cooldown of 3 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To silver\nUpgrade HEAT Ammunition  To silver"
+      "note": "Upgrade Armor-Piercing Discarding Sabot To silver\nUnlock Dynamic Calibration\nUnlock Tactical Assault"
     },
     {
       "level": 6,
@@ -218,10 +203,10 @@
         "industry": 39600
       },
       "stats": {
-        "attack": 86,
-        "defense": 39,
-        "movement": 10,
-        "hp": 545,
+        "attack": 101,
+        "defense": 45,
+        "movement": 12,
+        "hp": 615,
         "range": 2
       },
       "skills": [
@@ -241,14 +226,19 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 30% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "During this turn, after eliminating 3 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
+          "tier": "silver",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 10% and ignoring terrain effects on mobility. This effect lasts for 1 turn and then has a cooldown of 3 turns."
         }
       ],
       "note": "null"
@@ -260,10 +250,10 @@
         "industry": 47520
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
-        "movement": 10,
-        "hp": 545,
+        "attack": 110,
+        "defense": 45,
+        "movement": 12,
+        "hp": 615,
         "range": 2
       },
       "skills": [
@@ -283,14 +273,19 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 30% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "During this turn, after eliminating 3 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
+          "tier": "silver",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 10% and ignoring terrain effects on mobility. This effect lasts for 1 turn and then has a cooldown of 3 turns."
         }
       ],
       "note": "null"
@@ -302,10 +297,10 @@
         "industry": 57000
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
-        "movement": 10,
-        "hp": 635,
+        "attack": 110,
+        "defense": 45,
+        "movement": 12,
+        "hp": 715,
         "range": 2
       },
       "skills": [
@@ -325,14 +320,19 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 30% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "During this turn, after eliminating 3 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
+          "tier": "silver",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 10% and ignoring terrain effects on mobility. This effect lasts for 1 turn and then has a cooldown of 3 turns."
         }
       ],
       "note": "null"
@@ -344,10 +344,10 @@
         "industry": 68400
       },
       "stats": {
-        "attack": 104,
-        "defense": 39,
-        "movement": 10,
-        "hp": 635,
+        "attack": 120,
+        "defense": 45,
+        "movement": 12,
+        "hp": 715,
         "range": 2
       },
       "skills": [
@@ -367,29 +367,34 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "gold",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 45% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "During this turn, after eliminating 2 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
+          "tier": "gold",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 20% and ignoring terrain effects on mobility. This effect lasts for 1 turn and then has a cooldown of 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To gold\nUpgrade HEAT Ammunition  To gold"
+      "note": "Upgrade Armor-Piercing Discarding Sabot To gold\nUpgrade Dynamic Calibration To gold\nUpgrade Tactical Assault To gold"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 5
+        "honorInfantryBadges": 10
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
-        "movement": 11,
-        "hp": 635,
+        "attack": 120,
+        "defense": 54,
+        "movement": 13,
+        "hp": 715,
         "range": 2
       },
       "skills": [
@@ -409,29 +414,34 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
-          "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "title": "Armor-Piercing Discarding Sabot",
+          "tier": "gold",
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 45% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "During this turn, after eliminating 2 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
+          "tier": "gold",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 20% and ignoring terrain effects on mobility. This effect lasts for 1 turn and then has a cooldown of 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To platinum"
+      "note": "null"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 15
+        "honorInfantryBadges": 20
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
-        "movement": 11,
-        "hp": 725,
+        "attack": 120,
+        "defense": 54,
+        "movement": 13,
+        "hp": 815,
         "range": 2
       },
       "skills": [
@@ -451,29 +461,34 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
-          "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "title": "Armor-Piercing Discarding Sabot",
+          "tier": "gold",
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 45% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
+          "tier": "gold",
+          "description": "During this turn, after eliminating 2 units, the range +1, lasts for 1 turn."
+        },
+        {
+          "title": "Tactical Assault",
           "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 30% and ignoring terrain effects as well as the effects of getting undersea on mobility. This effect lasts for 1 turn and then has a cooldown of 2 turns."
         }
       ],
-      "note": "Upgrade HEAT Ammunition  To platinum"
+      "note": "Upgrade Tactical Assault To platinum"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 25
+        "honorInfantryBadges": 30
       },
       "stats": {
-        "attack": 114,
-        "defense": 47,
-        "movement": 11,
-        "hp": 725,
+        "attack": 130,
+        "defense": 54,
+        "movement": 13,
+        "hp": 815,
         "range": 2
       },
       "skills": [
@@ -493,22 +508,22 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Armor-Piercing Discarding Sabot",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "Whenever you land a critical attack, there is a {0}% chance to deal an additional 60% damage to that target."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Dynamic Calibration",
           "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "During this turn, after eliminating 1 units, the range +1, lasts for 1 turn."
         },
         {
-          "title": "Visual Interference",
-          "tier": "gold",
-          "description": "While in a smoke grenade effect, the attack range of enemy units 2 grids around is reduced to the minimum (when ignoring the smoke grenade effect, this effect is also ignored)."
+          "title": "Tactical Assault",
+          "tier": "platinum",
+          "description": "Enter Assault status, thus increasing all damage dealt this turn by 30% and ignoring terrain effects as well as the effects of getting undersea on mobility. This effect lasts for 1 turn and then has a cooldown of 2 turns."
         }
       ],
-      "note": "Unlock Visual Interference"
+      "note": "Upgrade Armor-Piercing Discarding Sabot To platinum\nUpgrade Dynamic Calibration To platinum"
     }
   ]
 }

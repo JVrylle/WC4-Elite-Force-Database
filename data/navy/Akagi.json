@@ -1,0 +1,489 @@
+{
+  "name": "Akagi",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 42,
+        "defense": 21,
+        "movement": 6,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "bronze",
+          "description": "Can perform 1 additional attack(s)."
+        }
+      ],
+      "note": "Unlock Bombing\nUnlock Air-Defense\nUnlock Carrier\nUnlock Regroup"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 42,
+        "defense": 27,
+        "movement": 7,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "bronze",
+          "description": "Can perform 1 additional attack(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 47,
+        "defense": 27,
+        "movement": 7,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "bronze",
+          "description": "Can perform 1 additional attack(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 47,
+        "defense": 27,
+        "movement": 7,
+        "hp": 615,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "bronze",
+          "description": "Can perform 1 additional attack(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 52,
+        "defense": 27,
+        "movement": 7,
+        "hp": 615,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "silver",
+          "description": "Can perform 2 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "silver",
+          "description": "When attacking, deal 50% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "Upgrade Regroup To silver\nUnlock Intensive Air Raid"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 52,
+        "defense": 38,
+        "movement": 9,
+        "hp": 615,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "silver",
+          "description": "Can perform 2 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "silver",
+          "description": "When attacking, deal 50% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 57,
+        "defense": 38,
+        "movement": 9,
+        "hp": 615,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "silver",
+          "description": "Can perform 2 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "silver",
+          "description": "When attacking, deal 50% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 57,
+        "defense": 38,
+        "movement": 9,
+        "hp": 715,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "silver",
+          "description": "Can perform 2 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "silver",
+          "description": "When attacking, deal 50% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 38,
+        "movement": 9,
+        "hp": 715,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "gold",
+          "description": "Can perform 3 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "gold",
+          "description": "When attacking, deal 80% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "Upgrade Regroup To gold\nUpgrade Intensive Air Raid To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 45,
+        "movement": 10,
+        "hp": 715,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "gold",
+          "description": "Can perform 3 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "gold",
+          "description": "When attacking, deal 80% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 45,
+        "movement": 10,
+        "hp": 815,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "gold",
+          "description": "Can perform 3 additional attack(s)."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "platinum",
+          "description": "When attacking, deal 100% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "Upgrade Intensive Air Raid To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 45,
+        "movement": 10,
+        "hp": 815,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Regroup",
+          "tier": "platinum",
+          "description": "Can perform 3 additional attack(s). After each attack during the turn, the damage dealt by the next attack is increased by 20%, stacking up to a maximum of 3 times."
+        },
+        {
+          "title": "Intensive Air Raid",
+          "tier": "platinum",
+          "description": "When attacking, deal 100% extra damage to other targets within 1 grid of the target, cooldown for 2 turns."
+        }
+      ],
+      "note": "Upgrade Regroup To platinum"
+    }
+  ]
+}

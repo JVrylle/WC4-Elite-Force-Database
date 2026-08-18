@@ -1,0 +1,409 @@
+{
+  "name": "Hive Tactical Vehicle",
+  "unit_type": "Armor",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 11,
+        "movement": 9,
+        "hp": 255,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "bronze",
+          "description": "Damage to infantry units is increased by 30%."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "bronze",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 1 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "bronze",
+          "description": "Restore 25 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "Unlock Heavy machine gun\nUnlock Swarm Deployment\nUnlock EMCON"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 20,
+        "movement": 10,
+        "hp": 255,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "bronze",
+          "description": "Damage to infantry units is increased by 30%."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "bronze",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 1 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "bronze",
+          "description": "Restore 25 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 52,
+        "defense": 20,
+        "movement": 10,
+        "hp": 255,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "bronze",
+          "description": "Damage to infantry units is increased by 30%."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "bronze",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 1 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "bronze",
+          "description": "Restore 25 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 52,
+        "defense": 20,
+        "movement": 10,
+        "hp": 355,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "bronze",
+          "description": "Damage to infantry units is increased by 30%."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "bronze",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 1 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "bronze",
+          "description": "Restore 25 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 60,
+        "defense": 20,
+        "movement": 10,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "silver",
+          "description": "Damage to infantry units is increased by 45%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "silver",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "silver",
+          "description": "Restore 50 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "Upgrade Heavy machine gun To silver\nUpgrade Swarm Deployment To silver\nUpgrade EMCON To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 60,
+        "defense": 26,
+        "movement": 11,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "silver",
+          "description": "Damage to infantry units is increased by 45%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "silver",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "silver",
+          "description": "Restore 50 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 69,
+        "defense": 26,
+        "movement": 11,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "silver",
+          "description": "Damage to infantry units is increased by 45%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "silver",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "silver",
+          "description": "Restore 50 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 69,
+        "defense": 26,
+        "movement": 11,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "silver",
+          "description": "Damage to infantry units is increased by 45%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "silver",
+          "description": "Deploy a drone within 1 hex. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "silver",
+          "description": "Restore 50 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON ends upon attacking."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 26,
+        "movement": 11,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "gold",
+          "description": "Damage to infantry units is increased by 60%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "gold",
+          "description": "Deploy a drone within 2 hexes. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "gold",
+          "description": "Restore 50 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON remains in effect after the attack."
+        },
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        }
+      ],
+      "note": "Upgrade Heavy machine gun To gold\nUpgrade Swarm Deployment To gold\nUpgrade EMCON To gold\nUnlock Marching"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 35,
+        "movement": 12,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "platinum",
+          "description": "Damage to infantry units is increased by 75%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "gold",
+          "description": "Deploy a drone within 2 hexes. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "gold",
+          "description": "Restore 50 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON remains in effect after the attack."
+        },
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        }
+      ],
+      "note": "Upgrade Heavy machine gun To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 35,
+        "movement": 12,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "platinum",
+          "description": "Damage to infantry units is increased by 75%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "gold",
+          "description": "Deploy a drone within 2 hexes. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "platinum",
+          "description": "Restore 75 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON remains in effect after the attack."
+        },
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        }
+      ],
+      "note": "Upgrade EMCON To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 35,
+        "movement": 12,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy machine gun",
+          "tier": "platinum",
+          "description": "Damage to infantry units is increased by 75%. 100% chance to attack again after destroying the enemy."
+        },
+        {
+          "title": "Swarm Deployment",
+          "tier": "platinum",
+          "description": "Deploy a drone within 2 hexes, up to 2 times per turn. After deployment, it can move and attack immediately. The drone operates as an independent and can attack only once per turn. It lasts for 2 turn. 1-turn cooldown."
+        },
+        {
+          "title": "EMCON",
+          "tier": "platinum",
+          "description": "Restore 75 HP and enter EMCON state, making the unit cannot be actively attacked from armored units, artillery units, and naval units for 1 turn, with a 2-turn cooldown. EMCON remains in effect after the attack."
+        },
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        }
+      ],
+      "note": "Upgrade Swarm Deployment To platinum"
+    }
+  ]
+}

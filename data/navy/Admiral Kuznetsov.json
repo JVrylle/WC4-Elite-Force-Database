@@ -1,0 +1,569 @@
+{
+  "name": "Admiral Kuznetsov",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 48,
+        "defense": 27,
+        "movement": 8,
+        "hp": 585,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "bronze",
+          "description": "Launches a \"Granit\" missile at the target, dealing 100% missile damage to the target and 50% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "bronze",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 2 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "bronze",
+          "description": "Increases damage dealt by carrier-based aircraft by 15%. When any allied ship within 3 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Unlock Bombing\nUnlock Air-Defense\nUnlock Carrier\nUnlock Aerial Hunter\nUnlock Sustained Pursuit\nUnlock Counter-Intercept"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 48,
+        "defense": 33,
+        "movement": 9,
+        "hp": 585,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "bronze",
+          "description": "Launches a \"Granit\" missile at the target, dealing 100% missile damage to the target and 50% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "bronze",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 2 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "bronze",
+          "description": "Increases damage dealt by carrier-based aircraft by 15%. When any allied ship within 3 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 53,
+        "defense": 33,
+        "movement": 9,
+        "hp": 585,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "bronze",
+          "description": "Launches a \"Granit\" missile at the target, dealing 100% missile damage to the target and 50% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "bronze",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 2 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "bronze",
+          "description": "Increases damage dealt by carrier-based aircraft by 15%. When any allied ship within 3 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 53,
+        "defense": 33,
+        "movement": 9,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "silver",
+          "description": "Launches a \"Granit\" missile at the target, dealing 125% missile damage to the target and 65% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "bronze",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 2 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "bronze",
+          "description": "Increases damage dealt by carrier-based aircraft by 15%. When any allied ship within 3 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Upgrade Aerial Hunter To silver"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 33,
+        "movement": 9,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "silver",
+          "description": "Launches a \"Granit\" missile at the target, dealing 125% missile damage to the target and 65% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "silver",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 3 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "silver",
+          "description": "Increases damage dealt by carrier-based aircraft by 20%. When any allied ship within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Upgrade Sustained Pursuit To silver\nUpgrade Counter-Intercept To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 44,
+        "movement": 11,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "silver",
+          "description": "Launches a \"Granit\" missile at the target, dealing 125% missile damage to the target and 65% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "silver",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 3 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "silver",
+          "description": "Increases damage dealt by carrier-based aircraft by 20%. When any allied ship within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 63,
+        "defense": 44,
+        "movement": 11,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "gold",
+          "description": "Launches a \"Granit\" missile at the target, dealing 150% missile damage to the target and 80% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "silver",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 3 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "gold",
+          "description": "Increases damage dealt by carrier-based aircraft by 25%. When any allied unit (excluding buildings) within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Upgrade Aerial Hunter To gold\nUpgrade Counter-Intercept To gold"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 63,
+        "defense": 44,
+        "movement": 11,
+        "hp": 775,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "gold",
+          "description": "Launches a \"Granit\" missile at the target, dealing 150% missile damage to the target and 80% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "silver",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 3 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "gold",
+          "description": "Increases damage dealt by carrier-based aircraft by 25%. When any allied unit (excluding buildings) within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 44,
+        "movement": 11,
+        "hp": 775,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "gold",
+          "description": "Launches a \"Granit\" missile at the target, dealing 150% missile damage to the target and 80% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "gold",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 4 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "platinum",
+          "description": "Increases damage dealt by carrier-based aircraft by 30%. When any allied unit (excluding buildings) within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Upgrade Sustained Pursuit To gold\nUpgrade Counter-Intercept To platinum"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 51,
+        "movement": 12,
+        "hp": 775,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "platinum",
+          "description": "Launches a \"Granit\" missile at the target, dealing 175% missile damage to the target and 100% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "gold",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 4 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "platinum",
+          "description": "Increases damage dealt by carrier-based aircraft by 30%. When any allied unit (excluding buildings) within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Upgrade Aerial Hunter To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 51,
+        "movement": 12,
+        "hp": 875,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "platinum",
+          "description": "Launches a \"Granit\" missile at the target, dealing 175% missile damage to the target and 100% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "gold",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 4 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "platinum",
+          "description": "Increases damage dealt by carrier-based aircraft by 30%. When any allied unit (excluding buildings) within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 74,
+        "defense": 51,
+        "movement": 12,
+        "hp": 875,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Aerial Hunter",
+          "tier": "platinum",
+          "description": "Launches a \"Granit\" missile at the target, dealing 175% missile damage to the target and 100% splash damage to targets within 1 tile of it. Also applies the \"Fire Control Interference\" effect. Cooldown of 1 turn."
+        },
+        {
+          "title": "Sustained Pursuit",
+          "tier": "platinum",
+          "description": "After a carrier-based aircraft defeats a target, it has a {0}% chance to attack again. Increases the critical damage of the next carrier-based aircraft attack by 20%, stacking up to 5 times. Lasts for 1 turn."
+        },
+        {
+          "title": "Counter-Intercept",
+          "tier": "platinum",
+          "description": "Increases damage dealt by carrier-based aircraft by 30%. When any allied unit (excluding buildings) within 4 tiles of the carrier is attacked by an enemy, there is a {0}% chance to immediately launch Counter-Intercept for one time, dealing carrier-based aircraft attack damage to the original attacker (which will not deal critical damage)."
+        }
+      ],
+      "note": "Upgrade Sustained Pursuit To platinum"
+    }
+  ]
+}

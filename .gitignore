@@ -2,3 +2,7 @@
 admin.html
 admin.js
 admin-server.js
+
+# Generated output folders
+output/
+output_portraits/

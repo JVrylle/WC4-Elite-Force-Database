@@ -1,18 +1,73 @@
 [
   {
+    "id": "8.8 cm Flak 36",
+    "name": "8.8 cm Flak 36",
+    "type": "artillery"
+  },
+  {
     "id": "A41 Centurion",
     "name": "A41 Centurion",
     "type": "armored"
   },
   {
-    "id": "Alphini",
+    "id": "Admiral Kuznetsov",
+    "name": "Admiral Kuznetsov",
+    "type": "navy"
+  },
+  {
+    "id": "AH-64 Apache",
+    "name": "AH-64 Apache",
+    "type": "airforce"
+  },
+  {
+    "id": "Akagi",
+    "name": "Akagi",
+    "type": "navy"
+  },
+  {
+    "id": "Alpini",
     "name": "Alpini",
     "type": "infantry"
+  },
+  {
+    "id": "Arleigh Burke-class",
+    "name": "Arleigh Burke-class",
+    "type": "navy"
+  },
+  {
+    "id": "AuF1",
+    "name": "AuF1",
+    "type": "artillery"
+  },
+  {
+    "id": "B-4 Howitzer",
+    "name": "B-4 Howitzer",
+    "type": "artillery"
+  },
+  {
+    "id": "B-52 Stratofortress",
+    "name": "B-52 Stratofortress",
+    "type": "airforce"
+  },
+  {
+    "id": "Bismarck",
+    "name": "Bismarck",
+    "type": "navy"
+  },
+  {
+    "id": "BM-21",
+    "name": "BM-21",
+    "type": "artillery"
   },
   {
     "id": "Brandenburgers",
     "name": "Brandenburgers",
     "type": "infantry"
+  },
+  {
+    "id": "C-47 Skytrain",
+    "name": "C-47 Skytrain",
+    "type": "airforce"
   },
   {
     "id": "Combat Medic",
@@ -25,14 +80,54 @@
     "type": "infantry"
   },
   {
+    "id": "Divine Wrath MBT",
+    "name": "Divine Wrath MBT",
+    "type": "armored"
+  },
+  {
+    "id": "E-775 Armored Car",
+    "name": "E-775 Armored Car",
+    "type": "armored"
+  },
+  {
     "id": "Engineering Unit",
     "name": "Engineering Unit",
     "type": "infantry"
   },
   {
-    "id": "Hawkeye",
+    "id": "Enterprise",
+    "name": "Enterprise",
+    "type": "navy"
+  },
+  {
+    "id": "Harrier",
+    "name": "Harrier",
+    "type": "airforce"
+  },
+  {
+    "id": "Hawkeye Force",
     "name": "Hawkeye Force",
     "type": "infantry"
+  },
+  {
+    "id": "Heavy Gustav",
+    "name": "Heavy Gustav",
+    "type": "artillery"
+  },
+  {
+    "id": "Hive Tactical Vehicle",
+    "name": "Hive Tactical Vehicle",
+    "type": "armored"
+  },
+  {
+    "id": "HMS Prince of Wales",
+    "name": "HMS Prince of Wales",
+    "type": "navy"
+  },
+  {
+    "id": "IS-3 Heavy Tank",
+    "name": "IS-3 Heavy Tank",
+    "type": "armored"
   },
   {
     "id": "King Tiger",
@@ -40,13 +135,118 @@
     "type": "armored"
   },
   {
+    "id": "KS-90 Howitzer",
+    "name": "KS-90 Howitzer",
+    "type": "artillery"
+  },
+  {
+    "id": "Leopard 2",
+    "name": "Leopard 2",
+    "type": "armored"
+  },
+  {
+    "id": "M142 HIMARS",
+    "name": "M142 HIMARS",
+    "type": "artillery"
+  },
+  {
+    "id": "M1A1 Abrams",
+    "name": "M1A1 Abrams",
+    "type": "armored"
+  },
+  {
+    "id": "M26 Pershing",
+    "name": "M26 Pershing",
+    "type": "armored"
+  },
+  {
+    "id": "M7 Priest",
+    "name": "M7 Priest",
+    "type": "artillery"
+  },
+  {
+    "id": "Mil Mi-24 Hind",
+    "name": "Mil Mi-24 Hind",
+    "type": "airforce"
+  },
+  {
+    "id": "P-40 Fighter",
+    "name": "P-40 Fighter",
+    "type": "airforce"
+  },
+  {
     "id": "Phantom Force",
     "name": "Phantom Force",
     "type": "infantry"
   },
   {
+    "id": "Richelieu",
+    "name": "Richelieu",
+    "type": "navy"
+  },
+  {
     "id": "RPG Rocketeer",
     "name": "RPG Rocketeer",
     "type": "infantry"
+  },
+  {
+    "id": "RT-2PM2 Topol-M",
+    "name": "RT-2PM2 Topol-M",
+    "type": "artillery"
+  },
+  {
+    "id": "Spitfire",
+    "name": "Spitfire",
+    "type": "airforce"
+  },
+  {
+    "id": "Stinger Drone",
+    "name": "Stinger Drone",
+    "type": "airforce"
+  },
+  {
+    "id": "Stuka",
+    "name": "Stuka",
+    "type": "airforce"
+  },
+  {
+    "id": "Stuka zu Fuss",
+    "name": "Stuka zu Fuss",
+    "type": "artillery"
+  },
+  {
+    "id": "Sukhoi Su-30V",
+    "name": "Sukhoi Su-30V",
+    "type": "airforce"
+  },
+  {
+    "id": "SVA-23 Aircraft",
+    "name": "SVA-23 Aircraft",
+    "type": "airforce"
+  },
+  {
+    "id": "T-44",
+    "name": "T-44",
+    "type": "armored"
+  },
+  {
+    "id": "T-72",
+    "name": "T-72",
+    "type": "armored"
+  },
+  {
+    "id": "Type Ⅶ Submarine",
+    "name": "Type Ⅶ Submarine",
+    "type": "navy"
+  },
+  {
+    "id": "Typhoon-class",
+    "name": "Typhoon-class",
+    "type": "navy"
+  },
+  {
+    "id": "Yukikaze",
+    "name": "Yukikaze",
+    "type": "navy"
   }
 ]

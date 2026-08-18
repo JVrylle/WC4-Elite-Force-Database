@@ -1,0 +1,314 @@
+{
+  "name": "Stuka",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 39,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 7
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        }
+      ],
+      "note": "Unlock Bombing"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3000
+      },
+      "stats": {
+        "attack": 39,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 7
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 6000
+      },
+      "stats": {
+        "attack": 51,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 7
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 12000
+      },
+      "stats": {
+        "attack": 51,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 7
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 24000
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 9
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "silver",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot"
+        }
+      ],
+      "note": "Unlock Howled Nosedive"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 28800
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 9
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "silver",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 34560
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 9
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "silver",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 41450
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "silver",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 49750
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "gold",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot"
+        }
+      ],
+      "note": "Upgrade Howled Nosedive To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "platinum",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot."
+        }
+      ],
+      "note": "Upgrade Howled Nosedive To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "platinum",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 92,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Howled Nosedive",
+          "tier": "platinum",
+          "description": "{0}% chance to lower the morale of the enemy unit and an equal rate to ignite the target plot."
+        },
+        {
+          "title": "Tactical Bombing",
+          "tier": "gold",
+          "description": "Damage dealt to the target +30%."
+        }
+      ],
+      "note": "Unlock Tactical Bombing"
+    }
+  ]
+}

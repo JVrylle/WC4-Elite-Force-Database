@@ -1,0 +1,329 @@
+{
+  "name": "Spitfire",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 32,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 8
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        }
+      ],
+      "note": "Unlock Air Strike"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3000
+      },
+      "stats": {
+        "attack": 32,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 8
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 6000
+      },
+      "stats": {
+        "attack": 43,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 8
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 12000
+      },
+      "stats": {
+        "attack": 43,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 8
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 24000
+      },
+      "stats": {
+        "attack": 57,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "silver",
+          "description": "Money spent for building Air units are decreased by 10%"
+        }
+      ],
+      "note": "Unlock Air Combat Readiness"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 28800
+      },
+      "stats": {
+        "attack": 57,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        }
+      ],
+      "note": "Upgrade Air Combat Readiness To gold"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 34560
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 41450
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 49750
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "silver",
+          "description": "Ignores 25% of enemy troop defense."
+        }
+      ],
+      "note": "Unlock High-speed Machine Cannon"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        }
+      ],
+      "note": "Upgrade High-speed Machine Cannon To gold"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "platinum",
+          "description": "Money spent for building Air units are decreased by 30%."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        }
+      ],
+      "note": "Upgrade Air Combat Readiness To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 81,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Air Strike",
+          "tier": "gold",
+          "description": "Damage from fighter's large caliber machine gun to infantry units +50%"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "platinum",
+          "description": "Money spent for building Air units are decreased by 30%."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "platinum",
+          "description": "Ignore 75% of enemy troops defense."
+        }
+      ],
+      "note": "Upgrade High-speed Machine Cannon To platinum"
+    }
+  ]
+}

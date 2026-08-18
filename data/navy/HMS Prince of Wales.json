@@ -1,0 +1,369 @@
+{
+  "name": "HMS Prince of Wales",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 23,
+        "movement": 7,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "Unlock Heavy Naval Artillery\nUnlock Air-Defense"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 32,
+        "movement": 9,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 76,
+        "defense": 32,
+        "movement": 9,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 76,
+        "defense": 32,
+        "movement": 9,
+        "hp": 705,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 32,
+        "movement": 9,
+        "hp": 705,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "silver",
+          "description": "Plant naval contact mines within 1 grid, 1 turn cooldown"
+        }
+      ],
+      "note": "Unlock Mines Planting"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 41,
+        "movement": 10,
+        "hp": 705,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "silver",
+          "description": "Plant naval contact mines within 1 grid, 1 turn cooldown"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 97,
+        "defense": 41,
+        "movement": 10,
+        "hp": 705,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "silver",
+          "description": "Plant naval contact mines within 1 grid, 1 turn cooldown"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 97,
+        "defense": 41,
+        "movement": 10,
+        "hp": 785,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "silver",
+          "description": "Damage dealt to fortress is increased by 100%, damage dealt to land units is increased by 25%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "gold",
+          "description": "Plant naval contact mines within 2 grids, 1 turn cooldown"
+        }
+      ],
+      "note": "Upgrade Mines Planting To gold"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 107,
+        "defense": 41,
+        "movement": 10,
+        "hp": 785,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "gold",
+          "description": "Damage dealt to fortress is increased by 120%, damage dealt to land units is increased by 50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "gold",
+          "description": "Plant naval contact mines within 2 grids, 1 turn cooldown"
+        }
+      ],
+      "note": "Upgrade Heavy Naval Artillery To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 107,
+        "defense": 50,
+        "movement": 11,
+        "hp": 785,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "gold",
+          "description": "Damage dealt to fortress is increased by 120%, damage dealt to land units is increased by 50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "platinum",
+          "description": "Plant 2 naval contact mines within 2 grids, 1 turn cooldown."
+        }
+      ],
+      "note": "Upgrade Mines Planting To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 107,
+        "defense": 50,
+        "movement": 11,
+        "hp": 865,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "gold",
+          "description": "Damage dealt to fortress is increased by 120%, damage dealt to land units is increased by 50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "platinum",
+          "description": "Plant 2 naval contact mines within 2 grids, 1 turn cooldown."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 117,
+        "defense": 50,
+        "movement": 11,
+        "hp": 865,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Heavy Naval Artillery",
+          "tier": "platinum",
+          "description": "Damage dealt to fortress is increased by 150%, damage dealt to land units is increased by 70%."
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Mines Planting",
+          "tier": "platinum",
+          "description": "Plant 2 naval contact mines within 2 grids, 1 turn cooldown."
+        }
+      ],
+      "note": "Upgrade Heavy Naval Artillery To platinum"
+    }
+  ]
+}

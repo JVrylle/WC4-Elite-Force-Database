@@ -1,0 +1,339 @@
+{
+  "name": "E-775 Armored Car",
+  "unit_type": "Armor",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 0
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 10,
+        "movement": 10,
+        "hp": 375,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "silver",
+          "description": "Dealt damage to non-building units +25%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "gold",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "Unlock Laser\nUnlock Nano-repair\nUnlock Fire Control Interference\nUnlock Assault"
+    },
+    {
+      "level": 2,
+      "cost": {},
+      "stats": {
+        "attack": 44,
+        "defense": 18,
+        "movement": 11,
+        "hp": 375,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "silver",
+          "description": "Dealt damage to non-building units +25%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "gold",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {},
+      "stats": {
+        "attack": 52,
+        "defense": 18,
+        "movement": 11,
+        "hp": 375,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "gold",
+          "description": "Dealt damage to non-building units +50%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "gold",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "Upgrade Laser To gold"
+    },
+    {
+      "level": 4,
+      "cost": {},
+      "stats": {
+        "attack": 52,
+        "defense": 18,
+        "movement": 11,
+        "hp": 465,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "gold",
+          "description": "Dealt damage to non-building units +50%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "gold",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {},
+      "stats": {
+        "attack": 62,
+        "defense": 18,
+        "movement": 11,
+        "hp": 465,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "gold",
+          "description": "Dealt damage to non-building units +50%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "platinum",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Firepower Penetration",
+          "tier": "gold",
+          "description": "When the next attack targets an enemy within 2 tiles, it can also hit the second enemy in a straight line. Damage dealt to second enemy for 150%, 2 turns cooldown"
+        }
+      ],
+      "note": "Upgrade Nano-repair To gold\nUpgrade Fire Control Interference To platinum\nUnlock Firepower Penetration"
+    },
+    {
+      "level": 6,
+      "cost": {},
+      "stats": {
+        "attack": 62,
+        "defense": 23,
+        "movement": 12,
+        "hp": 465,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "gold",
+          "description": "Dealt damage to non-building units +50%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "platinum",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Firepower Penetration",
+          "tier": "gold",
+          "description": "When the next attack targets an enemy within 2 tiles, it can also hit the second enemy in a straight line. Damage dealt to second enemy for 150%, 2 turns cooldown"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {},
+      "stats": {
+        "attack": 70,
+        "defense": 23,
+        "movement": 12,
+        "hp": 465,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "platinum",
+          "description": "Dealt damage to non-building units +75%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "platinum",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Firepower Penetration",
+          "tier": "gold",
+          "description": "When the next attack targets an enemy within 2 tiles, it can also hit the second enemy in a straight line. Damage dealt to second enemy for 150%, 2 turns cooldown"
+        }
+      ],
+      "note": "Upgrade Laser To platinum"
+    },
+    {
+      "level": 8,
+      "cost": {},
+      "stats": {
+        "attack": 70,
+        "defense": 23,
+        "movement": 12,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "platinum",
+          "description": "Dealt damage to non-building units +75%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "platinum",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Firepower Penetration",
+          "tier": "gold",
+          "description": "When the next attack targets an enemy within 2 tiles, it can also hit the second enemy in a straight line. Damage dealt to second enemy for 150%, 2 turns cooldown"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {},
+      "stats": {
+        "attack": 78,
+        "defense": 23,
+        "movement": 12,
+        "hp": 555,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Laser",
+          "tier": "platinum",
+          "description": "Dealt damage to non-building units +75%"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Fire Control Interference",
+          "tier": "platinum",
+          "description": "After attacking, there is a {0}% chance the enemy will receive a status unabling them to perform normal attack or counterattack, lasts for 1 turn"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Firepower Penetration",
+          "tier": "platinum",
+          "description": "When the next attack targets an enemy within 2 tiles, it can also hit the second enemy in a straight line. Damage dealt to second enemy for 200%, 2 turns cooldown"
+        }
+      ],
+      "note": "Upgrade Nano-repair To platinum\nUpgrade Firepower Penetration To platinum"
+    }
+  ]
+}

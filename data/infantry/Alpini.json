@@ -6,13 +6,12 @@
       "level": 1,
       "cost": {
         "pieces": 30
-
       },
       "stats": {
-        "attack": 53,
-        "defense": 14,
-        "movement": 13,
-        "hp": 305,
+        "attack": 44,
+        "defense": 10,
+        "movement": 7,
+        "hp": 235,
         "range": 1
       },
       "skills": [
@@ -27,7 +26,7 @@
           "description": "Damage to the enemy +75% when fighting on the mountain"
         }
       ],
-      "note": "null"
+      "note": "Unlock Marching\nUnlock Hill Commando"
     },
     {
       "level": 2,
@@ -35,13 +34,12 @@
         "pieces": 5,
         "money": 3750,
         "industry": 750
-
       },
       "stats": {
-        "attack": 53,
-        "defense": 23,
-        "movement": 14,
-        "hp": 305,
+        "attack": 44,
+        "defense": 19,
+        "movement": 8,
+        "hp": 235,
         "range": 1
       },
       "skills": [
@@ -55,7 +53,6 @@
           "tier": "gold",
           "description": "Damage to the enemy +75% when fighting on the mountain"
         }
-
       ],
       "note": "null"
     },
@@ -65,13 +62,12 @@
         "pieces": 15,
         "money": 13200,
         "industry": 2650
-
       },
       "stats": {
-        "attack": 61,
-        "defense": 23,
-        "movement": 14,
-        "hp": 305,
+        "attack": 52,
+        "defense": 19,
+        "movement": 8,
+        "hp": 235,
         "range": 1
       },
       "skills": [
@@ -85,7 +81,6 @@
           "tier": "gold",
           "description": "Damage to the enemy +75% when fighting on the mountain"
         }
-
       ],
       "note": "null"
     },
@@ -95,13 +90,12 @@
         "pieces": 30,
         "money": 20700,
         "industry": 7150
-
       },
       "stats": {
-        "attack": 61,
-        "defense": 23,
-        "movement": 14,
-        "hp": 395,
+        "attack": 52,
+        "defense": 19,
+        "movement": 8,
+        "hp": 325,
         "range": 1
       },
       "skills": [
@@ -115,7 +109,6 @@
           "tier": "gold",
           "description": "Damage to the enemy +75% when fighting on the mountain"
         }
-
       ],
       "note": "null"
     },
@@ -125,13 +118,12 @@
         "pieces": 60,
         "money": 41250,
         "industry": 15750
-
       },
       "stats": {
-        "attack": 71,
-        "defense": 23,
-        "movement": 14,
-        "hp": 395,
+        "attack": 62,
+        "defense": 19,
+        "movement": 8,
+        "hp": 325,
         "range": 1
       },
       "skills": [
@@ -159,16 +151,20 @@
         "pieces": 70,
         "money": 49500,
         "industry": 18900
-
       },
       "stats": {
-        "attack": 71,
-        "defense": 28,
-        "movement": 15,
-        "hp": 395,
+        "attack": 62,
+        "defense": 24,
+        "movement": 9,
+        "hp": 325,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -183,13 +179,7 @@
           "title": "Impede",
           "tier": "silver",
           "description": "Immobilizes enemy troops within 1 unit surrounding for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn."
-        },
-        {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
         }
-
       ],
       "note": "Unlock Sapper"
     },
@@ -199,16 +189,20 @@
         "pieces": 80,
         "money": 59400,
         "industry": 22680
-
       },
       "stats": {
-        "attack": 78,
-        "defense": 28,
-        "movement": 15,
-        "hp": 395,
+        "attack": 69,
+        "defense": 24,
+        "movement": 9,
+        "hp": 325,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -223,13 +217,7 @@
           "title": "Impede",
           "tier": "silver",
           "description": "Immobilizes enemy troops within 1 unit surrounding for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn."
-        },
-        {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
         }
-
       ],
       "note": "null"
     },
@@ -239,16 +227,20 @@
         "pieces": 90,
         "money": 71280,
         "industry": 27200
-
       },
       "stats": {
-        "attack": 78,
-        "defense": 28,
-        "movement": 15,
-        "hp": 495,
+        "attack": 69,
+        "defense": 24,
+        "movement": 9,
+        "hp": 425,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -263,13 +255,7 @@
           "title": "Impede",
           "tier": "silver",
           "description": "Immobilizes enemy troops within 1 unit surrounding for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn."
-        },
-        {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
         }
-
       ],
       "note": "null"
     },
@@ -279,16 +265,20 @@
         "pieces": 100,
         "money": 85550,
         "industry": 32650
-
       },
       "stats": {
-        "attack": 87,
-        "defense": 28,
-        "movement": 15,
-        "hp": 495,
+        "attack": 78,
+        "defense": 24,
+        "movement": 9,
+        "hp": 425,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -302,34 +292,30 @@
         {
           "title": "Impede",
           "tier": "gold",
-          "description": "Causes enemy troops within 1 unit surrounding fall into chaos for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn."
-        },
-        {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Causes enemy troops within 1 unit surrounding fall into chaos for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn"
         }
-
-
       ],
-      "note": "Upgrade Impede To gold\n"
+      "note": "Upgrade Impede To gold"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 87,
-        "defense": 35,
-        "movement": 16,
-        "hp": 495,
+        "attack": 78,
+        "defense": 31,
+        "movement": 10,
+        "hp": 425,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -343,14 +329,8 @@
         {
           "title": "Impede",
           "tier": "gold",
-          "description": "Causes enemy troops within 1 unit surrounding fall into chaos for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn."
-        },
-        {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Causes enemy troops within 1 unit surrounding fall into chaos for 1 turn, with a cooldown of 3 turns. When affecting 3 or more targets, the cooldown is 1 turn"
         }
-
       ],
       "note": "null"
     },
@@ -358,18 +338,21 @@
       "level": 11,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 87,
-        "defense": 35,
-        "movement": 16,
-        "hp": 595,
+        "attack": 78,
+        "defense": 31,
+        "movement": 10,
+        "hp": 525,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -384,33 +367,29 @@
           "title": "Impede",
           "tier": "platinum",
           "description": "Increases damage by 200% against targets that are held back and chaotic. Causes enemy troops within 1 unit surrounding fall into chaos for 1 turn, with a cooldown of 3 turns. When affecting 2 or more targets, the cooldown is 1 turn."
-        },
-        {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
         }
-
-
       ],
-      "note": "Upgrade Impede To platinum\n"
+      "note": "Upgrade Impede To platinum"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 97,
-        "defense": 35,
-        "movement": 16,
-        "hp": 595,
+        "attack": 88,
+        "defense": 31,
+        "movement": 10,
+        "hp": 525,
         "range": 1
       },
       "skills": [
+        {
+          "title": "Sapper",
+          "tier": "gold",
+          "description": "Damage from land mines -90%"
+        },
         {
           "title": "Marching",
           "tier": "gold",
@@ -427,19 +406,12 @@
           "description": "Increases damage by 200% against targets that are held back and chaotic. Causes enemy troops within 1 unit surrounding fall into chaos for 1 turn, with a cooldown of 3 turns. When affecting 2 or more targets, the cooldown is 1 turn."
         },
         {
-          "title": "Sapper",
-          "tier": "gold",
-          "description": "Damage from land mines -60%"
-        },
-        {
           "title": "Abduction",
-          "tier": "platinum",
+          "tier": "gold",
           "description": "Spread 50% of direct damage taken to enemy targets within 1 grid of you."
         }
-
       ],
       "note": "Unlock Abduction"
     }
   ]
 }
-

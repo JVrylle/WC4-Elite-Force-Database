@@ -1,0 +1,384 @@
+{
+  "name": "Richelieu",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 22,
+        "movement": 8,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "Unlock Naval Artillery\nUnlock Air-Defense"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 29,
+        "movement": 10,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 77,
+        "defense": 29,
+        "movement": 10,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 77,
+        "defense": 29,
+        "movement": 10,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 89,
+        "defense": 29,
+        "movement": 10,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "silver",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack."
+        }
+      ],
+      "note": "Unlock Coordinated Strike"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 89,
+        "defense": 37,
+        "movement": 11,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "silver",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 37,
+        "movement": 11,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "silver",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 37,
+        "movement": 11,
+        "hp": 735,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "silver",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 108,
+        "defense": 37,
+        "movement": 11,
+        "hp": 735,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "gold",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack, and increase 20% damage."
+        }
+      ],
+      "note": "Upgrade Coordinated Strike To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 108,
+        "defense": 46,
+        "movement": 12,
+        "hp": 735,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "gold",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack, and increase 20% damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 108,
+        "defense": 46,
+        "movement": 12,
+        "hp": 835,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "platinum",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack, and increase 50% damage.(this trait is ineffective when affected by the Navigation effect)."
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Coordinated Strike To platinum\nUnlock Ironclad Fortress"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 118,
+        "defense": 46,
+        "movement": 12,
+        "hp": 835,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Coordinated Strike",
+          "tier": "platinum",
+          "description": "When a friendly army within 1 grid of you attacks, {0}% chance that you will participate in the attack, and increase 50% damage.(this trait is ineffective when affected by the Navigation effect)."
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        },
+        {
+          "title": "Iron Breaker",
+          "tier": "gold",
+          "description": "When attacking a target, for every 5 point of the target defense, dealt damage to it +1%."
+        }
+      ],
+      "note": "Unlock Iron Breaker"
+    }
+  ]
+}

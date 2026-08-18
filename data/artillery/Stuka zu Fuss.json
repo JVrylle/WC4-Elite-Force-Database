@@ -1,0 +1,394 @@
+{
+  "name": "Stuka zu Fuss",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 12,
+        "movement": 9,
+        "hp": 255,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "bronze",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 1 time(s)."
+        }
+      ],
+      "note": "Unlock Machine Gun\nUnlock Rocket Artillery\nUnlock Pursue Retreating Enemy"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 21,
+        "movement": 10,
+        "hp": 255,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "bronze",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 1 time(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 21,
+        "movement": 10,
+        "hp": 255,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "bronze",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 1 time(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 21,
+        "movement": 10,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "bronze",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 1 time(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 21,
+        "movement": 10,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "silver",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 2 time(s)."
+        }
+      ],
+      "note": "Upgrade Pursue Retreating Enemy To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 29,
+        "movement": 11,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "silver",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 2 time(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 29,
+        "movement": 11,
+        "hp": 355,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "silver",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 2 time(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 29,
+        "movement": 11,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "silver",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 2 time(s)."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 29,
+        "movement": 11,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "gold",
+          "description": "After an attack, if the opponent is annihilated, there is {0}% chance of another action, capped at 3 time(s)."
+        }
+      ],
+      "note": "Upgrade Pursue Retreating Enemy To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 38,
+        "movement": 12,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "platinum",
+          "description": "After attacking, if the target is annihilated, there is a {0}% probability to act again, with a cap of 4 times."
+        }
+      ],
+      "note": "Upgrade Pursue Retreating Enemy To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 38,
+        "movement": 12,
+        "hp": 555,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "platinum",
+          "description": "After attacking, if the target is annihilated, there is a {0}% probability to act again, with a cap of 4 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 106,
+        "defense": 38,
+        "movement": 12,
+        "hp": 555,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Pursue Retreating Enemy",
+          "tier": "platinum",
+          "description": "After attacking, if the target is annihilated, there is a {0}% probability to act again, with a cap of 4 times."
+        },
+        {
+          "title": "Firepower Enhancement",
+          "tier": "gold",
+          "description": "+10% of own attack for each unit destroyed, stackable up to 3 times for 2 turns."
+        }
+      ],
+      "note": "Unlock Firepower Enhancement"
+    }
+  ]
+}

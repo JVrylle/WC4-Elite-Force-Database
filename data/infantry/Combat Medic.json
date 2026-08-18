@@ -8,25 +8,25 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 24,
-        "defense": 11,
-        "movement": 14,
-        "hp": 295,
+        "attack": 16,
+        "defense": 7,
+        "movement": 8,
+        "hp": 225,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Emergency Rescue",
           "tier": "bronze",
-          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
-      "note": "null"
+      "note": "Unlock Marching\nUnlock Emergency Rescue"
     },
     {
       "level": 2,
@@ -36,22 +36,22 @@
         "industry": 750
       },
       "stats": {
-        "attack": 24,
-        "defense": 18,
-        "movement": 15,
-        "hp": 295,
+        "attack": 16,
+        "defense": 14,
+        "movement": 9,
+        "hp": 225,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Emergency Rescue",
           "tier": "bronze",
-          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
       "note": "null"
@@ -60,26 +60,26 @@
       "level": 3,
       "cost": {
         "pieces": 15,
-        "money": 6800,
-        "industry": 2650
+        "money": 6000,
+        "industry": 1800
       },
       "stats": {
-        "attack": 28,
-        "defense": 18,
-        "movement": 15,
-        "hp": 295,
+        "attack": 20,
+        "defense": 14,
+        "movement": 9,
+        "hp": 225,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Emergency Rescue",
           "tier": "bronze",
-          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
       "note": "null"
@@ -89,25 +89,25 @@
       "cost": {
         "pieces": 30,
         "money": 12000,
-        "industry": 7150
+        "industry": 4750
       },
       "stats": {
-        "attack": 28,
-        "defense": 18,
-        "movement": 15,
-        "hp": 390,
+        "attack": 20,
+        "defense": 14,
+        "movement": 9,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Emergency Rescue",
           "tier": "bronze",
-          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 60 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
       "note": "null"
@@ -117,53 +117,53 @@
       "cost": {
         "pieces": 60,
         "money": 24000,
-        "industry": 15750
+        "industry": 9500
       },
       "stats": {
-        "attack": 33,
-        "defense": 18,
-        "movement": 15,
-        "hp": 390,
+        "attack": 24,
+        "defense": 14,
+        "movement": 9,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Emergency Rescue",
           "tier": "silver",
-          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
-      "note": "Upgrade Emergency Rescue To silver\n"
+      "note": "Upgrade Emergency Rescue To silver"
     },
     {
       "level": 6,
       "cost": {
         "pieces": 70,
-        "money": 22800,
+        "money": 28800,
         "industry": 11400
       },
       "stats": {
-        "attack": 33,
-        "defense": 24,
-        "movement": 16,
-        "hp": 390,
+        "attack": 24,
+        "defense": 20,
+        "movement": 10,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Emergency Rescue",
           "tier": "silver",
-          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
       "note": "null"
@@ -176,30 +176,30 @@
         "industry": 13680
       },
       "stats": {
-        "attack": 39,
-        "defense": 24,
-        "movement": 16,
-        "hp": 390,
+        "attack": 30,
+        "defense": 20,
+        "movement": 10,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Militia",
           "tier": "gold",
-          "description": "Supply +50% in the city."
+          "description": "Supply +50% in the city"
         },
         {
           "title": "Emergency Rescue",
           "tier": "silver",
-          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
-      "note": "Unlock Militia\n"
+      "note": "Unlock Militia"
     },
     {
       "level": 8,
@@ -209,27 +209,27 @@
         "industry": 16400
       },
       "stats": {
-        "attack": 39,
-        "defense": 24,
-        "movement": 16,
-        "hp": 480,
+        "attack": 30,
+        "defense": 20,
+        "movement": 10,
+        "hp": 410,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Militia",
           "tier": "gold",
-          "description": "Supply +50% in the city."
+          "description": "Supply +50% in the city"
         },
         {
           "title": "Emergency Rescue",
           "tier": "silver",
-          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown."
+          "description": "Restores 120 HP of 1 targeted ally, 1 turn cooldown"
         }
       ],
       "note": "null"
@@ -242,30 +242,30 @@
         "industry": 19700
       },
       "stats": {
-        "attack": 47,
-        "defense": 24,
-        "movement": 16,
-        "hp": 480,
+        "attack": 38,
+        "defense": 20,
+        "movement": 10,
+        "hp": 410,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Militia",
           "tier": "gold",
-          "description": "Supply +50% in the city."
+          "description": "Supply +50% in the city"
         },
         {
           "title": "Emergency Rescue",
           "tier": "gold",
-          "description": "Restores 150 HP of 1 targeted ally and restores 50 HP to that target every turn for 2 turns. Use the skill while restoring 100 points of your HP, 1 turn cooldown."
+          "description": "Restores 150 HP of 1 targeted ally and restores 50 HP to that target every turn for 2 turns. Use the skill while restoring 100 points of your HP, 1 turn cooldown"
         }
       ],
-      "note": "Upgrade Emergency Rescue To gold\n"
+      "note": "Upgrade Emergency Rescue To gold"
     },
     {
       "level": 10,
@@ -274,30 +274,30 @@
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 47,
-        "defense": 32,
-        "movement": 17,
-        "hp": 480,
+        "attack": 38,
+        "defense": 28,
+        "movement": 11,
+        "hp": 410,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Militia",
           "tier": "gold",
-          "description": "Supply +50% in the city."
+          "description": "Supply +50% in the city"
         },
         {
           "title": "Emergency Rescue",
           "tier": "platinum",
-          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown."
+          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown"
         }
       ],
-      "note": "Upgrade Emergency Rescue To platinum\n"
+      "note": "Upgrade Emergency Rescue To platinum"
     },
     {
       "level": 11,
@@ -306,27 +306,27 @@
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 47,
-        "defense": 32,
-        "movement": 17,
-        "hp": 570,
+        "attack": 38,
+        "defense": 28,
+        "movement": 11,
+        "hp": 500,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Militia",
           "tier": "gold",
-          "description": "Supply +50% in the city."
+          "description": "Supply +50% in the city"
         },
         {
           "title": "Emergency Rescue",
           "tier": "platinum",
-          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown."
+          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown"
         }
       ],
       "note": "null"
@@ -338,40 +338,40 @@
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 57,
-        "defense": 32,
-        "movement": 17,
-        "hp": 570,
+        "attack": 48,
+        "defense": 28,
+        "movement": 11,
+        "hp": 500,
         "range": 1
       },
       "skills": [
         {
           "title": "Marching",
           "tier": "gold",
-          "description": "Consume mobility in a particular terrain -100%."
+          "description": "Consume mobility in a particular terrain -100%"
         },
         {
           "title": "Militia",
           "tier": "gold",
-          "description": "Supply +50% in the city."
+          "description": "Supply +50% in the city"
         },
         {
           "title": "Emergency Rescue",
           "tier": "platinum",
-          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown."
+          "description": "Restores 200 HP of 1 targeted ally and restores 100 HP to that target every turn for 2 turns. Use the skill while restoring 150 points of your HP, 1 turn cooldown"
         },
         {
           "title": "Logistic Support",
-          "tier": "platinum",
+          "tier": "gold",
           "description": "Friendly targets within two grids recover 50 HP after taking direct damage."
         },
         {
           "title": "Critical Protection",
-          "tier": "platinum",
+          "tier": "gold",
           "description": "For every 1% HP lost, damage taken is reduced by 1%, capped at 25%. Damage taken is capped at 300 points (Invalid for nuclear bombs)."
         }
       ],
-      "note": "Unlock Logistic Support\nUnlock Critical Protection\n"
+      "note": "Unlock Logistic Support\nUnlock Critical Protection"
     }
   ]
 }

@@ -1,0 +1,489 @@
+{
+  "name": "AH-64 Apache",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 59,
+        "defense": 14,
+        "movement": 10,
+        "hp": 375,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "bronze",
+          "description": "Deal 25% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "bronze",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 15%."
+        }
+      ],
+      "note": "Unlock Air Advantage\nUnlock Evasive Maneuvers\nUnlock Hellfire\nUnlock Low-altitude Assault"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750
+      },
+      "stats": {
+        "attack": 59,
+        "defense": 23,
+        "movement": 11,
+        "hp": 375,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "bronze",
+          "description": "Deal 25% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "bronze",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 15%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 23,
+        "movement": 11,
+        "hp": 375,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "bronze",
+          "description": "Deal 25% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "bronze",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 15%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 23,
+        "movement": 11,
+        "hp": 475,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "bronze",
+          "description": "Deal 25% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "bronze",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 15%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250
+      },
+      "stats": {
+        "attack": 77,
+        "defense": 23,
+        "movement": 11,
+        "hp": 475,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "silver",
+          "description": "Deal 50% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "silver",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 30%."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "silver",
+          "description": "Nullify most buff effects on enemy units within a 1 grid radius, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "Upgrade Evasive Maneuvers To gold\nUpgrade Hellfire To silver\nUpgrade Low-altitude Assault To silver\nUnlock Electromagnetic Pulse"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500
+      },
+      "stats": {
+        "attack": 77,
+        "defense": 31,
+        "movement": 12,
+        "hp": 475,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "silver",
+          "description": "Deal 50% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "silver",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 30%."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "silver",
+          "description": "Nullify most buff effects on enemy units within a 1 grid radius, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 31,
+        "movement": 12,
+        "hp": 475,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "silver",
+          "description": "Deal 50% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "silver",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 30%."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "silver",
+          "description": "Nullify most buff effects on enemy units within a 1 grid radius, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 31,
+        "movement": 12,
+        "hp": 575,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "silver",
+          "description": "Deal 50% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "silver",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 30%."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "silver",
+          "description": "Nullify most buff effects on enemy units within a 1 grid radius, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 31,
+        "movement": 12,
+        "hp": 575,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "gold",
+          "description": "Deal 80% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "gold",
+          "description": "Capable of attacking multiple enemy units, with increased damage against tanks and artillery units by 50%."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "gold",
+          "description": "Nullify most buff effects on enemy units within a 2 grids radius, with a cooldown of 2 turns."
+        }
+      ],
+      "note": "Upgrade Evasive Maneuvers To platinum\nUpgrade Hellfire To gold\nUpgrade Low-altitude Assault To gold\nUpgrade Electromagnetic Pulse To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 39,
+        "movement": 13,
+        "hp": 575,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "gold",
+          "description": "Deal 80% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "platinum",
+          "description": "Capable of attacking multiple enemy units, with increased damage against armored and artillery units by 80%, and can attack again after killing the target."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "gold",
+          "description": "Nullify most buff effects on enemy units within a 2 grids radius, with a cooldown of 2 turns."
+        }
+      ],
+      "note": "Upgrade Low-altitude Assault To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 39,
+        "movement": 13,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "gold",
+          "description": "Deal 80% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "platinum",
+          "description": "Capable of attacking multiple enemy units, with increased damage against armored and artillery units by 80%, and can attack again after killing the target."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "gold",
+          "description": "Nullify most buff effects on enemy units within a 2 grids radius, with a cooldown of 2 turns."
+        }
+      ],
+      "note": "Upgrade Air Advantage To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 103,
+        "defense": 39,
+        "movement": 13,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Hellfire",
+          "tier": "platinum",
+          "description": "Deal 100% additional damage to other targets within 1 grid of the target when attacking this turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Low-altitude Assault",
+          "tier": "platinum",
+          "description": "Capable of attacking multiple enemy units, with increased damage against armored and artillery units by 80%, and can attack again after killing the target."
+        },
+        {
+          "title": "Electromagnetic Pulse",
+          "tier": "platinum",
+          "description": "Disable most of the buff statuses of enemy troops within 2 grids and severely lower their morale, cooldown of 2 turns."
+        }
+      ],
+      "note": "Upgrade Hellfire To platinum\nUpgrade Electromagnetic Pulse To platinum"
+    }
+  ]
+}

@@ -8,10 +8,10 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 48,
-        "defense": 15,
-        "movement": 13,
-        "hp": 325,
+        "attack": 39,
+        "defense": 11,
+        "movement": 7,
+        "hp": 255,
         "range": 1
       },
       "skills": [
@@ -23,10 +23,10 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         }
       ],
-      "note": "null"
+      "note": "Unlock Marching\nUnlock Samurai"
     },
     {
       "level": 2,
@@ -34,13 +34,12 @@
         "pieces": 5,
         "money": 3750,
         "industry": 750
-
       },
       "stats": {
-        "attack": 48,
-        "defense": 25,
-        "movement": 14,
-        "hp": 325,
+        "attack": 39,
+        "defense": 21,
+        "movement": 8,
+        "hp": 255,
         "range": 1
       },
       "skills": [
@@ -52,7 +51,7 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         }
       ],
       "note": "null"
@@ -63,13 +62,12 @@
         "pieces": 15,
         "money": 13200,
         "industry": 2650
-
       },
       "stats": {
-        "attack": 56,
-        "defense": 25,
-        "movement": 14,
-        "hp": 325,
+        "attack": 47,
+        "defense": 21,
+        "movement": 8,
+        "hp": 255,
         "range": 1
       },
       "skills": [
@@ -81,7 +79,7 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         }
       ],
       "note": "null"
@@ -92,13 +90,12 @@
         "pieces": 30,
         "money": 20700,
         "industry": 7150
-
       },
       "stats": {
-        "attack": 56,
-        "defense": 25,
-        "movement": 14,
-        "hp": 415,
+        "attack": 47,
+        "defense": 21,
+        "movement": 8,
+        "hp": 345,
         "range": 1
       },
       "skills": [
@@ -110,7 +107,7 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         }
       ],
       "note": "null"
@@ -121,13 +118,12 @@
         "pieces": 60,
         "money": 41250,
         "industry": 15750
-
       },
       "stats": {
-        "attack": 67,
-        "defense": 25,
-        "movement": 14,
-        "hp": 415,
+        "attack": 58,
+        "defense": 21,
+        "movement": 8,
+        "hp": 345,
         "range": 1
       },
       "skills": [
@@ -139,12 +135,12 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "silver",
-          "description": "Operate again after action, 1 turn cooldown."
+          "description": "Operate again after action,1 turn cooldown"
         }
       ],
       "note": "Unlock Rapid March"
@@ -155,13 +151,12 @@
         "pieces": 70,
         "money": 49500,
         "industry": 18900
-
       },
       "stats": {
-        "attack": 67,
-        "defense": 32,
-        "movement": 15,
-        "hp": 415,
+        "attack": 58,
+        "defense": 28,
+        "movement": 9,
+        "hp": 345,
         "range": 1
       },
       "skills": [
@@ -173,12 +168,12 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "silver",
-          "description": "Operate again after action, 1 turn cooldown."
+          "description": "Operate again after action,1 turn cooldown"
         }
       ],
       "note": "null"
@@ -189,13 +184,12 @@
         "pieces": 80,
         "money": 59400,
         "industry": 22680
-
       },
       "stats": {
-        "attack": 75,
-        "defense": 32,
-        "movement": 15,
-        "hp": 415,
+        "attack": 66,
+        "defense": 28,
+        "movement": 9,
+        "hp": 345,
         "range": 1
       },
       "skills": [
@@ -207,12 +201,12 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "silver",
-          "description": "Operate again after action, 1 turn cooldown."
+          "description": "Operate again after action,1 turn cooldown"
         }
       ],
       "note": "null"
@@ -223,13 +217,12 @@
         "pieces": 90,
         "money": 71280,
         "industry": 27200
-
       },
       "stats": {
-        "attack": 75,
-        "defense": 32,
-        "movement": 15,
-        "hp": 505,
+        "attack": 66,
+        "defense": 28,
+        "movement": 9,
+        "hp": 435,
         "range": 1
       },
       "skills": [
@@ -241,12 +234,12 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "silver",
-          "description": "Operate again after action, 1 turn cooldown."
+          "description": "Operate again after action,1 turn cooldown"
         }
       ],
       "note": "null"
@@ -257,13 +250,12 @@
         "pieces": 100,
         "money": 85550,
         "industry": 32650
-
       },
       "stats": {
-        "attack": 84,
-        "defense": 32,
-        "movement": 15,
-        "hp": 505,
+        "attack": 75,
+        "defense": 28,
+        "movement": 9,
+        "hp": 435,
         "range": 1
       },
       "skills": [
@@ -275,29 +267,27 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "gold",
-          "description": "Operate again after action, 1 turn cooldown. 100% rate to attack again after the second action destroys the enemy army (one time only)"
+          "description": "Operate again after action,1 turn cooldown. 100% rate to attack again after the second action destroys the enemy army (one time only)"
         }
       ],
-      "note": "Upgrade Rapid March To gold\n"
+      "note": "Upgrade Rapid March To gold"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 84,
-        "defense": 39,
-        "movement": 16,
-        "hp": 505,
+        "attack": 75,
+        "defense": 35,
+        "movement": 10,
+        "hp": 435,
         "range": 1
       },
       "skills": [
@@ -309,29 +299,27 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "platinum",
-          "description": "Operate again after action, +5 mobility, 1 turn cooldown100% rate to attack again after the second action destroys the enemy army (one time only)"
+          "description": "Operate again after action, +5 mobility, 1 turn cooldown. 100% rate to attack again after the second action destroys the enemy army (one time only)."
         }
       ],
-      "note": "Upgrade Rapid March To platinum\n"
+      "note": "Upgrade Rapid March To platinum"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 84,
-        "defense": 39,
-        "movement": 16,
-        "hp": 595,
+        "attack": 75,
+        "defense": 35,
+        "movement": 10,
+        "hp": 525,
         "range": 1
       },
       "skills": [
@@ -343,12 +331,12 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "platinum",
-          "description": "Operate again after action, +5 mobility, 1 turn cooldown100% rate to attack again after the second action destroys the enemy army (one time only)"
+          "description": "Operate again after action, +5 mobility, 1 turn cooldown. 100% rate to attack again after the second action destroys the enemy army (one time only)."
         }
       ],
       "note": "null"
@@ -357,15 +345,13 @@
       "level": 12,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 93,
-        "defense": 39,
-        "movement": 16,
-        "hp": 595,
+        "attack": 84,
+        "defense": 35,
+        "movement": 10,
+        "hp": 525,
         "range": 1
       },
       "skills": [
@@ -377,16 +363,16 @@
         {
           "title": "Samurai",
           "tier": "gold",
-          "description": "Samurai Possess the warrior's will; the combat effectiveness will not go down when health is reduced"
+          "description": "Possess the warrior's will; the combat effectiveness will not go down when HP is reduced"
         },
         {
           "title": "Rapid March",
           "tier": "platinum",
-          "description": "Operate again after action, +5 mobility, 1 turn cooldown100% rate to attack again after the second action destroys the enemy army (one time only)"
+          "description": "Operate again after action, +5 mobility, 1 turn cooldown. 100% rate to attack again after the second action destroys the enemy army (one time only)."
         },
         {
           "title": "Valor Incentive",
-          "tier": "platinum",
+          "tier": "gold",
           "description": "When capturing an enemy city, the morale of your own troops and friendly troops within 3 grids rises for 2 turns."
         }
       ],

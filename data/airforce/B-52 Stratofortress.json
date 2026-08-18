@@ -1,0 +1,454 @@
+{
+  "name": "B-52 Stratofortress",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 40,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "bronze",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 20% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "Unlock Strategic Bombing\nUnlock High-altitude Bombing\nUnlock Excess Payload\nUnlock Atomic Strike"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750
+      },
+      "stats": {
+        "attack": 40,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "bronze",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 20% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200
+      },
+      "stats": {
+        "attack": 50,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "bronze",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 20% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700
+      },
+      "stats": {
+        "attack": 50,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 11
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "bronze",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 20% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 13
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "silver",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 40% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "silver",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 20%."
+        }
+      ],
+      "note": "Upgrade Excess Payload To silver\nUpgrade Atomic Strike To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 13
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "silver",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 40% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "silver",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 20%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400
+      },
+      "stats": {
+        "attack": 74,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 15
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "silver",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 40% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "silver",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 20%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280
+      },
+      "stats": {
+        "attack": 74,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 15
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "silver",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 40% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "silver",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 20%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 15
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "gold",
+          "description": "Unable to function as a carrier-based aircraft. Each attack deals an additional 70% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "gold",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 35%."
+        }
+      ],
+      "note": "Upgrade Excess Payload To gold\nUpgrade Atomic Strike To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "platinum",
+          "description": "Able to function as a carrier-based aircraft. Each attack deals an additional 100% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "gold",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 35%."
+        }
+      ],
+      "note": "Upgrade Excess Payload To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "platinum",
+          "description": "Able to function as a carrier-based aircraft. Each attack deals an additional 100% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "platinum",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 50%."
+        }
+      ],
+      "note": "Upgrade Atomic Strike To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 92,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Strategic Bombing",
+          "tier": "gold",
+          "description": "Mass bombing damage to stronghold units +80%"
+        },
+        {
+          "title": "High-altitude Bombing",
+          "tier": "gold",
+          "description": "Anti-air weapons are unable to defend against high-altitude bombing"
+        },
+        {
+          "title": "Excess Payload",
+          "tier": "platinum",
+          "description": "Able to function as a carrier-based aircraft. Each attack deals an additional 100% damage effect on the targeted area"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "platinum",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 50%."
+        },
+        {
+          "title": "Airspace Suppression",
+          "tier": "gold",
+          "description": "When bombarding a target, ignore 50% of the target's defense."
+        }
+      ],
+      "note": "Unlock Airspace Suppression"
+    }
+  ]
+}

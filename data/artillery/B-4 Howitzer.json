@@ -1,0 +1,394 @@
+{
+  "name": "B-4 Howitzer",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 63,
+        "defense": 11,
+        "movement": 7,
+        "hp": 285,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Assault",
+          "tier": "bronze",
+          "description": "Damage dealt to city defense increases by 15% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "Unlock Firepower\nUnlock Critical Damage\nUnlock Assault"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 63,
+        "defense": 20,
+        "movement": 8,
+        "hp": 285,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Assault",
+          "tier": "bronze",
+          "description": "Damage dealt to city defense increases by 15% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 71,
+        "defense": 20,
+        "movement": 8,
+        "hp": 285,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Assault",
+          "tier": "bronze",
+          "description": "Damage dealt to city defense increases by 15% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 71,
+        "defense": 20,
+        "movement": 8,
+        "hp": 385,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "bronze",
+          "description": "Damage of critical attack is increased by 20% "
+        },
+        {
+          "title": "Assault",
+          "tier": "bronze",
+          "description": "Damage dealt to city defense increases by 15% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 83,
+        "defense": 20,
+        "movement": 8,
+        "hp": 385,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Assault",
+          "tier": "silver",
+          "description": "Damage dealt to city defense increases by 30% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "Upgrade Critical Damage To silver\nUpgrade Assault To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 83,
+        "defense": 26,
+        "movement": 9,
+        "hp": 385,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Assault",
+          "tier": "silver",
+          "description": "Damage dealt to city defense increases by 30% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 91,
+        "defense": 26,
+        "movement": 9,
+        "hp": 385,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Assault",
+          "tier": "silver",
+          "description": "Damage dealt to city defense increases by 30% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 91,
+        "defense": 26,
+        "movement": 9,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Assault",
+          "tier": "silver",
+          "description": "Damage dealt to city defense increases by 30% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 26,
+        "movement": 9,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "silver",
+          "description": "Damage of critical attack is increased by 30% "
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "Damage dealt to city defense increases by 45% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "Upgrade Assault To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 35,
+        "movement": 10,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40% "
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "Damage dealt to city defense increases by 45% for 2 turns, with a cooldown of 3 turns."
+        }
+      ],
+      "note": "Upgrade Critical Damage To gold"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 35,
+        "movement": 10,
+        "hp": 555,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 40% "
+        },
+        {
+          "title": "Assault",
+          "tier": "platinum",
+          "description": "Increase damage dealt to city defense by 60%."
+        }
+      ],
+      "note": "Upgrade Assault To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 35,
+        "movement": 10,
+        "hp": 555,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50% "
+        },
+        {
+          "title": "Assault",
+          "tier": "platinum",
+          "description": "Increase damage dealt to city defense by 60%."
+        },
+        {
+          "title": "Airborne Assault",
+          "tier": "gold",
+          "description": "+100% dealt damage in the current turn after an airborne."
+        }
+      ],
+      "note": "Upgrade Critical Damage To platinum\nUnlock Airborne Assault"
+    }
+  ]
+}

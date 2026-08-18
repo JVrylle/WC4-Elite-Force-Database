@@ -1,0 +1,454 @@
+{
+  "name": "8.8 cm Flak 36",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 65,
+        "defense": 10,
+        "movement": 9,
+        "hp": 295,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "bronze",
+          "description": "Reduces damage taken from aerial and hover units by 35%, with damage taken from attacks in desert terrain decreased by 10%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "bronze",
+          "description": "Dealt damage is reduced by 40% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 40% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects."
+        }
+      ],
+      "note": "Unlock Firepower\nUnlock Steel Guard\nUnlock Long-Range Suppression\nUnlock Line-of-Sight Lock"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 65,
+        "defense": 18,
+        "movement": 10,
+        "hp": 295,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "bronze",
+          "description": "Reduces damage taken from aerial and hover units by 35%, with damage taken from attacks in desert terrain decreased by 10%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "bronze",
+          "description": "Dealt damage is reduced by 40% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 40% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 73,
+        "defense": 18,
+        "movement": 10,
+        "hp": 295,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "bronze",
+          "description": "Reduces damage taken from aerial and hover units by 35%, with damage taken from attacks in desert terrain decreased by 10%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "bronze",
+          "description": "Dealt damage is reduced by 40% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 40% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 73,
+        "defense": 18,
+        "movement": 10,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "bronze",
+          "description": "Reduces damage taken from aerial and hover units by 35%, with damage taken from attacks in desert terrain decreased by 10%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "bronze",
+          "description": "Dealt damage is reduced by 40% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 40% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 18,
+        "movement": 10,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "silver",
+          "description": "Reduces damage taken from aerial and hover units by 50%, with damage taken from attacks in desert terrain decreased by 20%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "silver",
+          "description": "Dealt damage is reduced by 30% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 50% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects. When attacking or countering hovering units, it deals an additional 10% damage."
+        }
+      ],
+      "note": "Upgrade Steel Guard To silver\nUpgrade Long-Range Suppression To silver\nUpgrade Line-of-Sight Lock To gold"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 23,
+        "movement": 11,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "silver",
+          "description": "Reduces damage taken from aerial and hover units by 50%, with damage taken from attacks in desert terrain decreased by 20%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "silver",
+          "description": "Dealt damage is reduced by 30% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 50% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects. When attacking or countering hovering units, it deals an additional 10% damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 93,
+        "defense": 23,
+        "movement": 11,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "silver",
+          "description": "Reduces damage taken from aerial and hover units by 50%, with damage taken from attacks in desert terrain decreased by 20%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "silver",
+          "description": "Dealt damage is reduced by 30% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 50% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects. When attacking or countering hovering units, it deals an additional 10% damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 93,
+        "defense": 23,
+        "movement": 11,
+        "hp": 480,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "silver",
+          "description": "Reduces damage taken from aerial and hover units by 50%, with damage taken from attacks in desert terrain decreased by 20%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "silver",
+          "description": "Dealt damage is reduced by 30% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 50% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, ignores dodge and smoke grenade effects. When attacking or countering hovering units, it deals an additional 10% damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 23,
+        "movement": 11,
+        "hp": 480,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "gold",
+          "description": "Reduces damage taken from aerial and hover units by 65%, with damage taken from attacks in desert terrain decreased by 30%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "gold",
+          "description": "Dealt damage is reduced by 20% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 60% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "platinum",
+          "description": "When attacking or counterattacking, ignores dodge, smoke grenade, and protective device effects. When attacking or countering hovering units, it deals an additional 20% damage."
+        }
+      ],
+      "note": "Upgrade Steel Guard To gold\nUpgrade Long-Range Suppression To gold\nUpgrade Line-of-Sight Lock To platinum"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 28,
+        "movement": 12,
+        "hp": 480,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "gold",
+          "description": "Reduces damage taken from aerial and hover units by 65%, with damage taken from attacks in desert terrain decreased by 30%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "gold",
+          "description": "Dealt damage is reduced by 20% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 60% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "platinum",
+          "description": "When attacking or counterattacking, ignores dodge, smoke grenade, and protective device effects. When attacking or countering hovering units, it deals an additional 20% damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 28,
+        "movement": 12,
+        "hp": 565,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "platinum",
+          "description": "Reduces damage taken from aerial and hover units by 80%, with damage taken from attacks in desert terrain decreased by 40%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "gold",
+          "description": "Dealt damage is reduced by 20% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 60% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "platinum",
+          "description": "When attacking or counterattacking, ignores dodge, smoke grenade, and protective device effects. When attacking or countering hovering units, it deals an additional 20% damage."
+        }
+      ],
+      "note": "Upgrade Steel Guard To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 111,
+        "defense": 28,
+        "movement": 12,
+        "hp": 565,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Steel Guard",
+          "tier": "platinum",
+          "description": "Reduces damage taken from aerial and hover units by 80%, with damage taken from attacks in desert terrain decreased by 40%."
+        },
+        {
+          "title": "Long-Range Suppression",
+          "tier": "platinum",
+          "description": "Dealt damage is reduced by 10% when attacking or counterattacking enemies within 1 square; dealt damage is increased by 70% when attacking or counterattacking armor, artillery, or hovering units at a range of 2 squares or more."
+        },
+        {
+          "title": "Line-of-Sight Lock",
+          "tier": "platinum",
+          "description": "When attacking or counterattacking, ignores dodge, smoke grenade, and protective device effects. When attacking or countering hovering units, it deals an additional 20% damage."
+        },
+        {
+          "title": "Airborne Assault",
+          "tier": "gold",
+          "description": "+100% dealt damage in the current turn after an airborne."
+        }
+      ],
+      "note": "Upgrade Long-Range Suppression To platinum\nUnlock Airborne Assault"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "name": "Typhoon-class",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 60,
+        "defense": 25,
+        "movement": 8,
+        "hp": 580,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "bronze",
+          "description": "Can fire short-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "bronze",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 10%. "
+        }
+      ],
+      "note": "Unlock Missile Attack\nUnlock Strategic Nuclear Deterrence\nUnlock Deepwater Navigation"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 60,
+        "defense": 33,
+        "movement": 10,
+        "hp": 580,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "bronze",
+          "description": "Can fire short-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "bronze",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 10%. "
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 33,
+        "movement": 10,
+        "hp": 580,
+        "range": 14
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "bronze",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 10%. "
+        }
+      ],
+      "note": "Upgrade Missile Attack To silver"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 33,
+        "movement": 10,
+        "hp": 680,
+        "range": 14
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "bronze",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 10%. "
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 33,
+        "movement": 10,
+        "hp": 680,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "silver",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 30%. "
+        }
+      ],
+      "note": "Upgrade Strategic Nuclear Deterrence To silver\nUpgrade Deepwater Navigation To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 45,
+        "movement": 11,
+        "hp": 680,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "silver",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 30%. "
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 45,
+        "movement": 11,
+        "hp": 680,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "silver",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 30%. "
+        }
+      ],
+      "note": "Upgrade Missile Attack To gold"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 45,
+        "movement": 11,
+        "hp": 800,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "silver",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 30%. "
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 45,
+        "movement": 11,
+        "hp": 800,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "gold",
+          "description": "When launching missiles, you can load tri-phase warheads, initially having two and restoring one every 2 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "gold",
+          "description": "Cannot be targeted by land units for attack, taken damage from air force decreases by 50%. "
+        }
+      ],
+      "note": "Upgrade Strategic Nuclear Deterrence To gold\nUpgrade Deepwater Navigation To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 54,
+        "movement": 12,
+        "hp": 800,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "gold",
+          "description": "When launching missiles, you can load tri-phase warheads, initially having two and restoring one every 2 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "platinum",
+          "description": "Cannot be targeted by land units, taken damage from the air force will be decreased by 70%."
+        }
+      ],
+      "note": "Upgrade Deepwater Navigation To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 54,
+        "movement": 12,
+        "hp": 920,
+        "range": 24
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "platinum",
+          "description": "Can launch intercontinental missiles up to 2 times per turn. Instead of a normal attack."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "gold",
+          "description": "When launching missiles, you can load tri-phase warheads, initially having two and restoring one every 2 turn. Maximum 4."
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "platinum",
+          "description": "Cannot be targeted by land units, taken damage from the air force will be decreased by 70%."
+        }
+      ],
+      "note": "Upgrade Missile Attack To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 54,
+        "movement": 12,
+        "hp": 920,
+        "range": 24
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "platinum",
+          "description": "Can launch intercontinental missiles up to 2 times per turn. Instead of a normal attack."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "platinum",
+          "description": "When launching missiles, you can load three-phase warheads, initially possessing 2 and regaining 1 every 2 turn. Cap of 5. Attacks always trigger radiation effects"
+        },
+        {
+          "title": "Deepwater Navigation",
+          "tier": "platinum",
+          "description": "Cannot be targeted by land units, taken damage from the air force will be decreased by 70%."
+        }
+      ],
+      "note": "Upgrade Strategic Nuclear Deterrence To platinum"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "name": "BM-21",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 10,
+        "movement": 9,
+        "hp": 215,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        }
+      ],
+      "note": "Unlock Rocket Artillery"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 19,
+        "movement": 10,
+        "hp": 215,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 19,
+        "movement": 10,
+        "hp": 215,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 19,
+        "movement": 10,
+        "hp": 315,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 19,
+        "movement": 10,
+        "hp": 315,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "silver",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased"
+        }
+      ],
+      "note": "Unlock Salvo"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 82,
+        "defense": 27,
+        "movement": 11,
+        "hp": 315,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "silver",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased"
+        }
+      ],
+      "note": "Unlock Marching"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 90,
+        "defense": 27,
+        "movement": 11,
+        "hp": 315,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "silver",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 90,
+        "defense": 27,
+        "movement": 11,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "silver",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 27,
+        "movement": 11,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased, critical damage increases 20%"
+        }
+      ],
+      "note": "Upgrade Salvo To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 36,
+        "movement": 12,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased, critical damage increases 20%"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "silver",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 2% overflowed critical attack, it will deal an extra 1% damage."
+        }
+      ],
+      "note": "Unlock Critical Attack\nUnlock Attack On The Unready Enemy"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 36,
+        "movement": 12,
+        "hp": 495,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased, critical damage increases 20%"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 20%"
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "gold",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 1% overflowed critical attack, it will deal an extra 1% damage."
+        }
+      ],
+      "note": "Upgrade Critical Attack To platinum\nUpgrade Attack On The Unready Enemy To gold"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 108,
+        "defense": 36,
+        "movement": 12,
+        "hp": 495,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Marching",
+          "tier": "gold",
+          "description": "Consume mobility in a particular terrain -100%"
+        },
+        {
+          "title": "Rocket Artillery",
+          "tier": "gold",
+          "description": "Able to attack multiple enemy forces and have {0}% chance to  disable the enemy from fighting back"
+        },
+        {
+          "title": "Salvo",
+          "tier": "platinum",
+          "description": "Able to attack multiple enemy forces. Damage to other targets will not be decreased, critical damage increases 40%, deal damage +20%."
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 30%"
+        },
+        {
+          "title": "Attack On The Unready Enemy",
+          "tier": "platinum",
+          "description": "The overflow critical attack rate will be converted into extra damage, for every 1% overflowed critical attack, it will deal an extra 1% damage. Ignore 20% of the target's defense when attacking."
+        }
+      ],
+      "note": "Upgrade Salvo To platinum\nUpgrade Critical Attack To platinum\nUpgrade Attack On The Unready Enemy To platinum"
+    }
+  ]
+}

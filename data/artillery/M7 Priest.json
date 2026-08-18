@@ -1,0 +1,434 @@
+{
+  "name": "M7 Priest",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 61,
+        "defense": 9,
+        "movement": 8,
+        "hp": 235,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "silver",
+          "description": "Damage dealt to land target with maxed HP is increased by 15%"
+        }
+      ],
+      "note": "Unlock Machine Gun\nUnlock Firepower\nUnlock Armor-piercings"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1500
+      },
+      "stats": {
+        "attack": 61,
+        "defense": 16,
+        "movement": 9,
+        "hp": 235,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "silver",
+          "description": "Damage dealt to land target with maxed HP is increased by 15%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7150
+      },
+      "stats": {
+        "attack": 70,
+        "defense": 16,
+        "movement": 9,
+        "hp": 235,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "silver",
+          "description": "Damage dealt to land target with maxed HP is increased by 15%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 12400
+      },
+      "stats": {
+        "attack": 70,
+        "defense": 16,
+        "movement": 9,
+        "hp": 330,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "silver",
+          "description": "Damage dealt to land target with maxed HP is increased by 15%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 30000
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 16,
+        "movement": 9,
+        "hp": 330,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "silver",
+          "description": "Damage dealt to land target with maxed HP is increased by 15%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "silver",
+          "description": "The next attack can attack to 1 extra enemy around the targeted troop, damage dealt to the second enemy -50%, 2 turns cooldown"
+        }
+      ],
+      "note": "Unlock Suppressive Fire"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 36000
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 23,
+        "movement": 10,
+        "hp": 330,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "gold",
+          "description": "Damage dealt to land target with maxed HP is increased by 45%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "silver",
+          "description": "The next attack can attack to 1 extra enemy around the targeted troop, damage dealt to the second enemy -50%, 2 turns cooldown"
+        }
+      ],
+      "note": "Upgrade Armor-piercings To gold"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 43200
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 23,
+        "movement": 10,
+        "hp": 330,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "gold",
+          "description": "Damage dealt to land target with maxed HP is increased by 45%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "silver",
+          "description": "The next attack can attack to 1 extra enemy around the targeted troop, damage dealt to the second enemy -50%, 2 turns cooldown"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 51840
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 23,
+        "movement": 10,
+        "hp": 420,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "gold",
+          "description": "Damage dealt to land target with maxed HP is increased by 45%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "silver",
+          "description": "The next attack can attack to 1 extra enemy around the targeted troop, damage dealt to the second enemy -50%, 2 turns cooldown"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 62200
+      },
+      "stats": {
+        "attack": 97,
+        "defense": 23,
+        "movement": 10,
+        "hp": 420,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "gold",
+          "description": "Damage dealt to land target with maxed HP is increased by 45%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "gold",
+          "description": "The next attack can attack to 1 extra enemy around the targeted troop, 2 turns cooldown"
+        }
+      ],
+      "note": "Upgrade Suppressive Fire To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 97,
+        "defense": 29,
+        "movement": 11,
+        "hp": 420,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "platinum",
+          "description": "Damage dealt to land target with maxed HP is increased by 60%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "gold",
+          "description": "The next attack can attack to 1 extra enemy around the targeted troop, 2 turns cooldown"
+        }
+      ],
+      "note": "Upgrade Armor-piercings To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 97,
+        "defense": 29,
+        "movement": 11,
+        "hp": 510,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "platinum",
+          "description": "Damage dealt to land target with maxed HP is increased by 60%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "platinum",
+          "description": "The next attack can attack to 2 extra enemy around the targeted troop, 2 turns cooldown."
+        }
+      ],
+      "note": "Upgrade Suppressive Fire To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 106,
+        "defense": 29,
+        "movement": 11,
+        "hp": 510,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Armor-piercings",
+          "tier": "platinum",
+          "description": "Damage dealt to land target with maxed HP is increased by 60%"
+        },
+        {
+          "title": "Suppressive Fire",
+          "tier": "platinum",
+          "description": "The next attack can attack to 2 extra enemy around the targeted troop, 2 turns cooldown."
+        },
+        {
+          "title": "Airborne Assault",
+          "tier": "gold",
+          "description": "+100% dealt damage in the current turn after an airborne."
+        }
+      ],
+      "note": "Unlock Airborne Assault"
+    }
+  ]
+}

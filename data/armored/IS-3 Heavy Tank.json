@@ -1,5 +1,5 @@
 {
-  "name": "A41 Centurion",
+  "name": "IS-3 Heavy Tank",
   "unit_type": "Armor",
   "levels": [
     {
@@ -8,10 +8,10 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 65,
-        "defense": 21,
+        "attack": 67,
+        "defense": 20,
         "movement": 8,
-        "hp": 445,
+        "hp": 475,
         "range": 2
       },
       "skills": [
@@ -31,17 +31,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Counterattack damage +10%."
         }
       ],
-      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Smoke Bomb\nUnlock HEAT Ammunition "
+      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Wedge Armor"
     },
     {
       "level": 2,
@@ -50,10 +45,10 @@
         "industry": 1800
       },
       "stats": {
-        "attack": 65,
-        "defense": 31,
+        "attack": 67,
+        "defense": 36,
         "movement": 9,
-        "hp": 445,
+        "hp": 475,
         "range": 2
       },
       "skills": [
@@ -73,14 +68,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Counterattack damage +10%."
         }
       ],
       "note": "null"
@@ -92,10 +82,10 @@
         "industry": 7200
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
+        "attack": 79,
+        "defense": 36,
         "movement": 9,
-        "hp": 445,
+        "hp": 475,
         "range": 2
       },
       "skills": [
@@ -115,14 +105,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Counterattack damage +10%."
         }
       ],
       "note": "null"
@@ -134,10 +119,10 @@
         "industry": 13500
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
+        "attack": 79,
+        "defense": 36,
         "movement": 9,
-        "hp": 545,
+        "hp": 580,
         "range": 2
       },
       "skills": [
@@ -157,14 +142,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Counterattack damage +10%."
         }
       ],
       "note": "null"
@@ -176,10 +156,10 @@
         "industry": 33000
       },
       "stats": {
-        "attack": 86,
-        "defense": 31,
+        "attack": 94,
+        "defense": 36,
         "movement": 9,
-        "hp": 545,
+        "hp": 580,
         "range": 2
       },
       "skills": [
@@ -199,17 +179,17 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Counterattack damage +20%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Increase damage to tank units by 25% this turn, cooldown for 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To silver\nUpgrade HEAT Ammunition  To silver"
+      "note": "Upgrade Wedge Armor To silver\nUnlock Tank Killer"
     },
     {
       "level": 6,
@@ -218,10 +198,10 @@
         "industry": 39600
       },
       "stats": {
-        "attack": 86,
-        "defense": 39,
+        "attack": 94,
+        "defense": 47,
         "movement": 10,
-        "hp": 545,
+        "hp": 580,
         "range": 2
       },
       "skills": [
@@ -241,14 +221,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Counterattack damage +20%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Increase damage to tank units by 25% this turn, cooldown for 2 turns."
         }
       ],
       "note": "null"
@@ -260,10 +240,10 @@
         "industry": 47520
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
+        "attack": 102,
+        "defense": 47,
         "movement": 10,
-        "hp": 545,
+        "hp": 580,
         "range": 2
       },
       "skills": [
@@ -283,14 +263,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Counterattack damage +20%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Increase damage to tank units by 25% this turn, cooldown for 2 turns."
         }
       ],
       "note": "null"
@@ -302,10 +282,10 @@
         "industry": 57000
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
+        "attack": 102,
+        "defense": 47,
         "movement": 10,
-        "hp": 635,
+        "hp": 680,
         "range": 2
       },
       "skills": [
@@ -325,14 +305,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Counterattack damage +20%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Increase damage to tank units by 25% this turn, cooldown for 2 turns."
         }
       ],
       "note": "null"
@@ -344,10 +324,10 @@
         "industry": 68400
       },
       "stats": {
-        "attack": 104,
-        "defense": 39,
+        "attack": 111,
+        "defense": 47,
         "movement": 10,
-        "hp": 635,
+        "hp": 680,
         "range": 2
       },
       "skills": [
@@ -367,29 +347,29 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "gold",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "Counterattack damage +30%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "Increase damage to tank units by 45% this turn, cooldown for 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To gold\nUpgrade HEAT Ammunition  To gold"
+      "note": "Upgrade Wedge Armor To gold\nUpgrade Tank Killer To gold"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 5
+        "honorInfantryBadges": 10
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
+        "attack": 111,
+        "defense": 56,
         "movement": 11,
-        "hp": 635,
+        "hp": 680,
         "range": 2
       },
       "skills": [
@@ -409,29 +389,29 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "Counterattack damage +40%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "Increase damage to tank units by 45% this turn, cooldown for 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To platinum"
+      "note": "Upgrade Wedge Armor To platinum"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 15
+        "honorInfantryBadges": 20
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
+        "attack": 111,
+        "defense": 56,
         "movement": 11,
-        "hp": 725,
+        "hp": 780,
         "range": 2
       },
       "skills": [
@@ -451,29 +431,29 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "Counterattack damage +40%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "Damage dealt to armored units is increased by 65%,  effective for 1 turn, 2 turns cooldown."
         }
       ],
-      "note": "Upgrade HEAT Ammunition  To platinum"
+      "note": "Upgrade Tank Killer To platinum"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 25
+        "honorInfantryBadges": 30
       },
       "stats": {
-        "attack": 114,
-        "defense": 47,
+        "attack": 120,
+        "defense": 56,
         "movement": 11,
-        "hp": 725,
+        "hp": 780,
         "range": 2
       },
       "skills": [
@@ -493,22 +473,22 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Wedge Armor",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "Counterattack damage +40%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Tank Killer",
           "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "Damage dealt to armored units is increased by 65%,  effective for 1 turn, 2 turns cooldown."
         },
         {
-          "title": "Visual Interference",
+          "title": "Firepower Enhancement",
           "tier": "gold",
-          "description": "While in a smoke grenade effect, the attack range of enemy units 2 grids around is reduced to the minimum (when ignoring the smoke grenade effect, this effect is also ignored)."
+          "description": "+10% of own attack for each unit destroyed, stackable up to 3 times for 2 turns."
         }
       ],
-      "note": "Unlock Visual Interference"
+      "note": "Unlock Firepower Enhancement"
     }
   ]
 }

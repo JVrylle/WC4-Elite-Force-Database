@@ -6,13 +6,12 @@
       "level": 1,
       "cost": {
         "pieces": 30
-
       },
       "stats": {
-        "attack": 62,
-        "defense": 16,
-        "movement": 13,
-        "hp": 345,
+        "attack": 53,
+        "defense": 12,
+        "movement": 7,
+        "hp": 275,
         "range": 1
       },
       "skills": [
@@ -22,24 +21,22 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "bronze",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "bronze",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +20% (damage dealt +40% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
-
-
       ],
-      "note": null
+      "note": "Unlock Grenade\nUnlock Phantom\nUnlock Assassination\nUnlock Emergency Bandage"
     },
     {
       "level": 2,
@@ -47,13 +44,12 @@
         "pieces": 5,
         "money": 3000,
         "industry": 750
-
       },
       "stats": {
-        "attack": 62,
-        "defense": 26,
-        "movement": 14,
-        "hp": 345,
+        "attack": 53,
+        "defense": 22,
+        "movement": 8,
+        "hp": 275,
         "range": 1
       },
       "skills": [
@@ -63,25 +59,22 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "bronze",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "bronze",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +20% (damage dealt +40% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
-
-
-
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 3,
@@ -89,13 +82,12 @@
         "pieces": 15,
         "money": 6000,
         "industry": 1800
-
       },
       "stats": {
-        "attack": 70,
-        "defense": 26,
-        "movement": 14,
-        "hp": 345,
+        "attack": 61,
+        "defense": 22,
+        "movement": 8,
+        "hp": 275,
         "range": 1
       },
       "skills": [
@@ -105,25 +97,22 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "bronze",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "bronze",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +20% (damage dealt +40% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
-
-
-
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 4,
@@ -131,13 +120,12 @@
         "pieces": 30,
         "money": 12000,
         "industry": 4750
-
       },
       "stats": {
-        "attack": 70,
-        "defense": 26,
-        "movement": 14,
-        "hp": 435,
+        "attack": 61,
+        "defense": 22,
+        "movement": 8,
+        "hp": 365,
         "range": 1
       },
       "skills": [
@@ -147,24 +135,22 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "bronze",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +2, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "bronze",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +20% (damage dealt +40% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +20% (damage dealt +40% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Recover 3% maximum HP on the next turn when the troop is more than half damaged."
         }
-
-
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 5,
@@ -172,13 +158,12 @@
         "pieces": 60,
         "money": 24000,
         "industry": 9500
-
       },
       "stats": {
-        "attack": 82,
-        "defense": 26,
-        "movement": 14,
-        "hp": 435,
+        "attack": 73,
+        "defense": 22,
+        "movement": 8,
+        "hp": 365,
         "range": 1
       },
       "skills": [
@@ -188,18 +173,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "silver",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "silver",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +40% (damage dealt +80% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -210,10 +195,10 @@
         {
           "title": "Critical Damage",
           "tier": "bronze",
-          "description": "Damage of critical attack is increased by 20%"
+          "description": "Damage of critical attack is increased by 20% "
         }
       ],
-      "note": "Upgrade Phantoms To silver\nUpgrade Assassination To silver\nUpgrade Emergency Bandage To silver\nUnlock Call for Airborne LandingUnlock Critical Damage"
+      "note": "Upgrade Phantom To silver\nUpgrade Assassination To silver\nUpgrade Emergency Bandage To gold\nUnlock Call for Airborne Landing\nUnlock Critical Damage"
     },
     {
       "level": 6,
@@ -221,13 +206,12 @@
         "pieces": 70,
         "money": 28800,
         "industry": 11400
-
       },
       "stats": {
-        "attack": 82,
-        "defense": 34,
-        "movement": 15,
-        "hp": 435,
+        "attack": 73,
+        "defense": 30,
+        "movement": 9,
+        "hp": 365,
         "range": 1
       },
       "skills": [
@@ -237,18 +221,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "silver",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "silver",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +40% (damage dealt +80% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -259,10 +243,10 @@
         {
           "title": "Critical Damage",
           "tier": "bronze",
-          "description": "Damage of critical attack is increased by 20%"
+          "description": "Damage of critical attack is increased by 20% "
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 7,
@@ -270,13 +254,12 @@
         "pieces": 80,
         "money": 34560,
         "industry": 13680
-
       },
       "stats": {
-        "attack": 89,
-        "defense": 34,
-        "movement": 15,
-        "hp": 435,
+        "attack": 80,
+        "defense": 30,
+        "movement": 9,
+        "hp": 365,
         "range": 1
       },
       "skills": [
@@ -286,18 +269,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "silver",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "silver",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +40% (damage dealt +80% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -308,10 +291,10 @@
         {
           "title": "Critical Damage",
           "tier": "bronze",
-          "description": "Damage of critical attack is increased by 20%"
+          "description": "Damage of critical attack is increased by 20% "
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 8,
@@ -319,13 +302,12 @@
         "pieces": 90,
         "money": 41450,
         "industry": 16400
-
       },
       "stats": {
-        "attack": 89,
-        "defense": 34,
-        "movement": 15,
-        "hp": 525,
+        "attack": 80,
+        "defense": 30,
+        "movement": 9,
+        "hp": 455,
         "range": 1
       },
       "skills": [
@@ -335,18 +317,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "silver",
           "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +4, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "silver",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +40% (damage dealt +80% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +40% (damage dealt +80% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Recover 6% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -357,10 +339,10 @@
         {
           "title": "Critical Damage",
           "tier": "bronze",
-          "description": "Damage of critical attack is increased by 20%"
+          "description": "Damage of critical attack is increased by 20% "
         }
       ],
-      "note": null
+      "note": "null"
     },
     {
       "level": 9,
@@ -368,13 +350,12 @@
         "pieces": 100,
         "money": 49750,
         "industry": 19700
-
       },
       "stats": {
-        "attack": 99,
-        "defense": 34,
-        "movement": 15,
-        "hp": 525,
+        "attack": 90,
+        "defense": 30,
+        "movement": 9,
+        "hp": 455,
         "range": 1
       },
       "skills": [
@@ -384,18 +365,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "gold",
-          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). "
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "gold",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +60% (damage dealt +120% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +60% (damage dealt +120% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -406,24 +387,22 @@
         {
           "title": "Critical Damage",
           "tier": "silver",
-          "description": "Damage of critical attack is increased by 30%"
+          "description": "Damage of critical attack is increased by 30% "
         }
       ],
-      "note": "Upgrade Phantoms To gold\nUpgrade Assassination To gold\nUpgrade Emergency Bandage To gold\nUpgrade Call for Airborne Landing To gold\nUpgrade Critical Damage To silver\n"
+      "note": "Upgrade Phantom To gold\nUpgrade Assassination To gold\nUpgrade Emergency Bandage To platinum\nUpgrade Call for Airborne Landing To gold\nUpgrade Critical Damage To silver"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 10
       },
       "stats": {
-        "attack": 99,
-        "defense": 41,
-        "movement": 16,
-        "hp": 525,
+        "attack": 90,
+        "defense": 37,
+        "movement": 10,
+        "hp": 455,
         "range": 1
       },
       "skills": [
@@ -433,18 +412,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "gold",
-          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). "
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Phantom status will be unavailable after attacking."
         },
         {
           "title": "Assassination",
           "tier": "gold",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +60% (damage dealt +120% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +60% (damage dealt +120% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -455,24 +434,22 @@
         {
           "title": "Critical Damage",
           "tier": "gold",
-          "description": "Damage of critical attack is increased by 40%"
+          "description": "Damage of critical attack is increased by 40% "
         }
       ],
-      "note": "Upgrade Critical Damage To gold\n"
+      "note": "Upgrade Critical Damage To gold"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 20
       },
       "stats": {
-        "attack": 99,
-        "defense": 41,
-        "movement": 16,
-        "hp": 615,
+        "attack": 90,
+        "defense": 37,
+        "movement": 10,
+        "hp": 545,
         "range": 1
       },
       "skills": [
@@ -482,18 +459,18 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "platinum",
-          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Will not be removed from Phantom state after attacking.Phantom status will be unavailable after attacking."
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Will not be removed from Phantom state after attacking."
         },
         {
           "title": "Assassination",
           "tier": "platinum",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +80% (damage dealt +150% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +80% (damage dealt +150% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
@@ -504,24 +481,22 @@
         {
           "title": "Critical Damage",
           "tier": "gold",
-          "description": "Damage of critical attack is increased by 40%"
+          "description": "Damage of critical attack is increased by 40% "
         }
       ],
-      "note": "Upgrade Phantoms To platinum\nUpgrade Assassination To platinum\n"
+      "note": "Upgrade Phantom To platinum\nUpgrade Assassination To platinum"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 30
       },
       "stats": {
-        "attack": 109,
-        "defense": 41,
-        "movement": 16,
-        "hp": 615,
+        "attack": 100,
+        "defense": 37,
+        "movement": 10,
+        "hp": 545,
         "range": 1
       },
       "skills": [
@@ -531,32 +506,32 @@
           "description": "Damage to armored units +50%"
         },
         {
-          "title": "Phantoms",
+          "title": "Phantom",
           "tier": "platinum",
-          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Will not be removed from Phantom state after attacking.Phantom status will be unavailable after attacking."
+          "description": "Goes into phantom status and cannot be actively attacked by land and naval forces, with a cooldown of 2 turns. While in phantom status, mobility +6, lasts for 1 turn(s). Will not be removed from Phantom state after attacking."
         },
         {
           "title": "Assassination",
           "tier": "platinum",
-          "description": "Cannot be counterattacked. Damage dealt when enemy attacking troops +80% (damage dealt +150% while in phantom status). Damage dealt is lowered by 50% when attacking buildings."
+          "description": "Cannot be counterattacked. Damage dealt when attacking enemy troops +80% (damage dealt +150% while in phantom status).  Damage dealt is lowered by 50% when attacking buildings."
         },
         {
           "title": "Emergency Bandage",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Recover 10% maximum HP on the next turn when the troop is more than half damaged."
         },
         {
           "title": "Call for Airborne Landing",
           "tier": "platinum",
-          "description": "Call a helicopter to transport yourself to a designated location within 9 grids, with a cooldown of 2 turns, does not consume transport aircraft use while being transported by a transport aircraft (limited to once per turn)."
+          "description": "Call a helicopter to transport yourself to a designated location within 9 grids, cooldown of 2 turns, does not consume transport aircraft use while being transported by a transport aircraft (limited to once per turn)."
         },
         {
           "title": "Critical Damage",
           "tier": "platinum",
-          "description": "Damage of critical attack is increased by 50%"
+          "description": "Damage of critical attack is increased by 50% "
         }
       ],
-      "note": "Upgrade Call for Airborne Landing To platinum\nUpgrade Critical Damage To platinum\n"
+      "note": "Upgrade Call for Airborne Landing To platinum\nUpgrade Critical Damage To platinum"
     }
   ]
 }

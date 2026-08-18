@@ -8,17 +8,17 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 24,
-        "defense": 11,
-        "movement": 14,
-        "hp": 295,
+        "attack": 16,
+        "defense": 7,
+        "movement": 8,
+        "hp": 225,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -27,7 +27,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Deploy a landmine within 1 square, the landmine can deal 115 points of damage with a cooldown of 1 turn."
         },
         {
@@ -36,7 +36,7 @@
           "description": "Buildings within 1 square of the surrounding area regain 40 point of HP, effective once per turn."
         }
       ],
-      "note": "null"
+      "note": "Unlock Sapper\nUnlock Marching\nUnlock Landmine Deployment\nUnlock Engineering Maintenance"
     },
     {
       "level": 2,
@@ -46,17 +46,17 @@
         "industry": 750
       },
       "stats": {
-        "attack": 24,
-        "defense": 18,
-        "movement": 15,
-        "hp": 295,
+        "attack": 16,
+        "defense": 14,
+        "movement": 9,
+        "hp": 225,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -65,7 +65,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Deploy a landmine within 1 square, the landmine can deal 115 points of damage with a cooldown of 1 turn."
         },
         {
@@ -84,17 +84,17 @@
         "industry": 1800
       },
       "stats": {
-        "attack": 28,
-        "defense": 18,
-        "movement": 15,
-        "hp": 295,
+        "attack": 20,
+        "defense": 14,
+        "movement": 9,
+        "hp": 225,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -103,7 +103,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Deploy a landmine within 1 square, the landmine can deal 115 points of damage with a cooldown of 1 turn."
         },
         {
@@ -122,17 +122,17 @@
         "industry": 4750
       },
       "stats": {
-        "attack": 28,
-        "defense": 18,
-        "movement": 15,
-        "hp": 390,
+        "attack": 20,
+        "defense": 14,
+        "movement": 9,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -141,7 +141,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Deploy a landmine within 1 square, the landmine can deal 115 points of damage with a cooldown of 1 turn."
         },
         {
@@ -160,17 +160,17 @@
         "industry": 9500
       },
       "stats": {
-        "attack": 33,
-        "defense": 18,
-        "movement": 15,
-        "hp": 390,
+        "attack": 24,
+        "defense": 14,
+        "movement": 9,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -179,7 +179,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Deploy a landmine within 1 square, the landmine can deal 160 points of damage with a cooldown of 1 turn."
         },
         {
@@ -190,10 +190,10 @@
         {
           "title": "Tunnel Excavation",
           "tier": "silver",
-          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
-      "note": "Upgrade Landmine Deployment To silver\nUpgrade Engineering Maintenance To silver\nUnlock Tunnel Excavation"
+      "note": "Upgrade Landmine Deployment To gold\nUpgrade Engineering Maintenance To silver\nUnlock Tunnel Excavation"
     },
     {
       "level": 6,
@@ -203,17 +203,17 @@
         "industry": 11400
       },
       "stats": {
-        "attack": 33,
-        "defense": 24,
-        "movement": 16,
-        "hp": 390,
+        "attack": 24,
+        "defense": 20,
+        "movement": 10,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -222,7 +222,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Deploy a landmine within 1 square, the landmine can deal 160 points of damage with a cooldown of 1 turn."
         },
         {
@@ -233,7 +233,7 @@
         {
           "title": "Tunnel Excavation",
           "tier": "silver",
-          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
       "note": "null"
@@ -246,17 +246,17 @@
         "industry": 13680
       },
       "stats": {
-        "attack": 39,
-        "defense": 24,
-        "movement": 16,
-        "hp": 390,
+        "attack": 30,
+        "defense": 20,
+        "movement": 10,
+        "hp": 320,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -265,7 +265,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Deploy a landmine within 1 square, the landmine can deal 160 points of damage with a cooldown of 1 turn."
         },
         {
@@ -276,7 +276,7 @@
         {
           "title": "Tunnel Excavation",
           "tier": "silver",
-          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
       "note": "null"
@@ -289,17 +289,17 @@
         "industry": 16400
       },
       "stats": {
-        "attack": 39,
-        "defense": 24,
-        "movement": 16,
-        "hp": 480,
+        "attack": 30,
+        "defense": 20,
+        "movement": 10,
+        "hp": 410,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -308,7 +308,7 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Deploy a landmine within 1 square, the landmine can deal 160 points of damage with a cooldown of 1 turn."
         },
         {
@@ -319,7 +319,7 @@
         {
           "title": "Tunnel Excavation",
           "tier": "silver",
-          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 4 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
       "note": "null"
@@ -332,17 +332,17 @@
         "industry": 19700
       },
       "stats": {
-        "attack": 47,
-        "defense": 24,
-        "movement": 16,
-        "hp": 480,
+        "attack": 38,
+        "defense": 20,
+        "movement": 10,
+        "hp": 410,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -351,8 +351,8 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "gold",
-          "description": "Deploy a landmine within 2 square, the landmine can deal 205 points of damage with a cooldown of 1 turn."
+          "tier": "platinum",
+          "description": "Deploy a landmine within 2 squares, the landmine can deal 205 points of damage with a cooldown of 1 turn."
         },
         {
           "title": "Engineering Maintenance",
@@ -362,10 +362,10 @@
         {
           "title": "Tunnel Excavation",
           "tier": "gold",
-          "description": "Within 7 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 7 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
-      "note": "Upgrade Landmine Deployment To gold\nUpgrade Engineering Maintenance To gold\nUpgrade Tunnel Excavation To gold\n"
+      "note": "Upgrade Landmine Deployment To platinum\nUpgrade Engineering Maintenance To gold\nUpgrade Tunnel Excavation To gold"
     },
     {
       "level": 10,
@@ -374,17 +374,17 @@
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 47,
-        "defense": 32,
-        "movement": 17,
-        "hp": 480,
+        "attack": 38,
+        "defense": 28,
+        "movement": 11,
+        "hp": 410,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -393,8 +393,8 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "gold",
-          "description": "Deploy a landmine within 2 square, the landmine can deal 205 points of damage with a cooldown of 1 turn."
+          "tier": "platinum",
+          "description": "Deploy a landmine within 2 squares, the landmine can deal 205 points of damage with a cooldown of 1 turn."
         },
         {
           "title": "Engineering Maintenance",
@@ -404,7 +404,7 @@
         {
           "title": "Tunnel Excavation",
           "tier": "gold",
-          "description": "Within 7 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 7 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
       "note": "null"
@@ -416,17 +416,17 @@
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 47,
-        "defense": 32,
-        "movement": 17,
-        "hp": 570,
+        "attack": 38,
+        "defense": 28,
+        "movement": 11,
+        "hp": 500,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -435,21 +435,21 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "gold",
-          "description": "Deploy a landmine within 2 square, the landmine can deal 205 points of damage with a cooldown of 1 turn."
+          "tier": "platinum",
+          "description": "Deploy a landmine within 2 squares, the landmine can deal 205 points of damage with a cooldown of 1 turn."
         },
         {
           "title": "Engineering Maintenance",
           "tier": "platinum",
-          "description": "Buildings within 2 grids of the surrounding area regain 200 point of HP, effective once per turn."
+          "description": "Buildings within 2 grids of the surrounding area regain 200 point HP, effective once per turn."
         },
         {
           "title": "Tunnel Excavation",
           "tier": "gold",
-          "description": "Within 7 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous, oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
+          "description": "Within 7 squares, dig a tunnel from your current location to the target plot. The target plot cannot be mountainous or oceanic. Your infantry, light tank, medium tank, rocket artillery, armored vehicles, field artillery and howitzers can pass through the tunnel. Gain additional actions after passing through tunnels, with a maximum of 3 times per tunnel. When a new tunnel is dug, the original tunnel disappears, with a cooldown of 2 turns."
         }
       ],
-      "note": "Upgrade Engineering Maintenance To platinum\n"
+      "note": "Upgrade Engineering Maintenance To platinum"
     },
     {
       "level": 12,
@@ -458,17 +458,17 @@
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 55,
-        "defense": 32,
-        "movement": 17,
-        "hp": 570,
+        "attack": 46,
+        "defense": 28,
+        "movement": 11,
+        "hp": 500,
         "range": 1
       },
       "skills": [
         {
           "title": "Sapper",
           "tier": "gold",
-          "description": "Damage from land mines -60%"
+          "description": "Damage from land mines -90%"
         },
         {
           "title": "Marching",
@@ -477,13 +477,13 @@
         },
         {
           "title": "Landmine Deployment",
-          "tier": "gold",
-          "description": "Deploy a landmine within 2 square, the landmine can deal 205 points of damage with a cooldown of 1 turn."
+          "tier": "platinum",
+          "description": "Deploy a landmine within 2 squares, the landmine can deal 205 points of damage with a cooldown of 1 turn."
         },
         {
           "title": "Engineering Maintenance",
           "tier": "platinum",
-          "description": "Buildings within 2 grids of the surrounding area regain 200 point of HP, effective once per turn."
+          "description": "Buildings within 2 grids of the surrounding area regain 200 point HP, effective once per turn."
         },
         {
           "title": "Tunnel Excavation",
@@ -492,7 +492,7 @@
         },
         {
           "title": "Tactical Protection",
-          "tier": "platinum",
+          "tier": "gold",
           "description": "Defense +20% for 2 grids of friendly targets around you."
         }
       ],

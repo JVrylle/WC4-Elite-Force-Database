@@ -1,0 +1,464 @@
+{
+  "name": "AuF1",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 67,
+        "defense": 10,
+        "movement": 10,
+        "hp": 305,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "bronze",
+          "description": "Increase army's attack by 5 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "bronze",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 7 turns."
+        }
+      ],
+      "note": "Unlock Machine Gun\nUnlock Firepower\nUnlock Avenging Strike\nUnlock Protection Device"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 67,
+        "defense": 18,
+        "movement": 11,
+        "hp": 305,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "bronze",
+          "description": "Increase army's attack by 5 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "bronze",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 7 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 75,
+        "defense": 18,
+        "movement": 11,
+        "hp": 305,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "bronze",
+          "description": "Increase army's attack by 5 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "bronze",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 7 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 75,
+        "defense": 18,
+        "movement": 11,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "bronze",
+          "description": "Increase army's attack by 5 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "bronze",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 7 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 87,
+        "defense": 18,
+        "movement": 11,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "silver",
+          "description": "Attack range +1, increase army's attack by 8 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "silver",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 6 turns."
+        }
+      ],
+      "note": "Upgrade Avenging Strike To silver\nUpgrade Protection Device To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 87,
+        "defense": 23,
+        "movement": 12,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "silver",
+          "description": "Attack range +1, increase army's attack by 8 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "silver",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 6 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 23,
+        "movement": 12,
+        "hp": 405,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "silver",
+          "description": "Attack range +1, increase army's attack by 8 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "silver",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 6 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 95,
+        "defense": 23,
+        "movement": 12,
+        "hp": 490,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "silver",
+          "description": "Attack range +1, increase army's attack by 8 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "silver",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 2 turns, with a cooldown of 6 turns."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 104,
+        "defense": 23,
+        "movement": 12,
+        "hp": 490,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "gold",
+          "description": "Attack range +1, increase army's attack by 12 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "gold",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 3 turns, with a cooldown of 5 turns."
+        }
+      ],
+      "note": "Upgrade Avenging Strike To gold\nUpgrade Protection Device To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 104,
+        "defense": 28,
+        "movement": 13,
+        "hp": 490,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "gold",
+          "description": "Attack range +1, increase army's attack by 12 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "gold",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 3 turns, with a cooldown of 5 turns."
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
+        }
+      ],
+      "note": "Unlock Critical Attack"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 104,
+        "defense": 28,
+        "movement": 13,
+        "hp": 575,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "gold",
+          "description": "Attack range +1, increase army's attack by 12 points for every 50 points of HP lost."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "platinum",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 3 turns, with a cooldown of 5 turns. Restores 30% HP when the protection device finished."
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 20%"
+        }
+      ],
+      "note": "Upgrade Protection Device To platinum\nUpgrade Critical Attack To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 113,
+        "defense": 28,
+        "movement": 13,
+        "hp": 575,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Avenging Strike",
+          "tier": "platinum",
+          "description": "Attack range +1 and when every 50 point HP is lost, increases troop attack by 15 points."
+        },
+        {
+          "title": "Protection Device",
+          "tier": "platinum",
+          "description": "The combat effectiveness will not go down when HP is reduced. When near death, HP cannot be reduced below 1 point for 3 turns, with a cooldown of 5 turns. Restores 30% HP when the protection device finished."
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 30%"
+        }
+      ],
+      "note": "Upgrade Avenging Strike To platinum\nUpgrade Critical Attack To platinum"
+    }
+  ]
+}

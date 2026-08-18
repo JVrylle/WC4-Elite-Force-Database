@@ -1,5 +1,5 @@
 {
-  "name": "A41 Centurion",
+  "name": "M26 Pershing",
   "unit_type": "Armor",
   "levels": [
     {
@@ -8,10 +8,10 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 65,
-        "defense": 21,
+        "attack": 62,
+        "defense": 19,
         "movement": 8,
-        "hp": 445,
+        "hp": 395,
         "range": 2
       },
       "skills": [
@@ -29,19 +29,9 @@
           "title": "Air-Defense",
           "tier": "gold",
           "description": "Air defense device equipped on armored forces"
-        },
-        {
-          "title": "Smoke Bomb",
-          "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
         }
       ],
-      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Smoke Bomb\nUnlock HEAT Ammunition "
+      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense"
     },
     {
       "level": 2,
@@ -50,10 +40,10 @@
         "industry": 1800
       },
       "stats": {
-        "attack": 65,
-        "defense": 31,
+        "attack": 62,
+        "defense": 29,
         "movement": 9,
-        "hp": 445,
+        "hp": 395,
         "range": 2
       },
       "skills": [
@@ -71,16 +61,6 @@
           "title": "Air-Defense",
           "tier": "gold",
           "description": "Air defense device equipped on armored forces"
-        },
-        {
-          "title": "Smoke Bomb",
-          "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
         }
       ],
       "note": "null"
@@ -92,10 +72,10 @@
         "industry": 7200
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
+        "attack": 71,
+        "defense": 29,
         "movement": 9,
-        "hp": 445,
+        "hp": 395,
         "range": 2
       },
       "skills": [
@@ -113,16 +93,6 @@
           "title": "Air-Defense",
           "tier": "gold",
           "description": "Air defense device equipped on armored forces"
-        },
-        {
-          "title": "Smoke Bomb",
-          "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
         }
       ],
       "note": "null"
@@ -134,10 +104,10 @@
         "industry": 13500
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
+        "attack": 71,
+        "defense": 29,
         "movement": 9,
-        "hp": 545,
+        "hp": 495,
         "range": 2
       },
       "skills": [
@@ -155,16 +125,6 @@
           "title": "Air-Defense",
           "tier": "gold",
           "description": "Air defense device equipped on armored forces"
-        },
-        {
-          "title": "Smoke Bomb",
-          "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
         }
       ],
       "note": "null"
@@ -176,10 +136,10 @@
         "industry": 33000
       },
       "stats": {
-        "attack": 86,
-        "defense": 31,
+        "attack": 83,
+        "defense": 29,
         "movement": 9,
-        "hp": 545,
+        "hp": 495,
         "range": 2
       },
       "skills": [
@@ -199,17 +159,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
         }
       ],
-      "note": "Upgrade Smoke Bomb To silver\nUpgrade HEAT Ammunition  To silver"
+      "note": "Unlock Artillery Killer"
     },
     {
       "level": 6,
@@ -218,10 +173,10 @@
         "industry": 39600
       },
       "stats": {
-        "attack": 86,
-        "defense": 39,
+        "attack": 83,
+        "defense": 36,
         "movement": 10,
-        "hp": 545,
+        "hp": 495,
         "range": 2
       },
       "skills": [
@@ -241,14 +196,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
         }
       ],
       "note": "null"
@@ -260,10 +210,10 @@
         "industry": 47520
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
+        "attack": 91,
+        "defense": 36,
         "movement": 10,
-        "hp": 545,
+        "hp": 495,
         "range": 2
       },
       "skills": [
@@ -283,14 +233,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
         }
       ],
       "note": "null"
@@ -302,10 +247,10 @@
         "industry": 57000
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
+        "attack": 91,
+        "defense": 36,
         "movement": 10,
-        "hp": 635,
+        "hp": 585,
         "range": 2
       },
       "skills": [
@@ -325,14 +270,9 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
         }
       ],
       "note": "null"
@@ -344,10 +284,10 @@
         "industry": 68400
       },
       "stats": {
-        "attack": 104,
-        "defense": 39,
+        "attack": 101,
+        "defense": 36,
         "movement": 10,
-        "hp": 635,
+        "hp": 585,
         "range": 2
       },
       "skills": [
@@ -367,17 +307,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "gold",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 45%,  effective for 1 turn, 2 turns cooldown"
         }
       ],
-      "note": "Upgrade Smoke Bomb To gold\nUpgrade HEAT Ammunition  To gold"
+      "note": "Upgrade Artillery Killer To gold"
     },
     {
       "level": 10,
@@ -386,10 +321,10 @@
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
+        "attack": 101,
+        "defense": 45,
         "movement": 11,
-        "hp": 635,
+        "hp": 585,
         "range": 2
       },
       "skills": [
@@ -409,17 +344,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
-          "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
-        },
-        {
-          "title": "HEAT Ammunition ",
+          "title": "Artillery Killer",
           "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 45%,  effective for 1 turn, 2 turns cooldown"
         }
       ],
-      "note": "Upgrade Smoke Bomb To platinum"
+      "note": "null"
     },
     {
       "level": 11,
@@ -428,10 +358,10 @@
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
+        "attack": 101,
+        "defense": 45,
         "movement": 11,
-        "hp": 725,
+        "hp": 675,
         "range": 2
       },
       "skills": [
@@ -451,17 +381,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
-        },
-        {
-          "title": "HEAT Ammunition ",
-          "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "Damage dealt to artillery units is increased by 65%,  effective for 1 turn, 2 turns cooldown."
         }
       ],
-      "note": "Upgrade HEAT Ammunition  To platinum"
+      "note": "Upgrade Artillery Killer To platinum"
     },
     {
       "level": 12,
@@ -470,10 +395,10 @@
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 114,
-        "defense": 47,
+        "attack": 110,
+        "defense": 45,
         "movement": 11,
-        "hp": 725,
+        "hp": 675,
         "range": 2
       },
       "skills": [
@@ -493,22 +418,17 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Artillery Killer",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "Damage dealt to artillery units is increased by 65%,  effective for 1 turn, 2 turns cooldown."
         },
         {
-          "title": "HEAT Ammunition ",
-          "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
-        },
-        {
-          "title": "Visual Interference",
+          "title": "Constant Suppression",
           "tier": "gold",
-          "description": "While in a smoke grenade effect, the attack range of enemy units 2 grids around is reduced to the minimum (when ignoring the smoke grenade effect, this effect is also ignored)."
+          "description": "When attacking a target, the target is inflicted with an effect that reduces its current HP by 10% per turn, lasting for 2 turns."
         }
       ],
-      "note": "Unlock Visual Interference"
+      "note": "Unlock Constant Suppression"
     }
   ]
 }

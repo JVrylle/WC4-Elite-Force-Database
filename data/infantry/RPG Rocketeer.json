@@ -8,10 +8,10 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 58,
-        "defense": 15,
-        "movement": 12,
-        "hp": 315,
+        "attack": 50,
+        "defense": 11,
+        "movement": 6,
+        "hp": 245,
         "range": 1
       },
       "skills": [
@@ -27,11 +27,11 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Reduce damage from armored units by 15%."
         }
       ],
-      "note": "null"
+      "note": "Unlock Anti-Tank\nUnlock Rocket Attack\nUnlock Explosion-Proof Vest"
     },
     {
       "level": 2,
@@ -39,13 +39,12 @@
         "pieces": 5,
         "money": 3750,
         "industry": 750
-
       },
       "stats": {
-        "attack": 58,
-        "defense": 24,
-        "movement": 13,
-        "hp": 315,
+        "attack": 50,
+        "defense": 20,
+        "movement": 7,
+        "hp": 245,
         "range": 1
       },
       "skills": [
@@ -61,7 +60,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Reduce damage from armored units by 15%."
         }
       ],
@@ -75,10 +74,10 @@
         "industry": 2650
       },
       "stats": {
-        "attack": 66,
-        "defense": 24,
-        "movement": 13,
-        "hp": 315,
+        "attack": 58,
+        "defense": 20,
+        "movement": 7,
+        "hp": 245,
         "range": 1
       },
       "skills": [
@@ -94,7 +93,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Reduce damage from armored units by 15%."
         }
       ],
@@ -106,13 +105,12 @@
         "pieces": 30,
         "money": 20700,
         "industry": 7150
-
       },
       "stats": {
-        "attack": 66,
-        "defense": 24,
-        "movement": 13,
-        "hp": 405,
+        "attack": 58,
+        "defense": 20,
+        "movement": 7,
+        "hp": 335,
         "range": 1
       },
       "skills": [
@@ -128,7 +126,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "bronze",
+          "tier": "silver",
           "description": "Reduce damage from armored units by 15%."
         }
       ],
@@ -140,13 +138,12 @@
         "pieces": 60,
         "money": 41250,
         "industry": 15750
-
       },
       "stats": {
-        "attack": 78,
-        "defense": 24,
-        "movement": 13,
-        "hp": 405,
+        "attack": 70,
+        "defense": 20,
+        "movement": 7,
+        "hp": 335,
         "range": 1
       },
       "skills": [
@@ -162,7 +159,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Reduce damage from armored units by 30%."
         },
         {
@@ -171,7 +168,7 @@
           "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 35%."
         }
       ],
-      "note": "Upgrade Rocket Attack To silver\nUpgrade Explosion-Proof Vest To silver\nUnlock Infrared Aim"
+      "note": "Upgrade Rocket Attack To silver\nUpgrade Explosion-Proof Vest To gold\nUnlock Infrared Aim"
     },
     {
       "level": 6,
@@ -179,13 +176,12 @@
         "pieces": 70,
         "money": 49500,
         "industry": 18900
-
       },
       "stats": {
-        "attack": 78,
-        "defense": 35,
-        "movement": 14,
-        "hp": 405,
+        "attack": 70,
+        "defense": 31,
+        "movement": 8,
+        "hp": 335,
         "range": 1
       },
       "skills": [
@@ -201,7 +197,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Reduce damage from armored units by 30%."
         },
         {
@@ -218,13 +214,12 @@
         "pieces": 80,
         "money": 59400,
         "industry": 22680
-
       },
       "stats": {
-        "attack": 85,
-        "defense": 35,
-        "movement": 14,
-        "hp": 405,
+        "attack": 76,
+        "defense": 31,
+        "movement": 8,
+        "hp": 335,
         "range": 1
       },
       "skills": [
@@ -240,7 +235,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Reduce damage from armored units by 30%."
         },
         {
@@ -257,13 +252,12 @@
         "pieces": 90,
         "money": 71280,
         "industry": 27200
-
       },
       "stats": {
-        "attack": 85,
-        "defense": 35,
-        "movement": 14,
-        "hp": 485,
+        "attack": 76,
+        "defense": 31,
+        "movement": 8,
+        "hp": 415,
         "range": 1
       },
       "skills": [
@@ -279,7 +273,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "silver",
+          "tier": "gold",
           "description": "Reduce damage from armored units by 30%."
         },
         {
@@ -287,7 +281,6 @@
           "tier": "silver",
           "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 35%."
         }
-
       ],
       "note": "null"
     },
@@ -297,13 +290,12 @@
         "pieces": 100,
         "money": 85550,
         "industry": 32650
-
       },
       "stats": {
-        "attack": 95,
-        "defense": 35,
-        "movement": 14,
-        "hp": 485,
+        "attack": 86,
+        "defense": 31,
+        "movement": 8,
+        "hp": 415,
         "range": 1
       },
       "skills": [
@@ -315,11 +307,11 @@
         {
           "title": "Rocket Attack",
           "tier": "gold",
-          "description": "Attack range changed to 2, able to attack multiple enemy troops, damage to other targets is not reduced, 100% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, damage to other targets is not reduced, when attacking there is 100% probability that the enemy troops will not be able to counterattack, lasts for 1 turn, cooldown of 2 turns."
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Reduce damage from armored units by 50%."
         },
         {
@@ -327,23 +319,20 @@
           "tier": "gold",
           "description": "Ignore dodge and smoke bomb effects and increase dealt damage to city defenses by 70%."
         }
-
       ],
-      "note": "Upgrade Rocket Attack To gold\nUpgrade Explosion-Proof Vest To gold\nUpgrade Infrared Aim To gold\n"
+      "note": "Upgrade Rocket Attack To gold\nUpgrade Explosion-Proof Vest To platinum\nUpgrade Infrared Aim To gold"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 5
       },
       "stats": {
-        "attack": 95,
-        "defense": 42,
-        "movement": 15,
-        "hp": 485,
+        "attack": 86,
+        "defense": 38,
+        "movement": 9,
+        "hp": 415,
         "range": 1
       },
       "skills": [
@@ -355,11 +344,11 @@
         {
           "title": "Rocket Attack",
           "tier": "gold",
-          "description": "Attack range changed to 2, able to attack multiple enemy troops, damage to other targets is not reduced, 100% probability of enemy troops not being able to counterattack when attacking, lasts for 1 turn, cooldown of 2 turns."
+          "description": "Attack range changed to 2, able to attack multiple enemy troops, damage to other targets is not reduced, when attacking there is 100% probability that the enemy troops will not be able to counterattack, lasts for 1 turn, cooldown of 2 turns."
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Reduce damage from armored units by 50%."
         },
         {
@@ -369,10 +358,9 @@
         },
         {
           "title": "Critical Attack",
-          "tier": "silver",
-          "description": "Chance of dealing critical attack is increased by 15%."
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
         }
-
       ],
       "note": "Upgrade Infrared Aim To platinum\nUnlock Critical Attack"
     },
@@ -380,15 +368,13 @@
       "level": 11,
       "cost": {
         "pieces": 100,
-
-
         "honorInfantryBadges": 15
       },
       "stats": {
-        "attack": 95,
-        "defense": 42,
-        "movement": 15,
-        "hp": 565,
+        "attack": 86,
+        "defense": 38,
+        "movement": 9,
+        "hp": 495,
         "range": 1
       },
       "skills": [
@@ -404,7 +390,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Reduce damage from armored units by 50%."
         },
         {
@@ -414,11 +400,11 @@
         },
         {
           "title": "Critical Attack",
-          "tier": "gold",
-          "description": "Chance of dealing critical attack is increased by 20%."
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 20%"
         }
       ],
-      "note": "Upgrade Rocket Attack To platinum\nUpgrade Critical Attack To gold\n"
+      "note": "Upgrade Rocket Attack To platinum\nUpgrade Critical Attack To platinum"
     },
     {
       "level": 12,
@@ -427,10 +413,10 @@
         "honorInfantryBadges": 25
       },
       "stats": {
-        "attack": 105,
-        "defense": 42,
-        "movement": 15,
-        "hp": 565,
+        "attack": 96,
+        "defense": 38,
+        "movement": 9,
+        "hp": 495,
         "range": 1
       },
       "skills": [
@@ -446,7 +432,7 @@
         },
         {
           "title": "Explosion-Proof Vest",
-          "tier": "gold",
+          "tier": "platinum",
           "description": "Reduce damage from armored units by 50%."
         },
         {
@@ -457,10 +443,10 @@
         {
           "title": "Critical Attack",
           "tier": "platinum",
-          "description": "Chance of dealing critical attack is increased by 30%."
+          "description": "Chance of dealing a critical attack is increased by 30%"
         }
       ],
-      "note": "Upgrade Critical Attack To platinum\n"
+      "note": "Upgrade Critical Attack To platinum"
     }
   ]
 }

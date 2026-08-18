@@ -1,0 +1,514 @@
+{
+  "name": "Arleigh Burke-class",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 14,
+        "movement": 8,
+        "hp": 470,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "bronze",
+          "description": "Launch multiple short-range ballistic missiles, dealing 150% short-range ballistic missiles damage to the target and 80% damage to enemies around the target, with a cooldown of 3 turns"
+        }
+      ],
+      "note": "Unlock Naval Artillery\nUnlock Minesweeper\nUnlock Depth Charge\nUnlock Air-Defense\nUnlock Saturation Attack "
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 23,
+        "movement": 10,
+        "hp": 470,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "bronze",
+          "description": "Launch multiple short-range ballistic missiles, dealing 150% short-range ballistic missiles damage to the target and 80% damage to enemies around the target, with a cooldown of 3 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 23,
+        "movement": 10,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "bronze",
+          "description": "Launch multiple short-range ballistic missiles, dealing 150% short-range ballistic missiles damage to the target and 80% damage to enemies around the target, with a cooldown of 3 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 23,
+        "movement": 10,
+        "hp": 570,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "bronze",
+          "description": "Launch multiple short-range ballistic missiles, dealing 150% short-range ballistic missiles damage to the target and 80% damage to enemies around the target, with a cooldown of 3 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 90,
+        "defense": 23,
+        "movement": 10,
+        "hp": 570,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "silver",
+          "description": "Launch multiple short-range ballistic missiles, dealing 200% short-range ballistic missiles damage to the target and 100% damage to enemies around the target, with a cooldown of 2 turns"
+        }
+      ],
+      "note": "Upgrade Saturation Attack  To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 90,
+        "defense": 34,
+        "movement": 12,
+        "hp": 570,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "silver",
+          "description": "Launch multiple short-range ballistic missiles, dealing 200% short-range ballistic missiles damage to the target and 100% damage to enemies around the target, with a cooldown of 2 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 34,
+        "movement": 12,
+        "hp": 570,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "silver",
+          "description": "Launch multiple short-range ballistic missiles, dealing 200% short-range ballistic missiles damage to the target and 100% damage to enemies around the target, with a cooldown of 2 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 34,
+        "movement": 12,
+        "hp": 680,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "silver",
+          "description": "Launch multiple short-range ballistic missiles, dealing 200% short-range ballistic missiles damage to the target and 100% damage to enemies around the target, with a cooldown of 2 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 34,
+        "movement": 12,
+        "hp": 680,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "gold",
+          "description": "Launch multiple medium-range ballistic missiles, dealing 200% medium-range ballistic missiles damage to the target and 120% damage to enemies around the target, with a cooldown of 2 turns"
+        }
+      ],
+      "note": "Upgrade Saturation Attack  To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 44,
+        "movement": 13,
+        "hp": 680,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "gold",
+          "description": "Launch multiple medium-range ballistic missiles, dealing 200% medium-range ballistic missiles damage to the target and 120% damage to enemies around the target, with a cooldown of 2 turns"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 44,
+        "movement": 13,
+        "hp": 790,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "platinum",
+          "description": "Launch multiple long-range missiles, dealt damage to the target from long-range missiles  300% and to enemy forces around the target 150%, cooldown of 2 turns."
+        }
+      ],
+      "note": "Upgrade Saturation Attack  To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 119,
+        "defense": 44,
+        "movement": 13,
+        "hp": 790,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Saturation Attack ",
+          "tier": "platinum",
+          "description": "Launch multiple long-range missiles, dealt damage to the target from long-range missiles  300% and to enemy forces around the target 150%, cooldown of 2 turns."
+        },
+        {
+          "title": "Fire-control Radar",
+          "tier": "gold",
+          "description": "Ignores dodge, smoke bomb, phantom status and EMCON."
+        }
+      ],
+      "note": "Unlock Fire-control Radar"
+    }
+  ]
+}

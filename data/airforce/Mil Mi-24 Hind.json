@@ -1,0 +1,464 @@
+{
+  "name": "Mil Mi-24 Hind",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 54,
+        "defense": 11,
+        "movement": 9,
+        "hp": 310,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "bronze",
+          "description": "Select a straight line and advance up to maximum 4 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        }
+      ],
+      "note": "Unlock Machine Gun\nUnlock Air Advantage\nUnlock Strafing Suppression\nUnlock Evasive Maneuvers"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750
+      },
+      "stats": {
+        "attack": 54,
+        "defense": 20,
+        "movement": 10,
+        "hp": 310,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "bronze",
+          "description": "Select a straight line and advance up to maximum 4 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 20,
+        "movement": 10,
+        "hp": 310,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "bronze",
+          "description": "Select a straight line and advance up to maximum 4 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700
+      },
+      "stats": {
+        "attack": 62,
+        "defense": 20,
+        "movement": 10,
+        "hp": 410,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "bronze",
+          "description": "Select a straight line and advance up to maximum 4 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 20,
+        "movement": 10,
+        "hp": 410,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "silver",
+          "description": "Select a straight line and advance up to maximum 6 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        }
+      ],
+      "note": "Upgrade Strafing Suppression To silver\nUpgrade Evasive Maneuvers To gold"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 26,
+        "movement": 11,
+        "hp": 410,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "silver",
+          "description": "Select a straight line and advance up to maximum 6 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 26,
+        "movement": 11,
+        "hp": 410,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "silver",
+          "description": "Select a straight line and advance up to maximum 6 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280
+      },
+      "stats": {
+        "attack": 80,
+        "defense": 26,
+        "movement": 11,
+        "hp": 510,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "silver",
+          "description": "Select a straight line and advance up to maximum 6 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 26,
+        "movement": 11,
+        "hp": 510,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "gold",
+          "description": "Select a straight line and advance up to maximum 8 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        }
+      ],
+      "note": "Upgrade Strafing Suppression To gold\nUpgrade Evasive Maneuvers To platinum"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 34,
+        "movement": 12,
+        "hp": 510,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "gold",
+          "description": "Select a straight line and advance up to maximum 8 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "silver",
+          "description": "Ignores 25% of enemy troop defense."
+        }
+      ],
+      "note": "Unlock High-speed Machine Cannon"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 88,
+        "defense": 34,
+        "movement": 12,
+        "hp": 610,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "gold",
+          "description": "Select a straight line and advance up to maximum 8 square (target location needs to be open space, it will be blocked by hovering units in the air), inflicting strafing damage along the way, cooldown of 2 turns."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        }
+      ],
+      "note": "Upgrade Air Advantage To platinum\nUpgrade High-speed Machine Cannon To gold"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 34,
+        "movement": 12,
+        "hp": 610,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Strafing Suppression",
+          "tier": "platinum",
+          "description": "Select a straight line and advance up to 8 grid (target location needs to be open space, it will be blocked by hovering units in the air), dealing strafing damage along the way with a cooldown of 1 turn. After a sweeping shooting kills a target, you may release another sweeping shooting to suppress it, up to a limit of 4 times in a turn."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "platinum",
+          "description": "Ignore 75% of enemy troops defense."
+        }
+      ],
+      "note": "Upgrade Strafing Suppression To platinum\nUpgrade High-speed Machine Cannon To platinum"
+    }
+  ]
+}

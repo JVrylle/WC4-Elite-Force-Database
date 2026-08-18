@@ -1,6 +1,6 @@
 {
-  "name": "King Tiger",
-  "unit_type": "Armor",
+  "name": "Heavy Gustav",
+  "unit_type": "Artillery",
   "levels": [
     {
       "level": 1,
@@ -8,22 +8,17 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 68,
-        "defense": 21,
-        "movement": 7,
-        "hp": 465,
+        "attack": 83,
+        "defense": 14,
+        "movement": 5,
+        "hp": 415,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -31,7 +26,7 @@
           "description": "Air defense device equipped on armored forces"
         }
       ],
-      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense"
+      "note": "Unlock Firepower\nUnlock Air-Defense"
     },
     {
       "level": 2,
@@ -40,22 +35,17 @@
         "industry": 1800
       },
       "stats": {
-        "attack": 68,
-        "defense": 36,
-        "movement": 8,
-        "hp": 465,
+        "attack": 83,
+        "defense": 24,
+        "movement": 6,
+        "hp": 415,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -72,22 +62,17 @@
         "industry": 7200
       },
       "stats": {
-        "attack": 79,
-        "defense": 36,
-        "movement": 8,
-        "hp": 465,
+        "attack": 94,
+        "defense": 24,
+        "movement": 6,
+        "hp": 415,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -104,22 +89,17 @@
         "industry": 13500
       },
       "stats": {
-        "attack": 79,
-        "defense": 36,
-        "movement": 8,
-        "hp": 565,
+        "attack": 94,
+        "defense": 24,
+        "movement": 6,
+        "hp": 515,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -136,22 +116,17 @@
         "industry": 33000
       },
       "stats": {
-        "attack": 93,
-        "defense": 36,
-        "movement": 8,
-        "hp": 565,
+        "attack": 107,
+        "defense": 24,
+        "movement": 6,
+        "hp": 515,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -159,12 +134,12 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Tank Destroyer",
+          "title": "Giant Artillery",
           "tier": "silver",
-          "description": "Damage dealt to armored and artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
+          "description": "Next attack range +2, dealing extra damage, decrease 40% HP of the target city or fortress(max1200), and decrease 20% HP of the garrison troop(max500), 3 turns cooldown."
         }
       ],
-      "note": "Unlock Tank Destroyer"
+      "note": "Unlock Giant Artillery"
     },
     {
       "level": 6,
@@ -173,22 +148,17 @@
         "industry": 39600
       },
       "stats": {
-        "attack": 93,
-        "defense": 44,
-        "movement": 9,
-        "hp": 565,
+        "attack": 107,
+        "defense": 34,
+        "movement": 7,
+        "hp": 515,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -201,9 +171,9 @@
           "description": "Damage of critical attack is increased by 20% "
         },
         {
-          "title": "Tank Destroyer",
+          "title": "Giant Artillery",
           "tier": "silver",
-          "description": "Damage dealt to armored and artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
+          "description": "Next attack range +2, dealing extra damage, decrease 40% HP of the target city or fortress(max1200), and decrease 20% HP of the garrison troop(max500), 3 turns cooldown."
         }
       ],
       "note": "Unlock Critical Damage"
@@ -215,22 +185,17 @@
         "industry": 47520
       },
       "stats": {
-        "attack": 102,
-        "defense": 44,
-        "movement": 9,
-        "hp": 565,
+        "attack": 115,
+        "defense": 34,
+        "movement": 7,
+        "hp": 515,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -243,9 +208,9 @@
           "description": "Damage of critical attack is increased by 20% "
         },
         {
-          "title": "Tank Destroyer",
+          "title": "Giant Artillery",
           "tier": "silver",
-          "description": "Damage dealt to armored and artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
+          "description": "Next attack range +2, dealing extra damage, decrease 40% HP of the target city or fortress(max1200), and decrease 20% HP of the garrison troop(max500), 3 turns cooldown."
         }
       ],
       "note": "null"
@@ -257,22 +222,17 @@
         "industry": 57000
       },
       "stats": {
-        "attack": 102,
-        "defense": 44,
-        "movement": 9,
-        "hp": 650,
+        "attack": 115,
+        "defense": 34,
+        "movement": 7,
+        "hp": 600,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -285,9 +245,9 @@
           "description": "Damage of critical attack is increased by 20% "
         },
         {
-          "title": "Tank Destroyer",
+          "title": "Giant Artillery",
           "tier": "silver",
-          "description": "Damage dealt to armored and artillery units is increased by 25%,  effective for 1 turn, 2 turns cooldown"
+          "description": "Next attack range +2, dealing extra damage, decrease 40% HP of the target city or fortress(max1200), and decrease 20% HP of the garrison troop(max500), 3 turns cooldown."
         }
       ],
       "note": "null"
@@ -299,22 +259,17 @@
         "industry": 68400
       },
       "stats": {
-        "attack": 112,
-        "defense": 44,
-        "movement": 9,
-        "hp": 650,
+        "attack": 124,
+        "defense": 34,
+        "movement": 7,
+        "hp": 600,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -327,12 +282,12 @@
           "description": "Damage of critical attack is increased by 30% "
         },
         {
-          "title": "Tank Destroyer",
+          "title": "Giant Artillery",
           "tier": "gold",
-          "description": "Damage dealt to armored and artillery units is increased by 40%,  effective for 1 turn, 2 turns cooldown"
+          "description": "Next attack range +2, dealing extra damage, decrease 60% HP of the target city or fortress(max1200), and decrease 30% HP of the garrison troop(max500), 2 turns cooldown"
         }
       ],
-      "note": "Upgrade Critical Damage To silver\nUpgrade Tank Destroyer To gold"
+      "note": "Upgrade Critical Damage To silver\nUpgrade Giant Artillery To gold"
     },
     {
       "level": 10,
@@ -341,22 +296,17 @@
         "honorInfantryBadges": 10
       },
       "stats": {
-        "attack": 112,
-        "defense": 51,
-        "movement": 10,
-        "hp": 650,
+        "attack": 124,
+        "defense": 42,
+        "movement": 8,
+        "hp": 600,
         "range": 2
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -369,9 +319,9 @@
           "description": "Damage of critical attack is increased by 40% "
         },
         {
-          "title": "Tank Destroyer",
+          "title": "Giant Artillery",
           "tier": "gold",
-          "description": "Damage dealt to armored and artillery units is increased by 40%,  effective for 1 turn, 2 turns cooldown"
+          "description": "Next attack range +2, dealing extra damage, decrease 60% HP of the target city or fortress(max1200), and decrease 30% HP of the garrison troop(max500), 2 turns cooldown"
         }
       ],
       "note": "Upgrade Critical Damage To gold"
@@ -383,64 +333,17 @@
         "honorInfantryBadges": 20
       },
       "stats": {
-        "attack": 112,
-        "defense": 51,
-        "movement": 10,
-        "hp": 740,
-        "range": 2
+        "attack": 124,
+        "defense": 42,
+        "movement": 8,
+        "hp": 690,
+        "range": 3
       },
       "skills": [
         {
-          "title": "Machine Gun",
+          "title": "Firepower",
           "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
-        },
-        {
-          "title": "Air-Defense",
-          "tier": "gold",
-          "description": "Air defense device equipped on armored forces"
-        },
-        {
-          "title": "Critical Damage",
-          "tier": "gold",
-          "description": "Damage of critical attack is increased by 40% "
-        },
-        {
-          "title": "Tank Destroyer",
-          "tier": "platinum",
-          "description": "Damage dealt to armored and artillery units is increased by 55%,  effective for 1 turn, 2 turns cooldown."
-        }
-      ],
-      "note": "Upgrade Tank Destroyer To platinum"
-    },
-    {
-      "level": 12,
-      "cost": {
-        "pieces": 100,
-        "honorInfantryBadges": 30
-      },
-      "stats": {
-        "attack": 121,
-        "defense": 51,
-        "movement": 10,
-        "hp": 740,
-        "range": 2
-      },
-      "skills": [
-        {
-          "title": "Machine Gun",
-          "tier": "gold",
-          "description": "Damage to infantry units +55%"
-        },
-        {
-          "title": "Assault",
-          "tier": "gold",
-          "description": "{0}% chance to attack again after destroying the enemy"
+          "description": "{0}% chance to disable the enemy from fighting back"
         },
         {
           "title": "Air-Defense",
@@ -453,17 +356,54 @@
           "description": "Damage of critical attack is increased by 50% "
         },
         {
-          "title": "Tank Destroyer",
-          "tier": "platinum",
-          "description": "Damage dealt to armored and artillery units is increased by 55%,  effective for 1 turn, 2 turns cooldown."
-        },
-        {
-          "title": "Iron Breaker",
+          "title": "Giant Artillery",
           "tier": "gold",
-          "description": "When attacking a target, for every 5 point of the target defense, dealt damage to it +1%."
+          "description": "Next attack range +2, dealing extra damage, decrease 60% HP of the target city or fortress(max1200), and decrease 30% HP of the garrison troop(max500), 2 turns cooldown"
         }
       ],
-      "note": "Upgrade Critical Damage To platinum\nUnlock Iron Breaker"
+      "note": "Upgrade Critical Damage To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 133,
+        "defense": 42,
+        "movement": 8,
+        "hp": 690,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "platinum",
+          "description": "Damage of critical attack is increased by 50% "
+        },
+        {
+          "title": "Giant Artillery",
+          "tier": "platinum",
+          "description": "Attack range +2 during this turn, dealing extra damage, decrease 60% HP of the target city or fortress(max1200), and decrease 30% HP of the garrison troop(max500), 2 turns cooldown."
+        },
+        {
+          "title": "Track Construction",
+          "tier": "gold",
+          "description": "When there is no movement on a given turn, the next turn's mobility + 9."
+        }
+      ],
+      "note": "Upgrade Giant Artillery To platinum\nUnlock Track Construction"
     }
   ]
 }

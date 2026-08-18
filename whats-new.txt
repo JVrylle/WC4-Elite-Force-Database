@@ -1,3 +1,7 @@
+August 18, 2026
+
+Imported all 50 elite forces from the output folder into data/ (new units, full 12-level data)
+
 August 10, 2026
 
 Updated notes for infantry units: Brandenburgers, Combat Medic, Engineering Unit, Hawkeye, RPG Rocketeer

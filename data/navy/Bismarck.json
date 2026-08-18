@@ -1,0 +1,479 @@
+{
+  "name": "Bismarck",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 70,
+        "defense": 22,
+        "movement": 8,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "bronze",
+          "description": "Attacks are guaranteed to be critical and increases 30% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "bronze",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 30%, but the damage receives also increases by 30%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "bronze",
+          "description": "Upon eliminating a target, recover 2% of your maximum HP"
+        }
+      ],
+      "note": "Unlock Air-Defense\nUnlock Broadside volley\nUnlock Solitary Surge\nUnlock Indomitable Will"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 70,
+        "defense": 29,
+        "movement": 10,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "bronze",
+          "description": "Attacks are guaranteed to be critical and increases 30% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "bronze",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 30%, but the damage receives also increases by 30%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "bronze",
+          "description": "Upon eliminating a target, recover 2% of your maximum HP"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 79,
+        "defense": 29,
+        "movement": 10,
+        "hp": 525,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "bronze",
+          "description": "Attacks are guaranteed to be critical and increases 30% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "bronze",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 30%, but the damage receives also increases by 30%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "silver",
+          "description": "Upon eliminating a target, recover 4% of your maximum HP"
+        }
+      ],
+      "note": "Upgrade Indomitable Will To silver"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 79,
+        "defense": 29,
+        "movement": 10,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "bronze",
+          "description": "Attacks are guaranteed to be critical and increases 30% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "silver",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 40%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "silver",
+          "description": "Upon eliminating a target, recover 4% of your maximum HP"
+        }
+      ],
+      "note": "Upgrade Solitary Surge To silver"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 91,
+        "defense": 29,
+        "movement": 10,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "silver",
+          "description": "Attacks are guaranteed to be critical and increases 40% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "silver",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 40%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "silver",
+          "description": "Upon eliminating a target, recover 4% of your maximum HP"
+        }
+      ],
+      "note": "Upgrade Broadside volley To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 91,
+        "defense": 37,
+        "movement": 11,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "silver",
+          "description": "Attacks are guaranteed to be critical and increases 40% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "silver",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 40%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "silver",
+          "description": "Upon eliminating a target, recover 4% of your maximum HP"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 37,
+        "movement": 11,
+        "hp": 625,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "silver",
+          "description": "Attacks are guaranteed to be critical and increases 40% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "silver",
+          "description": "If there are no allied naval units within 3 tiles, this unit’s attack increases by 40%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "gold",
+          "description": "Upon eliminating a target, recover 6% of your maximum HP"
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Indomitable Will To gold\nUnlock Ironclad Fortress"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 100,
+        "defense": 37,
+        "movement": 11,
+        "hp": 735,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "silver",
+          "description": "Attacks are guaranteed to be critical and increases 40% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "gold",
+          "description": "If there are no allied naval units within 2 tiles, this unit’s attack increases by 50%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "gold",
+          "description": "Upon eliminating a target, recover 6% of your maximum HP"
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Solitary Surge To gold"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 110,
+        "defense": 37,
+        "movement": 11,
+        "hp": 735,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "gold",
+          "description": "Attacks are guaranteed to be critical and increases 50% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "gold",
+          "description": "If there are no allied naval units within 2 tiles, this unit’s attack increases by 50%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "gold",
+          "description": "Upon eliminating a target, recover 6% of your maximum HP"
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Broadside volley To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 110,
+        "defense": 46,
+        "movement": 12,
+        "hp": 735,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "gold",
+          "description": "Attacks are guaranteed to be critical and increases 50% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "gold",
+          "description": "If there are no allied naval units within 2 tiles, this unit’s attack increases by 50%, but the damage receives also increases by 25%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "platinum",
+          "description": "Upon eliminating a target, recover 8% of your maximum HP"
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Indomitable Will To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 110,
+        "defense": 46,
+        "movement": 12,
+        "hp": 835,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "gold",
+          "description": "Attacks are guaranteed to be critical and increases 50% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "platinum",
+          "description": "If there are no allied naval units within 2 tiles, this unit’s attack increases by 60%, but the damage receives also increases by 20%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "platinum",
+          "description": "Upon eliminating a target, recover 8% of your maximum HP"
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Solitary Surge To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 120,
+        "defense": 46,
+        "movement": 12,
+        "hp": 835,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Broadside volley",
+          "tier": "platinum",
+          "description": "Attacks are guaranteed to be critical and increases 65% critical attack damage, lasts for 1 turn, with a cooldown of 2 turns."
+        },
+        {
+          "title": "Solitary Surge",
+          "tier": "platinum",
+          "description": "If there are no allied naval units within 2 tiles, this unit’s attack increases by 60%, but the damage receives also increases by 20%."
+        },
+        {
+          "title": "Indomitable Will",
+          "tier": "platinum",
+          "description": "Upon eliminating a target, recover 8% of your maximum HP"
+        },
+        {
+          "title": "Ironclad Fortress",
+          "tier": "gold",
+          "description": "Restores 5% of HP at the end of each turn."
+        }
+      ],
+      "note": "Upgrade Broadside volley To platinum"
+    }
+  ]
+}

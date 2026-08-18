@@ -1,0 +1,416 @@
+{
+  "name": "Stinger Drone",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 0
+      },
+      "stats": {
+        "attack": 48,
+        "defense": 6,
+        "movement": 10,
+        "hp": 215,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "bronze",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "bronze",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 30% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "Unlock Air Advantage\nUnlock Evasive Maneuvers\nUnlock Remote Sensing Strike\nUnlock Tactical Blast"
+    },
+    {
+      "level": 2,
+      "cost": {},
+      "stats": {
+        "attack": 48,
+        "defense": 11,
+        "movement": 11,
+        "hp": 215,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "bronze",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "bronze",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 30% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {},
+      "stats": {
+        "attack": 58,
+        "defense": 11,
+        "movement": 11,
+        "hp": 215,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "bronze",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "bronze",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 30% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {},
+      "stats": {
+        "attack": 58,
+        "defense": 11,
+        "movement": 11,
+        "hp": 295,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "bronze",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "bronze",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 30% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {},
+      "stats": {
+        "attack": 66,
+        "defense": 11,
+        "movement": 11,
+        "hp": 295,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "silver",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 30%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "silver",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 45% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "Upgrade Evasive Maneuvers To gold\nUpgrade Remote Sensing Strike To silver\nUpgrade Tactical Blast To silver"
+    },
+    {
+      "level": 6,
+      "cost": {},
+      "stats": {
+        "attack": 66,
+        "defense": 16,
+        "movement": 13,
+        "hp": 295,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "silver",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 30%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "silver",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 45% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {},
+      "stats": {
+        "attack": 74,
+        "defense": 16,
+        "movement": 13,
+        "hp": 295,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "silver",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 30%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "silver",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 45% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {},
+      "stats": {
+        "attack": 74,
+        "defense": 16,
+        "movement": 13,
+        "hp": 375,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "silver",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 30%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "silver",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 45% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 16,
+        "movement": 13,
+        "hp": 375,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "gold",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 40%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "gold",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 60% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "Upgrade Evasive Maneuvers To platinum\nUpgrade Remote Sensing Strike To gold\nUpgrade Tactical Blast To gold"
+    },
+    {
+      "level": 10,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 23,
+        "movement": 15,
+        "hp": 375,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "gold",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 40%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "gold",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 60% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "Upgrade Air Advantage To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 23,
+        "movement": 15,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "gold",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 40%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "gold",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 60% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 12,
+      "cost": {},
+      "stats": {
+        "attack": 92,
+        "defense": 23,
+        "movement": 15,
+        "hp": 455,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Remote Sensing Strike",
+          "tier": "platinum",
+          "description": "Increase damage dealt to armored, artillery, and naval units by 50%."
+        },
+        {
+          "title": "Tactical Blast",
+          "tier": "platinum",
+          "description": "Initiate the self-destruct program, consume all remaining HP to deal damage equal to 70% of the drone’s HP prior to self-destruction to all targets within a one-hex radius, affecting both allies and enemies."
+        }
+      ],
+      "note": "Upgrade Remote Sensing Strike To platinum\nUpgrade Tactical Blast To platinum"
+    }
+  ]
+}

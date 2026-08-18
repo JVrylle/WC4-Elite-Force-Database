@@ -1,0 +1,404 @@
+{
+  "name": "Divine Wrath MBT",
+  "unit_type": "Armor",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 0
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 21,
+        "movement": 10,
+        "hp": 575,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "silver",
+          "description": "At the start of each turn, restore 3% of maximum HP. When HP is above 50%, damage received is reduced by 15%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "silver",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 70% of base damage per shell."
+        }
+      ],
+      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Nano-restoration\nUnlock Pulse Shockwave\nUnlock Divine Wrath Punishment"
+    },
+    {
+      "level": 2,
+      "cost": {},
+      "stats": {
+        "attack": 78,
+        "defense": 35,
+        "movement": 11,
+        "hp": 575,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "silver",
+          "description": "At the start of each turn, restore 3% of maximum HP. When HP is above 50%, damage received is reduced by 15%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "silver",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 70% of base damage per shell."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {},
+      "stats": {
+        "attack": 89,
+        "defense": 35,
+        "movement": 11,
+        "hp": 575,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "silver",
+          "description": "At the start of each turn, restore 3% of maximum HP. When HP is above 50%, damage received is reduced by 15%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "silver",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 70% of base damage per shell."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {},
+      "stats": {
+        "attack": 89,
+        "defense": 35,
+        "movement": 11,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "silver",
+          "description": "At the start of each turn, restore 3% of maximum HP. When HP is above 50%, damage received is reduced by 15%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "silver",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "silver",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 70% of base damage per shell."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {},
+      "stats": {
+        "attack": 103,
+        "defense": 35,
+        "movement": 11,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "gold",
+          "description": "At the start of each turn, restore 6% of maximum HP. When HP is above 50%, damage received is reduced by 25%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "gold",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 80% of base damage per shell."
+        }
+      ],
+      "note": "Upgrade Nano-restoration To gold\nUpgrade Pulse Shockwave To gold\nUpgrade Divine Wrath Punishment To gold"
+    },
+    {
+      "level": 6,
+      "cost": {},
+      "stats": {
+        "attack": 103,
+        "defense": 43,
+        "movement": 12,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "gold",
+          "description": "At the start of each turn, restore 6% of maximum HP. When HP is above 50%, damage received is reduced by 25%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "gold",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 80% of base damage per shell."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {},
+      "stats": {
+        "attack": 112,
+        "defense": 43,
+        "movement": 12,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "gold",
+          "description": "At the start of each turn, restore 6% of maximum HP. When HP is above 50%, damage received is reduced by 25%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "gold",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 80% of base damage per shell."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {},
+      "stats": {
+        "attack": 112,
+        "defense": 43,
+        "movement": 12,
+        "hp": 775,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "gold",
+          "description": "At the start of each turn, restore 6% of maximum HP. When HP is above 50%, damage received is reduced by 25%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "gold",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "gold",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 80% of base damage per shell."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {},
+      "stats": {
+        "attack": 122,
+        "defense": 43,
+        "movement": 12,
+        "hp": 775,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Nano-restoration",
+          "tier": "platinum",
+          "description": "At the start of each turn, restore 10% of maximum HP. When HP is above 50%, damage received is reduced by 35%."
+        },
+        {
+          "title": "Pulse Shockwave",
+          "tier": "platinum",
+          "description": "When attacking or counterattacking, there is a {0}% chance to cause the target into chaos for 2 turns."
+        },
+        {
+          "title": "Divine Wrath Punishment",
+          "tier": "platinum",
+          "description": "When attacking, both barrels fire one shell each. Each shell independently hits the target, dealing 90% of base damage per shell."
+        }
+      ],
+      "note": "Upgrade Nano-restoration To platinum\nUpgrade Pulse Shockwave To platinum\nUpgrade Divine Wrath Punishment To platinum"
+    }
+  ]
+}

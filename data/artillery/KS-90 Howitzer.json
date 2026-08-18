@@ -1,0 +1,344 @@
+{
+  "name": "KS-90 Howitzer",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 0
+      },
+      "stats": {
+        "attack": 65,
+        "defense": 12,
+        "movement": 10,
+        "hp": 305,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 10%"
+        }
+      ],
+      "note": "Unlock Firepower\nUnlock Nano-repair\nUnlock Air-Defense\nUnlock Critical Attack"
+    },
+    {
+      "level": 2,
+      "cost": {},
+      "stats": {
+        "attack": 65,
+        "defense": 20,
+        "movement": 11,
+        "hp": 305,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {},
+      "stats": {
+        "attack": 74,
+        "defense": 20,
+        "movement": 11,
+        "hp": 305,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 10%"
+        }
+      ],
+      "note": "Upgrade Nano-repair To gold"
+    },
+    {
+      "level": 4,
+      "cost": {},
+      "stats": {
+        "attack": 74,
+        "defense": 20,
+        "movement": 11,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "silver",
+          "description": "Chance of dealing a critical attack is increased by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 20,
+        "movement": 11,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "Upgrade Critical Attack To gold\nUnlock Assault"
+    },
+    {
+      "level": 6,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 26,
+        "movement": 12,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {},
+      "stats": {
+        "attack": 92,
+        "defense": 26,
+        "movement": 12,
+        "hp": 405,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "Upgrade Nano-repair To platinum"
+    },
+    {
+      "level": 8,
+      "cost": {},
+      "stats": {
+        "attack": 92,
+        "defense": 26,
+        "movement": 12,
+        "hp": 490,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "gold",
+          "description": "Chance of dealing a critical attack is increased by 15%"
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {},
+      "stats": {
+        "attack": 101,
+        "defense": 26,
+        "movement": 12,
+        "hp": 490,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Firepower",
+          "tier": "gold",
+          "description": "{0}% chance to disable the enemy from fighting back"
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on armored forces"
+        },
+        {
+          "title": "Critical Attack",
+          "tier": "platinum",
+          "description": "Chance of dealing a critical attack is increased by 20%"
+        },
+        {
+          "title": "Critical Damage",
+          "tier": "gold",
+          "description": "Damage of critical attack is increased by 50% "
+        },
+        {
+          "title": "Assault",
+          "tier": "gold",
+          "description": "{0}% chance to attack again after destroying the enemy"
+        }
+      ],
+      "note": "Upgrade Critical Attack To platinum\nUnlock Critical Damage"
+    }
+  ]
+}

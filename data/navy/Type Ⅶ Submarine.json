@@ -1,0 +1,374 @@
+{
+  "name": "Type Ⅶ Submarine",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 56,
+        "defense": 12,
+        "movement": 8,
+        "hp": 395,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        }
+      ],
+      "note": "Unlock Torpedo\nUnlock Submerge"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1500
+      },
+      "stats": {
+        "attack": 56,
+        "defense": 20,
+        "movement": 10,
+        "hp": 395,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7125
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 20,
+        "movement": 10,
+        "hp": 395,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 12375
+      },
+      "stats": {
+        "attack": 66,
+        "defense": 20,
+        "movement": 10,
+        "hp": 490,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 30000
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 20,
+        "movement": 10,
+        "hp": 490,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "silver",
+          "description": "Damage is increased by 50% when attacking transport ship"
+        }
+      ],
+      "note": "Unlock Wolfpack Tactic"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 36000
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 27,
+        "movement": 11,
+        "hp": 490,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "silver",
+          "description": "Damage is increased by 50% when attacking transport ship"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 43200
+      },
+      "stats": {
+        "attack": 86,
+        "defense": 27,
+        "movement": 11,
+        "hp": 490,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "silver",
+          "description": "Damage is increased by 50% when attacking transport ship"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 51840
+      },
+      "stats": {
+        "attack": 86,
+        "defense": 27,
+        "movement": 11,
+        "hp": 570,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "silver",
+          "description": "Damage is increased by 50% when attacking transport ship"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 62200
+      },
+      "stats": {
+        "attack": 96,
+        "defense": 27,
+        "movement": 11,
+        "hp": 570,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "gold",
+          "description": "Damage is increased by 70% when attacking all ship"
+        }
+      ],
+      "note": "Upgrade Wolfpack Tactic To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 96,
+        "defense": 36,
+        "movement": 12,
+        "hp": 570,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "platinum",
+          "description": "Increase damage by 100% when attacking all ships."
+        }
+      ],
+      "note": "Upgrade Wolfpack Tactic To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 96,
+        "defense": 36,
+        "movement": 12,
+        "hp": 650,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "platinum",
+          "description": "Increase damage by 100% when attacking all ships."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 106,
+        "defense": 36,
+        "movement": 12,
+        "hp": 650,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Torpedo",
+          "tier": "gold",
+          "description": "Damage +100% when attacking cruisers and aircraft carriers "
+        },
+        {
+          "title": "Submerge",
+          "tier": "gold",
+          "description": "The enemy are unable to fight back when attacking; receive no harm from land units except coastal artillery"
+        },
+        {
+          "title": "Wolfpack Tactic",
+          "tier": "platinum",
+          "description": "Increase damage by 100% when attacking all ships."
+        },
+        {
+          "title": "Multiple Strike",
+          "tier": "gold",
+          "description": "Within 2 grids, may select up to 4 target to fire torpedoes at, cooldown of 2 turns."
+        }
+      ],
+      "note": "Unlock Multiple Strike"
+    }
+  ]
+}

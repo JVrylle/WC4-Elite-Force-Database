@@ -1,0 +1,429 @@
+{
+  "name": "RT-2PM2 Topol-M",
+  "unit_type": "Artillery",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 60,
+        "defense": 10,
+        "movement": 10,
+        "hp": 305,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "bronze",
+          "description": "Can fire short-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "bronze",
+          "description": "When within mountain or forest terrain, lower damage received by 10%"
+        }
+      ],
+      "note": "Unlock Missile Attack\nUnlock Strategic Nuclear Deterrence\nUnlock Camouflage Protection"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 60,
+        "defense": 18,
+        "movement": 11,
+        "hp": 305,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "bronze",
+          "description": "Can fire short-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "bronze",
+          "description": "When within mountain or forest terrain, lower damage received by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 18,
+        "movement": 11,
+        "hp": 305,
+        "range": 14
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "bronze",
+          "description": "When within mountain or forest terrain, lower damage received by 10%"
+        }
+      ],
+      "note": "Upgrade Missile Attack To silver"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 18,
+        "movement": 11,
+        "hp": 405,
+        "range": 14
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "bronze",
+          "description": "When launching missiles, you can load atomic warheads, initially having two and restoring one every 4 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "bronze",
+          "description": "When within mountain or forest terrain, lower damage received by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 18,
+        "movement": 11,
+        "hp": 405,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "silver",
+          "description": "When within mountain or forest terrain, lower damage received by 20%"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "Upgrade Strategic Nuclear Deterrence To silver\nUpgrade Camouflage Protection To silver\nUnlock Atomic Strike"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 72,
+        "defense": 23,
+        "movement": 12,
+        "hp": 405,
+        "range": 16
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "silver",
+          "description": "Can fire medium-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "silver",
+          "description": "When within mountain or forest terrain, lower damage received by 20%"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 23,
+        "movement": 12,
+        "hp": 405,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "silver",
+          "description": "When within mountain or forest terrain, lower damage received by 20%"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "Upgrade Missile Attack To gold"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 23,
+        "movement": 12,
+        "hp": 490,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "silver",
+          "description": "When launching missiles, you can load hydrogen warheads, initially having two and restoring one every 3 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "gold",
+          "description": "When within mountain or forest terrain, lower damage received by 30%"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "bronze",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 10%."
+        }
+      ],
+      "note": "Upgrade Camouflage Protection To gold"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 23,
+        "movement": 12,
+        "hp": 490,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "gold",
+          "description": "When launching missiles, you can load tri-phase warheads, initially having two and restoring one every 2 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "gold",
+          "description": "When within mountain or forest terrain, lower damage received by 30%"
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "silver",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 20%."
+        }
+      ],
+      "note": "Upgrade Strategic Nuclear Deterrence To gold\nUpgrade Atomic Strike To silver"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 31,
+        "movement": 13,
+        "hp": 490,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "gold",
+          "description": "When launching missiles, you can load tri-phase warheads, initially having two and restoring one every 2 turn. Maximum 4."
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "platinum",
+          "description": "When at the mountain and forest terrain, decrease taken damage by 50%."
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "gold",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 35%."
+        }
+      ],
+      "note": "Upgrade Camouflage Protection To platinum\nUpgrade Atomic Strike To gold"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 31,
+        "movement": 13,
+        "hp": 580,
+        "range": 20
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "gold",
+          "description": "Can fire intermediate-range ballistic missiles up to 2 times per turn. Replaces normal attacks."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "platinum",
+          "description": "When launching missiles, you can load three-phase warheads, initially possessing 2 and regaining 1 every 2 turn. Cap of 5. Attacks always trigger radiation effects"
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "platinum",
+          "description": "When at the mountain and forest terrain, decrease taken damage by 50%."
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "gold",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 35%."
+        }
+      ],
+      "note": "Upgrade Strategic Nuclear Deterrence To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 98,
+        "defense": 31,
+        "movement": 13,
+        "hp": 580,
+        "range": 24
+      },
+      "skills": [
+        {
+          "title": "Missile Attack",
+          "tier": "platinum",
+          "description": "Can launch intercontinental missiles up to 2 times per turn. Instead of a normal attack."
+        },
+        {
+          "title": "Strategic Nuclear Deterrence",
+          "tier": "platinum",
+          "description": "When launching missiles, you can load three-phase warheads, initially possessing 2 and regaining 1 every 2 turn. Cap of 5. Attacks always trigger radiation effects"
+        },
+        {
+          "title": "Camouflage Protection",
+          "tier": "platinum",
+          "description": "When at the mountain and forest terrain, decrease taken damage by 50%."
+        },
+        {
+          "title": "Atomic Strike",
+          "tier": "platinum",
+          "description": "When attacking with a nuclear bomb, the damage dealt by the nuclear bomb is increased by 50%."
+        }
+      ],
+      "note": "Upgrade Missile Attack To platinum\nUpgrade Atomic Strike To platinum"
+    }
+  ]
+}

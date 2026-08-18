@@ -1,0 +1,569 @@
+{
+  "name": "Sukhoi Su-30V",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 14,
+        "movement": 16,
+        "hp": 415,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "bronze",
+          "description": "Increases damage dealt to armored units, artillery units, and naval units by 10%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "bronze",
+          "description": "During this turn, when your attack deals damage, it will also deal 20% damage to up to 3 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "bronze",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 1 times."
+        }
+      ],
+      "note": "Unlock Air Advantage\nUnlock Thrust Vectoring\nUnlock Aerial Countermeasures\nUnlock BVR Target Lock\nUnlock Cluster Munition Missile \nUnlock Relentless Offensive"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 19,
+        "movement": 17,
+        "hp": 415,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "bronze",
+          "description": "Increases damage dealt to armored units, artillery units, and naval units by 10%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "bronze",
+          "description": "During this turn, when your attack deals damage, it will also deal 20% damage to up to 3 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "bronze",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 1 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200
+      },
+      "stats": {
+        "attack": 77,
+        "defense": 19,
+        "movement": 17,
+        "hp": 415,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "bronze",
+          "description": "Increases damage dealt to armored units, artillery units, and naval units by 10%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "bronze",
+          "description": "During this turn, when your attack deals damage, it will also deal 20% damage to up to 3 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "bronze",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 1 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700
+      },
+      "stats": {
+        "attack": 77,
+        "defense": 19,
+        "movement": 17,
+        "hp": 515,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "bronze",
+          "description": "Increases damage dealt to armored units, artillery units, and naval units by 10%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "bronze",
+          "description": "During this turn, when your attack deals damage, it will also deal 20% damage to up to 3 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "bronze",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 1 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250
+      },
+      "stats": {
+        "attack": 86,
+        "defense": 19,
+        "movement": 17,
+        "hp": 515,
+        "range": 4
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "silver",
+          "description": "Increases maximum attack range by 1 and damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "silver",
+          "description": "During this turn, when your attack deals damage, it will also deal 30% damage to up to 4 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "silver",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 2 times."
+        }
+      ],
+      "note": "Upgrade Thrust Vectoring To gold\nUpgrade Aerial Countermeasures To silver\nUpgrade BVR Target Lock To silver\nUpgrade Cluster Munition Missile  To silver\nUpgrade Relentless Offensive To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500
+      },
+      "stats": {
+        "attack": 86,
+        "defense": 26,
+        "movement": 18,
+        "hp": 515,
+        "range": 4
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "silver",
+          "description": "Increases maximum attack range by 1 and damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "silver",
+          "description": "During this turn, when your attack deals damage, it will also deal 30% damage to up to 4 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "silver",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 2 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 26,
+        "movement": 18,
+        "hp": 515,
+        "range": 4
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "silver",
+          "description": "Increases maximum attack range by 1 and damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "silver",
+          "description": "During this turn, when your attack deals damage, it will also deal 30% damage to up to 4 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "silver",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 2 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280
+      },
+      "stats": {
+        "attack": 94,
+        "defense": 26,
+        "movement": 18,
+        "hp": 595,
+        "range": 4
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "silver",
+          "description": "Increases maximum attack range by 1 and damage dealt to armored, artillery, and naval units by 20%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "silver",
+          "description": "During this turn, when your attack deals damage, it will also deal 30% damage to up to 4 units within a 1-tile radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 3 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "silver",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 2 times."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550
+      },
+      "stats": {
+        "attack": 103,
+        "defense": 26,
+        "movement": 18,
+        "hp": 595,
+        "range": 5
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "gold",
+          "description": "Damage is increased by 30% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "gold",
+          "description": "Increases maximum attack range by 2 and damage dealt to armored, artillery, and naval units by 30%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "gold",
+          "description": "During this turn, when your attack deals damage, it will also deal 40% damage to up to 5 units within a 2-tiles radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 2 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "gold",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 3 times."
+        }
+      ],
+      "note": "Upgrade Thrust Vectoring To platinum\nUpgrade Aerial Countermeasures To gold\nUpgrade BVR Target Lock To gold\nUpgrade Cluster Munition Missile  To gold\nUpgrade Relentless Offensive To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 103,
+        "defense": 35,
+        "movement": 19,
+        "hp": 595,
+        "range": 5
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "platinum",
+          "description": "Damage is increased by 40% against helicopters. After moving each turn, the next turn’s mobility is reduced by 6 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "gold",
+          "description": "Increases maximum attack range by 2 and damage dealt to armored, artillery, and naval units by 30%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "gold",
+          "description": "During this turn, when your attack deals damage, it will also deal 40% damage to up to 5 units within a 2-tiles radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 2 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "gold",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 3 times."
+        }
+      ],
+      "note": "Upgrade Air Advantage To platinum\nUpgrade Aerial Countermeasures To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 103,
+        "defense": 35,
+        "movement": 19,
+        "hp": 665,
+        "range": 5
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "platinum",
+          "description": "Damage is increased by 40% against helicopters. After moving each turn, the next turn’s mobility is reduced by 6 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "platinum",
+          "description": "Increases maximum attack range by 2 and damage dealt to armored, artillery, and naval units by 40%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "platinum",
+          "description": "During this turn, when your attack deals damage, it will also deal 50% damage to up to 6 units within a 2-tiles radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 2 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "gold",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 3 times."
+        }
+      ],
+      "note": "Upgrade BVR Target Lock To platinum\nUpgrade Cluster Munition Missile  To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 112,
+        "defense": 35,
+        "movement": 19,
+        "hp": 665,
+        "range": 5
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "platinum",
+          "description": "Damage is increased by 40% against helicopters. After moving each turn, the next turn’s mobility is reduced by 6 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "BVR Target Lock",
+          "tier": "platinum",
+          "description": "Increases maximum attack range by 2 and damage dealt to armored, artillery, and naval units by 40%."
+        },
+        {
+          "title": "Cluster Munition Missile ",
+          "tier": "platinum",
+          "description": "During this turn, when your attack deals damage, it will also deal 50% damage to up to 6 units within a 2-tiles radius of the target, prioritizing non-infantry units. This effect lasts for 1 turn. Cooldown of 2 turns."
+        },
+        {
+          "title": "Relentless Offensive",
+          "tier": "platinum",
+          "description": "After making an attack, you can make one additional attack. This effect can trigger up to 3 times. For each attack you make during your turn, the next attack’s damage is increased by 20%, stacking up to three times."
+        }
+      ],
+      "note": "Upgrade Relentless Offensive To platinum"
+    }
+  ]
+}

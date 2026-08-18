@@ -1,0 +1,509 @@
+{
+  "name": "Harrier",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 67,
+        "defense": 16,
+        "movement": 13,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "silver",
+          "description": "Ignores 25% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "bronze",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 1 times per turn."
+        }
+      ],
+      "note": "Unlock Air Advantage\nUnlock Thrust Vectoring\nUnlock Aerial Countermeasures\nUnlock High-speed Machine Cannon\nUnlock Chain Attack"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3750
+      },
+      "stats": {
+        "attack": 67,
+        "defense": 24,
+        "movement": 14,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "silver",
+          "description": "Ignores 25% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "bronze",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 1 times per turn."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 13200
+      },
+      "stats": {
+        "attack": 76,
+        "defense": 24,
+        "movement": 14,
+        "hp": 395,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "silver",
+          "description": "Ignores 25% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "bronze",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 1 times per turn."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 20700
+      },
+      "stats": {
+        "attack": 76,
+        "defense": 24,
+        "movement": 14,
+        "hp": 495,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "silver",
+          "description": "When attacked by land or naval forces, there is a 40% probability of dodging the damage. When attacked by air strike, there is a 10% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "bronze",
+          "description": "Damage is increased by 10% against helicopters. After moving each turn, the next turn’s mobility is reduced by 12 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "silver",
+          "description": "Ignores 25% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "bronze",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 1 times per turn."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 41250
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 24,
+        "movement": 14,
+        "hp": 495,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 2 times per turn."
+        }
+      ],
+      "note": "Upgrade Thrust Vectoring To gold\nUpgrade Aerial Countermeasures To silver\nUpgrade High-speed Machine Cannon To gold\nUpgrade Chain Attack To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 49500
+      },
+      "stats": {
+        "attack": 85,
+        "defense": 31,
+        "movement": 15,
+        "hp": 495,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 2 times per turn."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 59400
+      },
+      "stats": {
+        "attack": 93,
+        "defense": 31,
+        "movement": 15,
+        "hp": 495,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 2 times per turn."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 71280
+      },
+      "stats": {
+        "attack": 93,
+        "defense": 31,
+        "movement": 15,
+        "hp": 575,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "gold",
+          "description": "When attacked by land or naval forces, there is a 65% probability of dodging the damage. When attacked by air strike, there is a 20% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "silver",
+          "description": "Damage is increased by 20% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 1 tile of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignores 50% of enemy troop defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "silver",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately attack again, but the damage for each subsequent attack is reduced by 30%, up to 2 times per turn."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 85550
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 31,
+        "movement": 15,
+        "hp": 575,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced"
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "gold",
+          "description": "Damage is increased by 30% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "platinum",
+          "description": "Ignore 75% of enemy troops defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "gold",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately operate again, but the damage for each subsequent attack is reduced by 20%, up to 2 times per turn."
+        }
+      ],
+      "note": "Upgrade Thrust Vectoring To platinum\nUpgrade Aerial Countermeasures To gold\nUpgrade High-speed Machine Cannon To platinum\nUpgrade Chain Attack To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 39,
+        "movement": 16,
+        "hp": 575,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "gold",
+          "description": "Damage is increased by 30% against helicopters. After moving each turn, the next turn’s mobility is reduced by 9 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "platinum",
+          "description": "Ignore 75% of enemy troops defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "gold",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately operate again, but the damage for each subsequent attack is reduced by 20%, up to 2 times per turn."
+        }
+      ],
+      "note": "Upgrade Air Advantage To platinum"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 102,
+        "defense": 39,
+        "movement": 16,
+        "hp": 645,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "platinum",
+          "description": "Damage is increased by 40% against helicopters. After moving each turn, the next turn’s mobility is reduced by 6 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "platinum",
+          "description": "Ignore 75% of enemy troops defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "gold",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately operate again, but the damage for each subsequent attack is reduced by 20%, up to 2 times per turn."
+        }
+      ],
+      "note": "Upgrade Aerial Countermeasures To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 111,
+        "defense": 39,
+        "movement": 16,
+        "hp": 645,
+        "range": 3
+      },
+      "skills": [
+        {
+          "title": "Air Advantage",
+          "tier": "platinum",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Thrust Vectoring",
+          "tier": "platinum",
+          "description": "When attacked by land or naval forces, there is a 90% probability of dodging the damage. When attacked by air strike, there is a 30% probability of dodging the damage (excluding Missiles and Nuclear Bombs)."
+        },
+        {
+          "title": "Aerial Countermeasures",
+          "tier": "platinum",
+          "description": "Damage is increased by 40% against helicopters. After moving each turn, the next turn’s mobility is reduced by 6 (with minimum movement of 2 tiles) Full mobility are restored after resting for 1 turn within 2 tiles of a friendly city, engineering unit or aircraft carrier."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "platinum",
+          "description": "Ignore 75% of enemy troops defense."
+        },
+        {
+          "title": "Chain Attack",
+          "tier": "platinum",
+          "description": "Damage dealt to armored and artillery units is increased by {0}%. After attacking a target, if the target is not eliminated, it is inflicted with a Impede effect that lasts for 1 turn. If the target is eliminated, you can immediately operate again, but the damage for each subsequent attack is reduced by 20%, up to 3 times per turn."
+        }
+      ],
+      "note": "Upgrade Chain Attack To platinum"
+    }
+  ]
+}

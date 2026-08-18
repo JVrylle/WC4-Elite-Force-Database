@@ -1,0 +1,309 @@
+{
+  "name": "C-47 Skytrain",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 8
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        }
+      ],
+      "note": "Unlock Air Transportation"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "money": 3000
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 8
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "money": 6000
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "money": 12000
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 10
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "money": 24000
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "silver",
+          "description": "Money spent for building Air units are decreased by 10%"
+        }
+      ],
+      "note": "Unlock Air Combat Readiness"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "money": 28800
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 12
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "silver",
+          "description": "Money spent for building Air units are decreased by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "money": 34560
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 13
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "silver",
+          "description": "Money spent for building Air units are decreased by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "money": 41450
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 13
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "silver",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "silver",
+          "description": "Money spent for building Air units are decreased by 10%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "money": 49750
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 13
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "gold",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location, recovering 50% HP during the transport"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        }
+      ],
+      "note": "Upgrade Air Transportation To gold\nUpgrade Air Combat Readiness To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 15
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "gold",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location, recovering 50% HP during the transport"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "gold",
+          "description": "Money spent for building Air units are decreased by 20%"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 15
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "gold",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location, recovering 50% HP during the transport"
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "platinum",
+          "description": "Money spent for building Air units are decreased by 30%."
+        }
+      ],
+      "note": "Upgrade Air Combat Readiness To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 0,
+        "defense": 0,
+        "movement": 0,
+        "hp": 0,
+        "range": 15
+      },
+      "skills": [
+        {
+          "title": "Air Transportation",
+          "tier": "platinum",
+          "description": "Transport an infantry, armored car, field artillery or howitzer to targeted location, recovering 50% HP during the transport, ignoring anti-aircraft weapons during the airlift."
+        },
+        {
+          "title": "Air Combat Readiness",
+          "tier": "platinum",
+          "description": "Money spent for building Air units are decreased by 30%."
+        }
+      ],
+      "note": "Upgrade Air Transportation To platinum"
+    }
+  ]
+}

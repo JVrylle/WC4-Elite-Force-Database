@@ -1,0 +1,509 @@
+{
+  "name": "Enterprise",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 38,
+        "defense": 24,
+        "movement": 6,
+        "hp": 545,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "bronze",
+          "description": "Can use all normal aircraft in the airport with a maximum of 5 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "bronze",
+          "description": "Increases normal attack damage to tank units by 15%."
+        }
+      ],
+      "note": "Unlock Bombing\nUnlock Air-Defense\nUnlock Carrier\nUnlock Maritime Airport\nUnlock High Explosive Shell"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 38,
+        "defense": 32,
+        "movement": 7,
+        "hp": 545,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "bronze",
+          "description": "Can use all normal aircraft in the airport with a maximum of 5 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "bronze",
+          "description": "Increases normal attack damage to tank units by 15%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 32,
+        "movement": 7,
+        "hp": 545,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "bronze",
+          "description": "Can use all normal aircraft in the airport with a maximum of 5 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "bronze",
+          "description": "Increases normal attack damage to tank units by 15%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 44,
+        "defense": 32,
+        "movement": 7,
+        "hp": 645,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "bronze",
+          "description": "Can use all normal aircraft in the airport with a maximum of 5 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "bronze",
+          "description": "Increases normal attack damage to tank units by 15%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 48,
+        "defense": 32,
+        "movement": 7,
+        "hp": 645,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "silver",
+          "description": "Can use all normal aircraft in the airport with a maximum of 8 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "silver",
+          "description": "Increases normal attack damage to tank units by 30%."
+        }
+      ],
+      "note": "Upgrade Maritime Airport To silver\nUpgrade High Explosive Shell To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 48,
+        "defense": 44,
+        "movement": 9,
+        "hp": 645,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "silver",
+          "description": "Can use all normal aircraft in the airport with a maximum of 8 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "silver",
+          "description": "Increases normal attack damage to tank units by 30%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 54,
+        "defense": 44,
+        "movement": 9,
+        "hp": 645,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "silver",
+          "description": "Can use all normal aircraft in the airport with a maximum of 8 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "silver",
+          "description": "Increases normal attack damage to tank units by 30%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 54,
+        "defense": 44,
+        "movement": 9,
+        "hp": 765,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "silver",
+          "description": "Can use all normal aircraft in the airport with a maximum of 8 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "silver",
+          "description": "Increases normal attack damage to tank units by 30%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 44,
+        "movement": 9,
+        "hp": 765,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "gold",
+          "description": "Can use most of aircraft on the airfield except for transports, with a maximum of 12 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "gold",
+          "description": "Increases normal attack damage to tank units by 50%."
+        }
+      ],
+      "note": "Upgrade Maritime Airport To gold\nUpgrade High Explosive Shell To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 10
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 52,
+        "movement": 10,
+        "hp": 765,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "gold",
+          "description": "Can use most of aircraft on the airfield except for transports, with a maximum of 12 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "gold",
+          "description": "Increases normal attack damage to tank units by 50%."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 20
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 52,
+        "movement": 10,
+        "hp": 885,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "gold",
+          "description": "Can use most of aircraft on the airfield except for transports, with a maximum of 12 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "platinum",
+          "description": "Dealt damage to armored units by shipboard aircraft +80%."
+        }
+      ],
+      "note": "Upgrade High Explosive Shell To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 30
+      },
+      "stats": {
+        "attack": 64,
+        "defense": 52,
+        "movement": 10,
+        "hp": 885,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Bombing",
+          "tier": "gold",
+          "description": "Bomber damage to ship units +50%"
+        },
+        {
+          "title": "Air-Defense",
+          "tier": "gold",
+          "description": "Air defense device equipped on warships"
+        },
+        {
+          "title": "Carrier",
+          "tier": "gold",
+          "description": "Able to attack by aircraft"
+        },
+        {
+          "title": "Maritime Airport",
+          "tier": "platinum",
+          "description": "Can use most of aircraft on the airfield except for transports, with a maximum of 16 aircraft points."
+        },
+        {
+          "title": "High Explosive Shell",
+          "tier": "platinum",
+          "description": "Dealt damage to armored units by shipboard aircraft +80%."
+        }
+      ],
+      "note": "Upgrade Maritime Airport To platinum"
+    }
+  ]
+}

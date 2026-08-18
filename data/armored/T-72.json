@@ -1,5 +1,5 @@
 {
-  "name": "A41 Centurion",
+  "name": "T-72",
   "unit_type": "Armor",
   "levels": [
     {
@@ -8,10 +8,10 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 65,
-        "defense": 21,
-        "movement": 8,
-        "hp": 445,
+        "attack": 76,
+        "defense": 23,
+        "movement": 9,
+        "hp": 455,
         "range": 2
       },
       "skills": [
@@ -31,17 +31,17 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 10%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Ignore terrain damage reduction effects when attacking and counterattacking."
         }
       ],
-      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Smoke Bomb\nUnlock HEAT Ammunition "
+      "note": "Unlock Machine Gun\nUnlock Assault\nUnlock Air-Defense\nUnlock Local Advantage\nUnlock Walking As On The Ground"
     },
     {
       "level": 2,
@@ -50,10 +50,10 @@
         "industry": 1800
       },
       "stats": {
-        "attack": 65,
-        "defense": 31,
-        "movement": 9,
-        "hp": 445,
+        "attack": 76,
+        "defense": 33,
+        "movement": 10,
+        "hp": 455,
         "range": 2
       },
       "skills": [
@@ -73,14 +73,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 10%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Ignore terrain damage reduction effects when attacking and counterattacking."
         }
       ],
       "note": "null"
@@ -92,10 +92,10 @@
         "industry": 7200
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
-        "movement": 9,
-        "hp": 445,
+        "attack": 85,
+        "defense": 33,
+        "movement": 10,
+        "hp": 455,
         "range": 2
       },
       "skills": [
@@ -115,14 +115,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 10%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Ignore terrain damage reduction effects when attacking and counterattacking."
         }
       ],
       "note": "null"
@@ -134,10 +134,10 @@
         "industry": 13500
       },
       "stats": {
-        "attack": 74,
-        "defense": 31,
-        "movement": 9,
-        "hp": 545,
+        "attack": 85,
+        "defense": 33,
+        "movement": 10,
+        "hp": 555,
         "range": 2
       },
       "skills": [
@@ -157,14 +157,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "bronze",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 3 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 10%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "bronze",
-          "description": "While in a smoke bomb effect, ignore 10% of enemy Defense."
+          "description": "Ignore terrain damage reduction effects when attacking and counterattacking."
         }
       ],
       "note": "null"
@@ -176,10 +176,10 @@
         "industry": 33000
       },
       "stats": {
-        "attack": 86,
-        "defense": 31,
-        "movement": 9,
-        "hp": 545,
+        "attack": 97,
+        "defense": 33,
+        "movement": 10,
+        "hp": 555,
         "range": 2
       },
       "skills": [
@@ -199,17 +199,17 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 30%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 25% defense and mobility for 1 turn."
         }
       ],
-      "note": "Upgrade Smoke Bomb To silver\nUpgrade HEAT Ammunition  To silver"
+      "note": "Upgrade Local Advantage To silver\nUpgrade Walking As On The Ground To silver"
     },
     {
       "level": 6,
@@ -218,10 +218,10 @@
         "industry": 39600
       },
       "stats": {
-        "attack": 86,
-        "defense": 39,
-        "movement": 10,
-        "hp": 545,
+        "attack": 97,
+        "defense": 41,
+        "movement": 11,
+        "hp": 555,
         "range": 2
       },
       "skills": [
@@ -241,14 +241,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 30%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 25% defense and mobility for 1 turn."
         }
       ],
       "note": "null"
@@ -260,10 +260,10 @@
         "industry": 47520
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
-        "movement": 10,
-        "hp": 545,
+        "attack": 105,
+        "defense": 41,
+        "movement": 11,
+        "hp": 555,
         "range": 2
       },
       "skills": [
@@ -283,14 +283,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 30%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 25% defense and mobility for 1 turn."
         }
       ],
       "note": "null"
@@ -302,10 +302,10 @@
         "industry": 57000
       },
       "stats": {
-        "attack": 94,
-        "defense": 39,
-        "movement": 10,
-        "hp": 635,
+        "attack": 105,
+        "defense": 41,
+        "movement": 11,
+        "hp": 645,
         "range": 2
       },
       "skills": [
@@ -325,14 +325,14 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "silver",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen and cannot be actively attacked by land forces, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 30%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "silver",
-          "description": "While in a smoke bomb effect, ignore 20% of enemy Defense."
+          "description": "Ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 25% defense and mobility for 1 turn."
         }
       ],
       "note": "null"
@@ -344,10 +344,10 @@
         "industry": 68400
       },
       "stats": {
-        "attack": 104,
-        "defense": 39,
-        "movement": 10,
-        "hp": 635,
+        "attack": 115,
+        "defense": 41,
+        "movement": 11,
+        "hp": 645,
         "range": 2
       },
       "skills": [
@@ -367,29 +367,29 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "gold",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 50%."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "description": "Ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 50% defense and mobility for 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To gold\nUpgrade HEAT Ammunition  To gold"
+      "note": "Upgrade Local Advantage To gold\nUpgrade Walking As On The Ground To gold"
     },
     {
       "level": 10,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 5
+        "honorInfantryBadges": 10
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
-        "movement": 11,
-        "hp": 635,
+        "attack": 115,
+        "defense": 49,
+        "movement": 12,
+        "hp": 645,
         "range": 2
       },
       "skills": [
@@ -409,29 +409,29 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
-          "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "title": "Local Advantage",
+          "tier": "gold",
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 50%."
         },
         {
-          "title": "HEAT Ammunition ",
-          "tier": "gold",
-          "description": "While in a smoke bomb effect, ignore 30% of enemy Defense."
+          "title": "Walking As On The Ground",
+          "tier": "platinum",
+          "description": "Ignores the effects of special terrain on mobility, ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 50% defense and mobility for 2 turns."
         }
       ],
-      "note": "Upgrade Smoke Bomb To platinum"
+      "note": "Upgrade Walking As On The Ground To platinum"
     },
     {
       "level": 11,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 15
+        "honorInfantryBadges": 20
       },
       "stats": {
-        "attack": 104,
-        "defense": 47,
-        "movement": 11,
-        "hp": 725,
+        "attack": 115,
+        "defense": 49,
+        "movement": 12,
+        "hp": 735,
         "range": 2
       },
       "skills": [
@@ -451,29 +451,29 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 50%, and attack range +1 on first attack this turn."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "Ignores the effects of special terrain on mobility, ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 50% defense and mobility for 2 turns."
         }
       ],
-      "note": "Upgrade HEAT Ammunition  To platinum"
+      "note": "Upgrade Local Advantage To platinum"
     },
     {
       "level": 12,
       "cost": {
         "pieces": 100,
-        "honorInfantryBadges": 25
+        "honorInfantryBadges": 30
       },
       "stats": {
-        "attack": 114,
-        "defense": 47,
-        "movement": 11,
-        "hp": 725,
+        "attack": 125,
+        "defense": 49,
+        "movement": 12,
+        "hp": 735,
         "range": 2
       },
       "skills": [
@@ -493,22 +493,22 @@
           "description": "Air defense device equipped on armored forces"
         },
         {
-          "title": "Smoke Bomb",
+          "title": "Local Advantage",
           "tier": "platinum",
-          "description": "Fires a smoke bomb that shrouds itself in a smoke screen, unable to be actively attacked by land forces, with a 100% probability of being able to attack an additional time for 1 time, lasts for 1 turn, with a cooldown of 2 turns, has a 50% probability of ignoring dodge effects."
+          "description": "When in range of your own or an ally's territory, damage dealt is increased by 50%, and attack range +1 on first attack this turn."
         },
         {
-          "title": "HEAT Ammunition ",
+          "title": "Walking As On The Ground",
           "tier": "platinum",
-          "description": "While in a smoke bomb effect, ignore 40% of enemy Defense."
+          "description": "Ignores the effects of special terrain on mobility, ignores terrain damage reduction effects when attacking and counterattacking, and reduces enemy 50% defense and mobility for 2 turns."
         },
         {
-          "title": "Visual Interference",
+          "title": "Rapid Deployment",
           "tier": "gold",
-          "description": "While in a smoke grenade effect, the attack range of enemy units 2 grids around is reduced to the minimum (when ignoring the smoke grenade effect, this effect is also ignored)."
+          "description": "When at your own or friendly territory, mobility + 5."
         }
       ],
-      "note": "Unlock Visual Interference"
+      "note": "Unlock Rapid Deployment"
     }
   ]
 }

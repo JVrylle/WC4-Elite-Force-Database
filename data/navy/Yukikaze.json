@@ -1,0 +1,509 @@
+{
+  "name": "Yukikaze",
+  "unit_type": "Navy",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 30
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 14,
+        "movement": 8,
+        "hp": 465,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "bronze",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 2 points, with the increase capped of attack at 100%. Lasts 2 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "bronze",
+          "description": "20% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "Unlock Naval Artillery\nUnlock Minesweeper\nUnlock Depth Charge\nUnlock Fighting Alongside\nUnlock Speedy Dodge"
+    },
+    {
+      "level": 2,
+      "cost": {
+        "pieces": 5,
+        "industry": 1800
+      },
+      "stats": {
+        "attack": 68,
+        "defense": 23,
+        "movement": 10,
+        "hp": 465,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "bronze",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 2 points, with the increase capped of attack at 100%. Lasts 2 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "bronze",
+          "description": "20% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {
+        "pieces": 15,
+        "industry": 7200
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 23,
+        "movement": 10,
+        "hp": 465,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "bronze",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 2 points, with the increase capped of attack at 100%. Lasts 2 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "bronze",
+          "description": "20% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 4,
+      "cost": {
+        "pieces": 30,
+        "industry": 13500
+      },
+      "stats": {
+        "attack": 78,
+        "defense": 23,
+        "movement": 10,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "bronze",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 2 points, with the increase capped of attack at 100%. Lasts 2 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "bronze",
+          "description": "20% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {
+        "pieces": 60,
+        "industry": 33000
+      },
+      "stats": {
+        "attack": 90,
+        "defense": 23,
+        "movement": 10,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "silver",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 4 points, with the increase capped of attack at 100%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "silver",
+          "description": "40% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "Upgrade Fighting Alongside To silver\nUpgrade Speedy Dodge To silver"
+    },
+    {
+      "level": 6,
+      "cost": {
+        "pieces": 70,
+        "industry": 39600
+      },
+      "stats": {
+        "attack": 90,
+        "defense": 34,
+        "movement": 12,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "silver",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 4 points, with the increase capped of attack at 100%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "silver",
+          "description": "40% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {
+        "pieces": 80,
+        "industry": 47520
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 34,
+        "movement": 12,
+        "hp": 565,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "silver",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 4 points, with the increase capped of attack at 100%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "silver",
+          "description": "40% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 8,
+      "cost": {
+        "pieces": 90,
+        "industry": 57000
+      },
+      "stats": {
+        "attack": 99,
+        "defense": 34,
+        "movement": 12,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "silver",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 4 points, with the increase capped of attack at 100%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "silver",
+          "description": "40% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {
+        "pieces": 100,
+        "industry": 68400
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 34,
+        "movement": 12,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "gold",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 6 points, with the increase capped of attack at 200%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "gold",
+          "description": "60% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "Upgrade Fighting Alongside To gold\nUpgrade Speedy Dodge To gold"
+    },
+    {
+      "level": 10,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 5
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 41,
+        "movement": 13,
+        "hp": 675,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "gold",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 6 points, with the increase capped of attack at 200%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "gold",
+          "description": "60% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 11,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 15
+      },
+      "stats": {
+        "attack": 109,
+        "defense": 41,
+        "movement": 13,
+        "hp": 785,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "gold",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 6 points, with the increase capped of attack at 200%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "platinum",
+          "description": "80% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "Upgrade Speedy Dodge To platinum"
+    },
+    {
+      "level": 12,
+      "cost": {
+        "pieces": 100,
+        "honorInfantryBadges": 25
+      },
+      "stats": {
+        "attack": 119,
+        "defense": 41,
+        "movement": 13,
+        "hp": 785,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Naval Artillery",
+          "tier": "gold",
+          "description": "Damage to stronghold units +100% and to land units -50% "
+        },
+        {
+          "title": "Minesweeper",
+          "tier": "gold",
+          "description": "Damage from naval mines -90%"
+        },
+        {
+          "title": "Depth Charge",
+          "tier": "gold",
+          "description": "Damage to submarines +40%"
+        },
+        {
+          "title": "Fighting Alongside",
+          "tier": "platinum",
+          "description": "Direct damage taken is split between yourself and surrounding friendlies, and for every 20 point of damage split or dodged, the base attack is increased by 10 points, with the increased attack capped at 300%. Lasts 3 turns."
+        },
+        {
+          "title": "Speedy Dodge",
+          "tier": "platinum",
+          "description": "80% chance of dodging damage when attacked by the Air Force."
+        }
+      ],
+      "note": "Upgrade Fighting Alongside To platinum"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "name": "SVA-23 Aircraft",
+  "unit_type": "Air Force",
+  "levels": [
+    {
+      "level": 1,
+      "cost": {
+        "pieces": 0
+      },
+      "stats": {
+        "attack": 58,
+        "defense": 11,
+        "movement": 9,
+        "hp": 370,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        }
+      ],
+      "note": "Unlock Machine Gun\nUnlock Air Advantage\nUnlock Evasive Maneuvers\nUnlock Nano-repair"
+    },
+    {
+      "level": 2,
+      "cost": {},
+      "stats": {
+        "attack": 58,
+        "defense": 20,
+        "movement": 10,
+        "hp": 370,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "silver",
+          "description": "Recover 2% maximum HP at the start of the turn. Lower damage received by 15% when at full HP"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 3,
+      "cost": {},
+      "stats": {
+        "attack": 66,
+        "defense": 20,
+        "movement": 10,
+        "hp": 370,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        }
+      ],
+      "note": "Upgrade Nano-repair To gold"
+    },
+    {
+      "level": 4,
+      "cost": {},
+      "stats": {
+        "attack": 66,
+        "defense": 20,
+        "movement": 10,
+        "hp": 470,
+        "range": 1
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "silver",
+          "description": "When attacked by the land or naval forces, there is 40% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 5,
+      "cost": {},
+      "stats": {
+        "attack": 76,
+        "defense": 20,
+        "movement": 10,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Suppression",
+          "tier": "gold",
+          "description": "After annihilating an enemy, there is a 35% chance to lower the morale of other enemies within 1 grid."
+        }
+      ],
+      "note": "Upgrade Evasive Maneuvers To gold\nUnlock Suppression"
+    },
+    {
+      "level": 6,
+      "cost": {},
+      "stats": {
+        "attack": 76,
+        "defense": 26,
+        "movement": 11,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "gold",
+          "description": "Recover 3% maximum HP at the start of the turn. Lower damage received by 20% when at full HP"
+        },
+        {
+          "title": "Suppression",
+          "tier": "gold",
+          "description": "After annihilating an enemy, there is a 35% chance to lower the morale of other enemies within 1 grid."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 7,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 26,
+        "movement": 11,
+        "hp": 470,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Suppression",
+          "tier": "gold",
+          "description": "After annihilating an enemy, there is a 35% chance to lower the morale of other enemies within 1 grid."
+        }
+      ],
+      "note": "Upgrade Nano-repair To platinum"
+    },
+    {
+      "level": 8,
+      "cost": {},
+      "stats": {
+        "attack": 84,
+        "defense": 26,
+        "movement": 11,
+        "hp": 570,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "gold",
+          "description": "When attacked by the land or naval forces, there is 65% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Suppression",
+          "tier": "gold",
+          "description": "After annihilating an enemy, there is a 35% chance to lower the morale of other enemies within 1 grid."
+        }
+      ],
+      "note": "null"
+    },
+    {
+      "level": 9,
+      "cost": {},
+      "stats": {
+        "attack": 92,
+        "defense": 26,
+        "movement": 11,
+        "hp": 570,
+        "range": 2
+      },
+      "skills": [
+        {
+          "title": "Machine Gun",
+          "tier": "gold",
+          "description": "Damage to infantry units +55%"
+        },
+        {
+          "title": "Air Advantage",
+          "tier": "gold",
+          "description": "Can take off within 1 hex of an aircraft carrier. Ignores the effects of any terrain type on Mobility, ignores the effects of any land mines or naval mines, and enemy forces cannot counterattack when attacking. The combat effectiveness will not go down when HP is reduced.  Damage to land units +20%."
+        },
+        {
+          "title": "Evasive Maneuvers",
+          "tier": "platinum",
+          "description": "When attacked by the land or naval forces, there is 90% probability of dodging the damage."
+        },
+        {
+          "title": "Nano-repair",
+          "tier": "platinum",
+          "description": "Recover 5% maximum HP at the start of the turn. Lower damage received by 25% when at full HP"
+        },
+        {
+          "title": "Suppression",
+          "tier": "platinum",
+          "description": "After annihilating an enemy, there is a 50% chance to lower the morale of other enemies within 1 grid."
+        },
+        {
+          "title": "High-speed Machine Cannon",
+          "tier": "gold",
+          "description": "Ignore 75% of enemy troops defense."
+        }
+      ],
+      "note": "Upgrade Evasive Maneuvers To platinum\nUpgrade Suppression To platinum\nUnlock High-speed Machine Cannon"
+    }
+  ]
+}
