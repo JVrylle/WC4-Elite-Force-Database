@@ -8,7 +8,7 @@
         "pieces": 30
       },
       "stats": {
-        "attack": 67,
+        "attack": 83,
         "defense": 16,
         "movement": 13,
         "hp": 395,
@@ -50,7 +50,7 @@
         "money": 3750
       },
       "stats": {
-        "attack": 67,
+        "attack": 83,
         "defense": 24,
         "movement": 14,
         "hp": 395,
@@ -92,7 +92,7 @@
         "money": 13200
       },
       "stats": {
-        "attack": 76,
+        "attack": 92,
         "defense": 24,
         "movement": 14,
         "hp": 395,
@@ -134,7 +134,7 @@
         "money": 20700
       },
       "stats": {
-        "attack": 76,
+        "attack": 92,
         "defense": 24,
         "movement": 14,
         "hp": 495,
@@ -176,7 +176,7 @@
         "money": 41250
       },
       "stats": {
-        "attack": 85,
+        "attack": 101,
         "defense": 24,
         "movement": 14,
         "hp": 495,
@@ -218,7 +218,7 @@
         "money": 49500
       },
       "stats": {
-        "attack": 85,
+        "attack": 101,
         "defense": 31,
         "movement": 15,
         "hp": 495,
@@ -260,7 +260,7 @@
         "money": 59400
       },
       "stats": {
-        "attack": 93,
+        "attack": 109,
         "defense": 31,
         "movement": 15,
         "hp": 495,
@@ -302,7 +302,7 @@
         "money": 71280
       },
       "stats": {
-        "attack": 93,
+        "attack": 109,
         "defense": 31,
         "movement": 15,
         "hp": 575,
@@ -344,7 +344,7 @@
         "money": 85550
       },
       "stats": {
-        "attack": 102,
+        "attack": 118,
         "defense": 31,
         "movement": 15,
         "hp": 575,
@@ -386,7 +386,7 @@
         "honorInfantryBadges": 10
       },
       "stats": {
-        "attack": 102,
+        "attack": 118,
         "defense": 39,
         "movement": 16,
         "hp": 575,
@@ -428,7 +428,7 @@
         "honorInfantryBadges": 20
       },
       "stats": {
-        "attack": 102,
+        "attack": 118,
         "defense": 39,
         "movement": 16,
         "hp": 645,
@@ -470,7 +470,7 @@
         "honorInfantryBadges": 30
       },
       "stats": {
-        "attack": 111,
+        "attack": 127,
         "defense": 39,
         "movement": 16,
         "hp": 645,

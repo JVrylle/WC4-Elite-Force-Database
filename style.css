@@ -493,6 +493,43 @@ body {
   cursor: default;
 }
 
+.field--toggle {
+  flex: 0 0 auto;
+}
+
+.tech-toggle {
+  min-width: 168px;
+  padding: 11px 14px;
+  border: 1px solid var(--brand);
+  border-radius: var(--radius);
+  background: var(--bg-input);
+  color: var(--brand);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tech-toggle:hover {
+  background: var(--bg-panel-alt);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tech-toggle[aria-pressed="true"] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #ffffff;
+}
+
+.tech-toggle[aria-pressed="true"]:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
 .level-input {
   flex: 0 0 auto;
   width: 58px;

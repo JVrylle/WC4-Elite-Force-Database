@@ -1,5 +1,9 @@
 August 18, 2026
 
+Added max attack tech upgrades to all unit stats (Infantry +9, Armored +15, Artillery +18, Navy +16, Air Force +16) and a "Max Tech Upgrades" / "No Tech Upgrades" toggle on the database page
+
+August 18, 2026
+
 Imported all 50 elite forces from the output folder into data/ (new units, full 12-level data)
 
 August 10, 2026

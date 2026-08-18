@@ -16,9 +16,20 @@ let EF_UNITS = [];
 let selectedType = "infantry";
 let searchMatches = [];
 let activeSearchIndex = -1;
+let techEnabled = true;
 
 const MIN_LEVEL = 1;
 const MAX_LEVEL = 12;
+
+// Max attack-tech upgrade bonuses per unit type. The JSON stats are stored
+// with these baked in; toggling tech off subtracts them at render time.
+const TECH_ATTACK_BONUS = {
+  infantry: 9,
+  armored: 15,
+  artillery: 18,
+  navy: 16,
+  airforce: 16,
+};
 
 const SVG_ICON_ATTRS =
   'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"';
@@ -67,6 +78,7 @@ const levelSlider = document.getElementById("levelSlider");
 const levelInput = document.getElementById("levelInput");
 const levelDown = document.getElementById("levelDown");
 const levelUp = document.getElementById("levelUp");
+const techToggle = document.getElementById("techToggle");
 const typeFilter = document.getElementById("typeFilter");
 const resultPanel = document.getElementById("resultPanel");
 const statusLight = document.getElementById("statusLight");
@@ -98,6 +110,13 @@ function escapeHtml(value) {
 
 function formatNumber(n) {
   return Number(n).toLocaleString("en-US");
+}
+
+function applyTechAdjustment(stats, unitType) {
+  if (techEnabled) return stats;
+  const bonus = TECH_ATTACK_BONUS[unitType] || 0;
+  if (!bonus) return stats;
+  return { ...stats, attack: Math.max(0, (stats.attack ?? 0) - bonus) };
 }
 
 function setStatus(state, text) {
@@ -499,8 +518,12 @@ async function runSearch() {
 
     const unitType = unitMeta.type || "infantry";
     const maxes = await ensureTypeMaxes(unitType);
+    const displayLevel = techEnabled
+      ? levelData
+      : { ...levelData, stats: applyTechAdjustment(levelData.stats, unitType) };
+    const displayMaxes = applyTechAdjustment(maxes, unitType);
     const displayName = data.name || unitMeta.name;
-    renderResult(displayName, levelData, data.levels || [], unitType, maxes);
+    renderResult(displayName, displayLevel, data.levels || [], unitType, displayMaxes);
     setStatus("ready", "RECORD FOUND");
   } catch (err) {
     renderMessage(err.message, true);
@@ -564,6 +587,13 @@ levelSlider.addEventListener("input", () => {
 
 levelDown.addEventListener("click", () => setLevel(currentLevel() - 1));
 levelUp.addEventListener("click", () => setLevel(currentLevel() + 1));
+
+techToggle.addEventListener("click", () => {
+  techEnabled = !techEnabled;
+  techToggle.textContent = techEnabled ? "Max Tech Upgrades" : "No Tech Upgrades";
+  techToggle.setAttribute("aria-pressed", String(techEnabled));
+  runSearch();
+});
 
 levelInput.addEventListener("input", () => {
   const value = parseInt(levelInput.value, 10);

@@ -8,7 +8,7 @@
         "pieces": 0
       },
       "stats": {
-        "attack": 44,
+        "attack": 59,
         "defense": 10,
         "movement": 10,
         "hp": 375,
@@ -42,7 +42,7 @@
       "level": 2,
       "cost": {},
       "stats": {
-        "attack": 44,
+        "attack": 59,
         "defense": 18,
         "movement": 11,
         "hp": 375,
@@ -76,7 +76,7 @@
       "level": 3,
       "cost": {},
       "stats": {
-        "attack": 52,
+        "attack": 67,
         "defense": 18,
         "movement": 11,
         "hp": 375,
@@ -110,7 +110,7 @@
       "level": 4,
       "cost": {},
       "stats": {
-        "attack": 52,
+        "attack": 67,
         "defense": 18,
         "movement": 11,
         "hp": 465,
@@ -144,7 +144,7 @@
       "level": 5,
       "cost": {},
       "stats": {
-        "attack": 62,
+        "attack": 77,
         "defense": 18,
         "movement": 11,
         "hp": 465,
@@ -183,7 +183,7 @@
       "level": 6,
       "cost": {},
       "stats": {
-        "attack": 62,
+        "attack": 77,
         "defense": 23,
         "movement": 12,
         "hp": 465,
@@ -222,7 +222,7 @@
       "level": 7,
       "cost": {},
       "stats": {
-        "attack": 70,
+        "attack": 85,
         "defense": 23,
         "movement": 12,
         "hp": 465,
@@ -261,7 +261,7 @@
       "level": 8,
       "cost": {},
       "stats": {
-        "attack": 70,
+        "attack": 85,
         "defense": 23,
         "movement": 12,
         "hp": 555,
@@ -300,7 +300,7 @@
       "level": 9,
       "cost": {},
       "stats": {
-        "attack": 78,
+        "attack": 93,
         "defense": 23,
         "movement": 12,
         "hp": 555,
